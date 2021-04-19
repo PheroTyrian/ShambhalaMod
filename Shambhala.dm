@@ -7,11 +7,11 @@
 
 #newmonster 8951 --Base chhma shape
 #name "Chhma"
-#descr ""
+#descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
 #gcost 12
 #rcost 1
-#rpcost 2
+#rpcost 8
 #hp 12
 #str 12
 #att 10
@@ -42,11 +42,11 @@
 
 #newmonster 8952 --Base chhma forestshape have +2 mm, +1 morale, and stealth
 #name "Chhma"
-#descr ""
+#descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
 #gcost 12
 #rcost 1
-#rpcost 2
+#rpcost 8
 #hp 12
 #str 12
 #att 10
@@ -80,7 +80,9 @@
 
 #newsite 1676
 #name "City of Temples"
-#path 4
+#path 8
+#level 0
+#loc 735
 #gems 4 2
 #gems 3 1
 #gems 6 1
@@ -91,9 +93,14 @@
 
 --Nation
 
-#selectnation 230 -- can be any number from 71 to 94
+#selectnation 230
 #era 3
 #name "Shambhala"
+#fortera 3
+#likesterr 2
+#homerealm 8
+#homefort 14
+#syncretism 1
 
 #startcom 34 		-- the Commander you get on turn 1
 #startunittype1 38 	-- give a squad of Hvy Infantry to the commander
@@ -103,13 +110,12 @@
 
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
-#addrecunit 8951 		-- Chhma base shape for testing
+#addrecunit 8951 	-- Chhma base shape for testing
 #addrecunit 38 		-- add Hvy Infantry to recruit list
 #addrecunit 20 		-- add Hvy Cavalry to recruit list
 #addrecunit 17 		-- add Archer to recruit list
 
 #addreccom 426 		-- add the basic Scout to recruitable commanders
-#addreccom 8951 		-- Chhma base shape for testing
 #addreccom 240 		-- add basic Priest to recruitable commanders
 #addreccom 105 		-- add Druid to recruitable commanders
 
@@ -122,5 +128,5 @@
 #hero1 378 		-- add the Black Knight as a hero for this nation
 
 -- add magic sites that grant gem income and units as capital only benefits
-#startsite  1676 -- "City of Temples" 2 astral, 1 water, 1 nature 
+#startsite  "City of Temples" -- "City of Temples" 2 astral, 1 water, 1 nature 
 #end
