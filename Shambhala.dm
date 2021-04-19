@@ -197,6 +197,7 @@
 
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
+#addrecunit 8953 	-- Chhma militia
 #addrecunit 8955 	-- Chhma light infantry
 #addrecunit 38 		-- add Hvy Infantry to recruit list
 #addrecunit 20 		-- add Hvy Cavalry to recruit list
@@ -208,9 +209,9 @@
 
 #defcom1 34 		-- the PD Commander
 #defunit1 8955 		-- Chhma light infantry
-#defunit2 17 		-- use Archers as PD
-#defmult1 13 		-- how many Hvy Infantry
-#defmult2 18 		-- how many Archers
+#defunit2 8953 		-- Chhma militia
+#defmult1 13
+#defmult2 18
 
 #hero1 378 		-- add the Black Knight as a hero for this nation
 
