@@ -44,7 +44,7 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
-#drawsize -33
+#drawsize -20
 #gcost 12
 #rcost 1
 #rpcost 8
@@ -80,7 +80,7 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
-#drawsize -33
+#drawsize -20
 #gcost 12
 #rcost 1
 #rpcost 8
@@ -208,10 +208,10 @@
 #addreccom 105 		-- add Druid to recruitable commanders
 
 #defcom1 34 		-- the PD Commander
-#defunit1 8955 		-- Chhma light infantry
-#defunit2 8953 		-- Chhma militia
-#defmult1 13
-#defmult2 18
+#defunit1 8953 		-- Chhma militia
+#defunit2 8955 		-- Chhma light infantry
+#defmult1 20
+#defmult2 20
 
 #hero1 378 		-- add the Black Knight as a hero for this nation
 
