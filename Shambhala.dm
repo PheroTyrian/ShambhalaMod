@@ -163,6 +163,32 @@
 #armor 2 -- Shield
 #end
 
+#newmonster 8957 -- Chhma light infantry second ver
+#copystats 8951
+#copyspr 8951
+#descr "tmp"
+#forestshape 8958
+#clearweapons
+#weapon 921 -- Machete
+#armor 249 -- Cloth headpiece
+#armor 158 -- Robes
+#armor 2 -- Shield
+#end
+
+#newmonster 8958 -- Chhma light infantry forestshape second ver
+#copystats 8951
+#copyspr 8951
+#descr "tmp"
+#plainshape 8957
+#def 11
+#unsurr 2
+#clearweapons
+#weapon 921 -- Machete
+#armor 249 -- Cloth headpiece
+#armor 158 -- Robes
+#armor 2 -- Shield
+#end
+
 --Sites
 
 #newsite 1676
@@ -218,3 +244,6 @@
 -- add magic sites that grant gem income and units as capital only benefits
 #startsite  "City of Temples" -- "City of Temples" 2 astral, 1 water, 1 nature 
 #end
+
+#selectnation 83
+#addrecunit 8957	--Chhma light inf variant
