@@ -116,6 +116,7 @@
 #newmonster 8953 -- Chhma militia
 #copystats 8951
 #copyspr 8951
+#name "Chhma Militia"
 #descr "tmp"
 #gcost 8
 #att 9
@@ -129,6 +130,7 @@
 #newmonster 8954 -- Chhma militia forestshape
 #copystats 8952
 #copyspr 8952
+#name "Chhma Militia"
 #descr "tmp"
 #gcost 8
 #att 9
@@ -142,6 +144,7 @@
 #newmonster 8955 -- Chhma light infantry
 #copystats 8951
 #copyspr 8951
+#name "Chhma Light Infantry"
 #descr "tmp"
 #forestshape 8956
 #clearweapons
@@ -154,6 +157,7 @@
 #newmonster 8956 -- Chhma light infantry forestshape
 #copystats 8951
 #copyspr 8951
+#name "Chhma Light Infantry"
 #descr "tmp"
 #plainshape 8955
 #clearweapons
@@ -166,8 +170,11 @@
 #newmonster 8957 -- Chhma light infantry second ver
 #copystats 8951
 #copyspr 8951
+#name "Chhma Unsurr Infantry"
 #descr "tmp"
 #forestshape 8958
+#def 11
+#unsurr 2
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
@@ -178,6 +185,7 @@
 #newmonster 8958 -- Chhma light infantry forestshape second ver
 #copystats 8951
 #copyspr 8951
+#name "Chhma Unsurr Infantry"
 #descr "tmp"
 #plainshape 8957
 #def 11
