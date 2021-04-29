@@ -47,11 +47,12 @@
 #drawsize -20
 #gcost 12
 #rcost 1
-#rpcost 8
+#rpcost 12
 #hp 12
-#str 12
+#str 11
 #att 10
-#def 12
+#def 13
+#unsurr 1
 #prec 12
 #prot 2
 #size 2
@@ -83,11 +84,12 @@
 #drawsize -20
 #gcost 12
 #rcost 1
-#rpcost 8
+#rpcost 12
 #hp 12
-#str 12
+#str 11
 #att 10
-#def 12
+#def 13
+#unsurr 1
 #prec 12
 #prot 2
 #size 2
@@ -113,14 +115,16 @@
 #nametype 144
 #end
 
+--
 #newmonster 8953 -- Chhma militia
 #copystats 8951
 #copyspr 8951
 #name "Chhma Militia"
 #descr "tmp"
-#gcost 8
+#gcost 9
+#rpcost 8
 #att 9
-#def 11
+#def 12
 #morale 9
 #forestshape 8954
 #clearweapons
@@ -132,7 +136,8 @@
 #copyspr 8952
 #name "Chhma Militia"
 #descr "tmp"
-#gcost 8
+#gcost 9
+#rpcost 8
 #att 9
 #def 11
 #morale 10
@@ -141,6 +146,7 @@
 #weapon 1
 #end
 
+--
 #newmonster 8955 -- Chhma light infantry
 #copystats 8951
 #copyspr 8951
@@ -167,14 +173,13 @@
 #armor 2 -- Shield
 #end
 
+--
 #newmonster 8957 -- Chhma light infantry second ver
 #copystats 8951
 #copyspr 8951
-#name "Chhma Unsurr Infantry"
+#name "Chhma Medium Infantry"
 #descr "tmp"
 #forestshape 8958
-#def 11
-#unsurr 2
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
@@ -182,14 +187,12 @@
 #armor 2 -- Shield
 #end
 
-#newmonster 8958 -- Chhma light infantry forestshape second ver
+#newmonster 8958 -- Chhma light infantry forestshape
 #copystats 8951
 #copyspr 8951
-#name "Chhma Unsurr Infantry"
+#name "Chhma Medium Infantry"
 #descr "tmp"
 #plainshape 8957
-#def 11
-#unsurr 2
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
@@ -232,10 +235,8 @@
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
 #addrecunit 8953 	-- Chhma militia
-#addrecunit 8955 	-- Chhma light infantry
-#addrecunit 38 		-- add Hvy Infantry to recruit list
-#addrecunit 20 		-- add Hvy Cavalry to recruit list
-#addrecunit 17 		-- add Archer to recruit list
+#addrecunit 8955 	-- Chhma light inf
+#addrecunit 8957	-- Chhma medium inf
 
 #addreccom 426 		-- add the basic Scout to recruitable commanders
 #addreccom 240 		-- add basic Priest to recruitable commanders
