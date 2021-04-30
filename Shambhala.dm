@@ -174,29 +174,29 @@
 #end
 
 --
-#newmonster 8957 -- Chhma light infantry second ver
+#newmonster 8957 -- Chhma Heavy Infantry
 #copystats 8951
 #copyspr 8951
-#name "Chhma Medium Infantry"
+#name "Chhma Heavy Infantry"
 #descr "tmp"
 #forestshape 8958
 #clearweapons
 #weapon 921 -- Machete
-#armor 249 -- Cloth headpiece
-#armor 158 -- Robes
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
 #armor 2 -- Shield
 #end
 
-#newmonster 8958 -- Chhma light infantry forestshape
+#newmonster 8958 -- Chhma Heavy Infantry
 #copystats 8951
 #copyspr 8951
-#name "Chhma Medium Infantry"
+#name "Chhma Heavy Infantry"
 #descr "tmp"
 #plainshape 8957
 #clearweapons
 #weapon 921 -- Machete
-#armor 249 -- Cloth headpiece
-#armor 158 -- Robes
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
 #armor 2 -- Shield
 #end
 
