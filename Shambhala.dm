@@ -473,10 +473,10 @@
 #syncretism 1
 
 #startcom 34 		-- the Commander you get on turn 1
-#startunittype1 8955 	-- Chhma light infantry
-#startunittype2 17 	-- give a squad of Archers to the commander
-#startunitnbrs1 20
-#startunitnbrs2 20
+#startunittype1 8955 	-- Chhma ambushers
+#startunittype2 8953 	-- Chhma militia
+#startunitnbrs1 16
+#startunitnbrs2 16
 
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
@@ -486,7 +486,7 @@
 #addrecunit 8959	-- Chhma heavy sword
 #addrecunit 8961	-- Chhma heavy spear
 #forestrec 8963		-- Hunter
-#coastrec 8965		-- Spearfisher
+#coastunit1 8965	-- Spearfisher
 #addrecunit 8967	-- Elephant crossbow
 #addrecunit 8968	-- Elephant trample
 
