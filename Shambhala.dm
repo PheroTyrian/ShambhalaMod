@@ -33,7 +33,7 @@
 #pierce
 #armorpiercing
 #nostr
-#rcost 15
+#rcost 5
 #flyspr 110
 #sound 13
 #end
