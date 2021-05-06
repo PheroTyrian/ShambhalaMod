@@ -330,7 +330,7 @@
 #end
 
 -- Chhma Coastal
-#newmonster 8963
+#newmonster 8965
 #copystats 8951
 #copyspr 8951
 #name "Chhma Spearfisher"
@@ -343,7 +343,7 @@
 #prec 13
 #swimming
 #swampsurvival
-#forestshape 8964
+#forestshape 8966
 #clearweapons
 #weapon 670 -- Bone Trident
 #weapon 21 -- Javelin
@@ -351,7 +351,7 @@
 #armor 188 -- Sharkskin Cuirass
 #end
 
-#newmonster 8964 -- Forestshape
+#newmonster 8966 -- Forestshape
 #copystats 8951
 #copyspr 8951
 #name "Chhma Spearfisher"
@@ -364,7 +364,7 @@
 #prec 13
 #swimming
 #swampsurvival
-#plainshape 8963
+#plainshape 8965
 #clearweapons
 #weapon 670 -- Bone Trident
 #weapon 21 -- Javelin
@@ -373,7 +373,7 @@
 #end
 
 -- Crossbow Elephant
-#newmonster 8965
+#newmonster 8967
 #copyspr 1147
 #name "Artillery"
 #descr "tmp"
@@ -409,7 +409,7 @@
 #end
 
 -- Stompy Elephant
-#newmonster 8965
+#newmonster 8968
 #copyspr 1147
 #name "Chhma War Elephant"
 #descr "tmp"
@@ -475,14 +475,20 @@
 #startcom 34 		-- the Commander you get on turn 1
 #startunittype1 8955 	-- Chhma light infantry
 #startunittype2 17 	-- give a squad of Archers to the commander
-#startunitnbrs1 20 	-- how many Hvy Infantry to give
-#startunitnbrs2 20 	-- how many Archers to give 
+#startunitnbrs1 20
+#startunitnbrs2 20
 
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
 #addrecunit 8953 	-- Chhma militia
-#addrecunit 8955 	-- Chhma light inf
-#addrecunit 8957	-- Chhma medium inf
+#addrecunit 8955 	-- Chhma ambusher
+#addrecunit 8957	-- Chhma light sword
+#addrecunit 8959	-- Chhma heavy sword
+#addrecunit 8961	-- Chhma heavy spear
+#forestrec 8963		-- Hunter
+#coastrec 8965		-- Spearfisher
+#addrecunit 8967	-- Elephant crossbow
+#addrecunit 8968	-- Elephant trample
 
 #addreccom 426 		-- add the basic Scout to recruitable commanders
 #addreccom 240 		-- add basic Priest to recruitable commanders
