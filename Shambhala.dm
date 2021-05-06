@@ -230,7 +230,7 @@
 #copyspr 8951
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
-#gold 14
+#gcost 14
 #bodyguard 1
 #forestshape 8960
 #clearweapons
@@ -245,7 +245,7 @@
 #copyspr 8951
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
-#gold 14
+#gcost 14
 #bodyguard 1
 #plainshape 8959
 #clearweapons
@@ -261,7 +261,7 @@
 #copyspr 8951
 #name "Chhma Heavy Spearman"
 #descr "tmp"
-#gold 14
+#gcost 14
 #att 11
 #bodyguard 1
 #forestshape 8962
@@ -277,7 +277,7 @@
 #copyspr 8951
 #name "Chhma Heavy Spearman"
 #descr "tmp"
-#gold 14
+#gcost 14
 #att 11
 #bodyguard 1
 #plainshape 8961
@@ -294,7 +294,7 @@
 #copyspr 8951
 #name "Chhma Hunter"
 #descr "tmp"
-#gold 14
+#gcost 14
 #rpcost 22
 #hp 13
 #att 11
@@ -314,7 +314,7 @@
 #copyspr 8951
 #name "Chhma Hunter"
 #descr "tmp"
-#gold 14
+#gcost 14
 #rpcost 22
 #hp 13
 #att 11
@@ -335,7 +335,7 @@
 #copyspr 8951
 #name "Chhma Spearfisher"
 #descr "tmp"
-#gold 14
+#gcost 14
 #rpcost 22
 #hp 13
 #att 11
@@ -356,7 +356,7 @@
 #copyspr 8951
 #name "Chhma Spearfisher"
 #descr "tmp"
-#gold 14
+#gcost 14
 #rpcost 22
 #hp 13
 #att 11
