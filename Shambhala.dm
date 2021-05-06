@@ -3,7 +3,7 @@
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
 #version 0.01
 
---Weapons
+-- Weapons
 
 #newweapon 921
 #copyweapon 746
@@ -38,16 +38,34 @@
 #sound 13
 #end
 
---Units
+#newweapon 924
+#name "Karambit"
+#len 0
+#att 1
+#def 0
+#dmg 3
+#slash
+#rcost 1
+#sound 7
+#ironweapon
+#end
 
-#newmonster 8951 --Base chhma shape
+#newweapon 925
+#copyweapon 437
+#name "Long Spear"
+#dmg 14
+#end
+
+-- Units
+
+#newmonster 8951 -- Base chhma shape
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
 #drawsize -20
 #gcost 12
 #rcost 1
-#rpcost 12
+#rpcost 15
 #hp 12
 #str 11
 #att 10
@@ -62,11 +80,10 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon 29
+#weapon 29 -- Claw
 #humanoid
 #itemslots 15494
 #maxage 40
-#nametype 104
 #darkvision 50
 #forestsurvival
 #okleader
@@ -77,14 +94,14 @@
 #nametype 144
 #end
 
-#newmonster 8952 --Base chhma forestshape have +2 mm, +1 morale, and stealth
+#newmonster 8952 -- Chhma forestshape have +2 mm, +1 morale, and stealth
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
 #drawsize -20
 #gcost 12
 #rcost 1
-#rpcost 12
+#rpcost 15
 #hp 12
 #str 11
 #att 10
@@ -103,7 +120,6 @@
 #humanoid
 #itemslots 15494
 #maxage 40
-#nametype 104
 #darkvision 50
 #stealthy 0
 #forestsurvival
@@ -115,84 +131,108 @@
 #nametype 144
 #end
 
---
-#newmonster 8953 -- Chhma militia
+-- Chhma militia archers
+#newmonster 8953
 #copystats 8951
 #copyspr 8951
 #name "Chhma Militia"
 #descr "tmp"
-#gcost 9
-#rpcost 8
+#gcost 10
+#rpcost 10
+#hp 11
 #att 9
 #def 12
 #morale 9
 #forestshape 8954
 #clearweapons
-#weapon 1
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#weapon 23 -- Shortbow
 #end
 
-#newmonster 8954 -- Chhma militia forestshape
+#newmonster 8954 -- Forestshape
 #copystats 8952
 #copyspr 8952
 #name "Chhma Militia"
 #descr "tmp"
-#gcost 9
-#rpcost 8
+#gcost 10
+#rpcost 10
+#hp 11
 #att 9
-#def 11
+#def 12
 #morale 10
 #plainshape 8953
 #clearweapons
-#weapon 1
+#weapon 29 -- Claw
+#weapon 29 -- Claw
+#weapon 23 -- Shortbow
 #end
 
---
-#newmonster 8955 -- Chhma light infantry
+-- Chhma Light Warrior
+#newmonster 8955
 #copystats 8951
 #copyspr 8951
-#name "Chhma Light Infantry"
+#name "Chhma Ambusher"
 #descr "tmp"
 #forestshape 8956
+#ambidextrous 1
 #clearweapons
-#weapon 921 -- Machete
+#weapon 57 -- Sickle
+#weapon 29 -- Claw
 #armor 249 -- Cloth headpiece
 #armor 158 -- Robes
-#armor 2 -- Shield
 #end
 
-#newmonster 8956 -- Chhma light infantry forestshape
+#newmonster 8956
 #copystats 8951
 #copyspr 8951
-#name "Chhma Light Infantry"
+#name "Chhma Ambusher"
 #descr "tmp"
 #plainshape 8955
+#ambidextrous 1
 #clearweapons
-#weapon 921 -- Machete
+#weapon 57 -- Sickle
+#weapon 29 -- Claw
 #armor 249 -- Cloth headpiece
 #armor 158 -- Robes
-#armor 2 -- Shield
 #end
 
---
-#newmonster 8957 -- Chhma Heavy Infantry
+-- Chhma Light Swordsman
+#newmonster 8957
 #copystats 8951
 #copyspr 8951
-#name "Chhma Heavy Infantry"
+#name "Chhma Light Swordsman"
 #descr "tmp"
 #forestshape 8958
 #clearweapons
 #weapon 921 -- Machete
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
+#armor 249 -- Cloth headpiece
+#armor 158 -- Robes
 #armor 2 -- Shield
 #end
 
-#newmonster 8958 -- Chhma Heavy Infantry
+#newmonster 8958 -- Forestshape
 #copystats 8951
 #copyspr 8951
-#name "Chhma Heavy Infantry"
+#name "Chhma Light Swordsman"
 #descr "tmp"
 #plainshape 8957
+#clearweapons
+#weapon 921 -- Machete
+#armor 249 -- Cloth headpiece
+#armor 158 -- Robes
+#armor 2 -- Shield
+#end
+
+-- Chhma Heavy Swordsman
+#newmonster 8959
+#copystats 8951
+#copyspr 8951
+#name "Chhma Heavy Swordsman"
+#descr "tmp"
+#gold 14
+#bodyguard 1
+#forestshape 8960
 #clearweapons
 #weapon 921 -- Machete
 #armor 20 -- Iron Cap
@@ -200,7 +240,213 @@
 #armor 2 -- Shield
 #end
 
---Sites
+#newmonster 8960 -- Forestshape
+#copystats 8951
+#copyspr 8951
+#name "Chhma Heavy Swordsman"
+#descr "tmp"
+#gold 14
+#bodyguard 1
+#plainshape 8959
+#clearweapons
+#weapon 921 -- Machete
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#end
+
+-- Chhma Heavy Spearman
+#newmonster 8961
+#copystats 8951
+#copyspr 8951
+#name "Chhma Heavy Spearman"
+#descr "tmp"
+#gold 14
+#att 11
+#bodyguard 1
+#forestshape 8962
+#clearweapons
+#weapon 1 -- Spear
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#end
+
+#newmonster 8962 -- Forestshape
+#copystats 8951
+#copyspr 8951
+#name "Chhma Heavy Spearman"
+#descr "tmp"
+#gold 14
+#att 11
+#bodyguard 1
+#plainshape 8961
+#clearweapons
+#weapon 1 -- Spear
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#end
+
+-- Chhma Hunter
+#newmonster 8963
+#copystats 8951
+#copyspr 8951
+#name "Chhma Hunter"
+#descr "tmp"
+#gold 14
+#rpcost 22
+#hp 13
+#att 11
+#def 14
+#prec 13
+#forestshape 8964
+#clearweapons
+#weapon 924 -- Karambit
+#weapon 924 -- Karambit
+#weapon 34 -- Blow Pipe
+#armor 120 -- Leather Cap
+#armor 183 -- Linen Cuirass
+#end
+
+#newmonster 8964 -- Forestshape
+#copystats 8951
+#copyspr 8951
+#name "Chhma Hunter"
+#descr "tmp"
+#gold 14
+#rpcost 22
+#hp 13
+#att 11
+#def 14
+#prec 13
+#plainshape 8963
+#clearweapons
+#weapon 924 -- Karambit
+#weapon 924 -- Karambit
+#weapon 34 -- Blow Pipe
+#armor 120 -- Leather Cap
+#armor 183 -- Linen Cuirass
+#end
+
+-- Chhma Coastal
+#newmonster 8963
+#copystats 8951
+#copyspr 8951
+#name "Chhma Spearfisher"
+#descr "tmp"
+#gold 14
+#rpcost 22
+#hp 13
+#att 11
+#def 14
+#prec 13
+#swimming
+#swampsurvival
+#forestshape 8964
+#clearweapons
+#weapon 670 -- Bone Trident
+#weapon 21 -- Javelin
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#end
+
+#newmonster 8964 -- Forestshape
+#copystats 8951
+#copyspr 8951
+#name "Chhma Spearfisher"
+#descr "tmp"
+#gold 14
+#rpcost 22
+#hp 13
+#att 11
+#def 14
+#prec 13
+#swimming
+#swampsurvival
+#plainshape 8963
+#clearweapons
+#weapon 670 -- Bone Trident
+#weapon 21 -- Javelin
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#end
+
+-- Crossbow Elephant
+#newmonster 8965
+#copyspr 1147
+#name "Artillery"
+#descr "tmp"
+#drawsize -20
+#gcost 70
+#rcost 20
+#rpcost 35
+#hp 44
+#str 18
+#att 10
+#def 9
+#prec 10
+#prot 10
+#size 5
+#mr 6
+#mor 9
+#enc 3
+#mapmove 20
+#ap 18
+#eyes 2
+#weapon 614 -- Tusk
+#weapon 923 -- Double Crossbow
+#armor 144 -- Elephant Barding
+#quadruped
+#itemslots 28672
+#maxage 50
+#forestsurvival
+#okleader
+#nomagicleader
+#noundeadleader
+#animal
+#nametype 144
+#end
+
+-- Stompy Elephant
+#newmonster 8965
+#copyspr 1147
+#name "Chhma War Elephant"
+#descr "tmp"
+#drawsize -20
+#gcost 80
+#rcost 20
+#rpcost 35
+#hp 45
+#str 18
+#att 10
+#def 9
+#prec 10
+#prot 10
+#size 5
+#mr 6
+#mor 10
+#enc 3
+#mapmove 20
+#ap 18
+#eyes 2
+#trample
+#weapon 614 -- Tusk
+#weapon 925 -- Longspear
+#weapon 925 -- Longspear
+#armor 144 -- Elephant Barding
+#quadruped
+#itemslots 28672
+#maxage 50
+#forestsurvival
+#okleader
+#nomagicleader
+#noundeadleader
+#animal
+#nametype 144
+#end
+
+-- Sites
 
 #newsite 1676
 #name "City of Temples"
@@ -213,9 +459,9 @@
 #rarity 5
 #end
 
---TODO add special pd and wall units to cap
+-- TODO add special pd and wall units to cap
 
---Nation
+-- Nation
 
 #selectnation 230
 #era 3
