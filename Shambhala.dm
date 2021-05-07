@@ -246,6 +246,7 @@
 #descr "tmp"
 #forestshape 8958
 #ambidextrous 1
+#stealthy 0
 #clearweapons
 #weapon 57 -- Sickle
 #weapon 29 -- Claw
@@ -260,6 +261,7 @@
 #descr "tmp"
 #plainshape 8957
 #ambidextrous 1
+#stealthy 20
 #clearweapons
 #weapon 57 -- Sickle
 #weapon 29 -- Claw
@@ -371,6 +373,7 @@
 #def 14
 #prec 13
 #forestshape 8966
+#stealthy 0
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -391,6 +394,7 @@
 #def 14
 #prec 13
 #plainshape 8965
+#stealthy 20
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
