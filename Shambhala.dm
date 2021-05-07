@@ -1,7 +1,7 @@
-#modname "The Fourth Age: Shambhala, Karmic Justice v0.01"
+#modname "The Fourth Age: Shambhala, Karmic Justice v0.02"
 #description "A nation of sacred monkeys and heathen cat people"
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
-#version 0.01
+#version 0.02
 
 -- Weapons
 
