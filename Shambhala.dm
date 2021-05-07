@@ -858,7 +858,7 @@
 #homefort 14
 #syncretism 1
 
-#startcom 34 		-- the Commander you get on turn 1
+#startcom 8980 		-- the Commander you get on turn 1
 #startunittype1 8959 	-- Chhma light swords
 #startunittype2 8955 	-- Chhma militia
 #startunitnbrs1 16
@@ -883,17 +883,14 @@
 #coastcom1 8978		-- Coast Com
 #addreccom 8980		-- Noble
 
-#defcom1 34 		-- the PD Commander
+#defcom1 8980 		-- the PD Commander
 #defunit1 8953 		-- Chhma militia
 #defunit2 8955 		-- Chhma light infantry
-#defmult1 20
-#defmult2 20
+#defmult1 16
+#defmult2 16
 
-#hero1 378 		-- add the Black Knight as a hero for this nation
+-- TODO Add Heros
 
 -- add magic sites that grant gem income and units as capital only benefits
 #startsite  "City of Temples" -- "City of Temples" 2 astral, 1 water, 1 nature 
 #end
-
-#selectnation 83
-#addrecunit 8957	--Chhma light inf variant
