@@ -56,6 +56,9 @@
 #dmg 14
 #end
 
+
+
+
 -- Units
 
 #newmonster 8951 -- Base chhma shape
@@ -80,11 +83,11 @@
 #mapmove 16
 #ap 14
 #eyes 2
-#weapon 29 -- Claw
 #humanoid
 #itemslots 15494
 #maxage 40
 #darkvision 50
+#weapon 29 -- Claw
 #forestsurvival
 #okleader
 #nomagicleader
@@ -116,12 +119,12 @@
 #mapmove 18
 #ap 14
 #eyes 2
-#weapon 29
 #humanoid
 #itemslots 15494
 #maxage 40
 #darkvision 50
 #stealthy 0
+#weapon 29
 #forestsurvival
 #okleader
 #nomagicleader
@@ -131,8 +134,74 @@
 #nametype 144
 #end
 
+#newmonster 8953 -- White One unit base shape
+#name "White One"
+#descr "This is the base shape for the white ones, you should not be seeing this in game"
+#copyspr 1145 -- Yogi
+#gcost 15
+#rcost 1
+#rpcost 30
+#hp 11
+#str 10
+#att 11
+#def 11
+#prec 10
+#prot 1
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 14
+#ap 10
+#eyes 2
+#humanoid
+#itemslots 15494
+#maxage 60
+#forestsurvival
+#okleader
+#nomagicleader
+#noundeadleader
+#animal
+#nametype 129
+#holy
+#end
+
+#newmonster 8954 -- White One commander base shape
+#copystats 1145 -- Yogi
+#clearmagic
+#name "White One Com"
+#descr "This is the base shape for the commander white ones, you should not be seeing this in game"
+#copyspr 1145 -- Yogi
+#gcost 10010
+#rcost 1
+#rpcost 30
+#hp 11
+#str 10
+#att 11
+#def 11
+#prec 10
+#prot 1
+#size 2
+#mr 11
+#morale 13
+#enc 3
+#mapmove 14
+#ap 10
+#eyes 2
+#humanoid
+#itemslots 15494
+#maxage 60
+#forestsurvival
+#okleader
+#poormagicleader
+#noundeadleader
+#animal
+#nametype 129
+#holy
+#end
+
 -- Chhma militia archers
-#newmonster 8953
+#newmonster 8955
 #copystats 8951
 #copyspr 8951
 #name "Chhma Militia"
@@ -143,14 +212,14 @@
 #att 9
 #def 12
 #morale 9
-#forestshape 8954
+#forestshape 8956
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
 #weapon 23 -- Shortbow
 #end
 
-#newmonster 8954 -- Forestshape
+#newmonster 8956 -- Forestshape
 #copystats 8952
 #copyspr 8952
 #name "Chhma Militia"
@@ -161,7 +230,7 @@
 #att 9
 #def 12
 #morale 10
-#plainshape 8953
+#plainshape 8955
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
@@ -169,12 +238,12 @@
 #end
 
 -- Chhma Light Warrior
-#newmonster 8955
+#newmonster 8957
 #copystats 8951
 #copyspr 8951
 #name "Chhma Ambusher"
 #descr "tmp"
-#forestshape 8956
+#forestshape 8958
 #ambidextrous 1
 #clearweapons
 #weapon 57 -- Sickle
@@ -183,12 +252,12 @@
 #armor 158 -- Robes
 #end
 
-#newmonster 8956
+#newmonster 8958
 #copystats 8951
 #copyspr 8951
 #name "Chhma Ambusher"
 #descr "tmp"
-#plainshape 8955
+#plainshape 8957
 #ambidextrous 1
 #clearweapons
 #weapon 57 -- Sickle
@@ -198,12 +267,12 @@
 #end
 
 -- Chhma Light Swordsman
-#newmonster 8957
+#newmonster 8959
 #copystats 8951
 #copyspr 8951
 #name "Chhma Light Swordsman"
 #descr "tmp"
-#forestshape 8958
+#forestshape 8960
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
@@ -211,12 +280,12 @@
 #armor 2 -- Shield
 #end
 
-#newmonster 8958 -- Forestshape
+#newmonster 8960 -- Forestshape
 #copystats 8951
 #copyspr 8951
 #name "Chhma Light Swordsman"
 #descr "tmp"
-#plainshape 8957
+#plainshape 8959
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
@@ -225,48 +294,16 @@
 #end
 
 -- Chhma Heavy Swordsman
-#newmonster 8959
-#copystats 8951
-#copyspr 8951
-#name "Chhma Heavy Swordsman"
-#descr "tmp"
-#gcost 14
-#bodyguard 1
-#forestshape 8960
-#clearweapons
-#weapon 921 -- Machete
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
-#armor 2 -- Shield
-#end
-
-#newmonster 8960 -- Forestshape
-#copystats 8951
-#copyspr 8951
-#name "Chhma Heavy Swordsman"
-#descr "tmp"
-#gcost 14
-#bodyguard 1
-#plainshape 8959
-#clearweapons
-#weapon 921 -- Machete
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
-#armor 2 -- Shield
-#end
-
--- Chhma Heavy Spearman
 #newmonster 8961
 #copystats 8951
 #copyspr 8951
-#name "Chhma Heavy Spearman"
+#name "Chhma Heavy Swordsman"
 #descr "tmp"
 #gcost 14
-#att 11
 #bodyguard 1
 #forestshape 8962
 #clearweapons
-#weapon 1 -- Spear
+#weapon 921 -- Machete
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
@@ -275,12 +312,44 @@
 #newmonster 8962 -- Forestshape
 #copystats 8951
 #copyspr 8951
+#name "Chhma Heavy Swordsman"
+#descr "tmp"
+#gcost 14
+#bodyguard 1
+#plainshape 8961
+#clearweapons
+#weapon 921 -- Machete
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#end
+
+-- Chhma Heavy Spearman
+#newmonster 8963
+#copystats 8951
+#copyspr 8951
 #name "Chhma Heavy Spearman"
 #descr "tmp"
 #gcost 14
 #att 11
 #bodyguard 1
-#plainshape 8961
+#forestshape 8964
+#clearweapons
+#weapon 1 -- Spear
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#end
+
+#newmonster 8964 -- Forestshape
+#copystats 8951
+#copyspr 8951
+#name "Chhma Heavy Spearman"
+#descr "tmp"
+#gcost 14
+#att 11
+#bodyguard 1
+#plainshape 8963
 #clearweapons
 #weapon 1 -- Spear
 #armor 20 -- Iron Cap
@@ -289,7 +358,7 @@
 #end
 
 -- Chhma Hunter
-#newmonster 8963
+#newmonster 8965
 #copystats 8951
 #copyspr 8951
 #name "Chhma Hunter"
@@ -300,7 +369,7 @@
 #att 11
 #def 14
 #prec 13
-#forestshape 8964
+#forestshape 8966
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -309,7 +378,7 @@
 #armor 183 -- Linen Cuirass
 #end
 
-#newmonster 8964 -- Forestshape
+#newmonster 8966 -- Forestshape
 #copystats 8951
 #copyspr 8951
 #name "Chhma Hunter"
@@ -320,7 +389,7 @@
 #att 11
 #def 14
 #prec 13
-#plainshape 8963
+#plainshape 8965
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -330,7 +399,7 @@
 #end
 
 -- Chhma Coastal
-#newmonster 8965
+#newmonster 8967
 #copystats 8951
 #copyspr 8951
 #name "Chhma Spearfisher"
@@ -343,7 +412,7 @@
 #prec 13
 #swimming
 #swampsurvival
-#forestshape 8966
+#forestshape 8968
 #clearweapons
 #weapon 670 -- Bone Trident
 #weapon 21 -- Javelin
@@ -351,7 +420,7 @@
 #armor 188 -- Sharkskin Cuirass
 #end
 
-#newmonster 8966 -- Forestshape
+#newmonster 8968 -- Forestshape
 #copystats 8951
 #copyspr 8951
 #name "Chhma Spearfisher"
@@ -364,7 +433,7 @@
 #prec 13
 #swimming
 #swampsurvival
-#plainshape 8965
+#plainshape 8967
 #clearweapons
 #weapon 670 -- Bone Trident
 #weapon 21 -- Javelin
@@ -373,7 +442,7 @@
 #end
 
 -- Crossbow Elephant
-#newmonster 8967
+#newmonster 8969
 #copyspr 1147
 #name "Artillery"
 #descr "tmp"
@@ -409,7 +478,7 @@
 #end
 
 -- Stompy Elephant
-#newmonster 8968
+#newmonster 8970
 #copyspr 1147
 #name "Chhma War Elephant"
 #descr "tmp"
