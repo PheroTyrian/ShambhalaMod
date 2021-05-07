@@ -322,7 +322,7 @@
 #weapon 23 -- Shortbow
 #end
 
--- Chhma Light Warrior
+-- Chhma Ambusher
 #newmonster 8957
 #copystats 8951
 #copyspr 8951
@@ -331,6 +331,7 @@
 #forestshape 8958
 #ambidextrous 1
 #stealthy 0
+#skirmisher 1
 #clearweapons
 #weapon 57 -- Sickle
 #weapon 29 -- Claw
@@ -346,6 +347,7 @@
 #plainshape 8957
 #ambidextrous 1
 #stealthy 20
+#skirmisher 1
 #clearweapons
 #weapon 57 -- Sickle
 #weapon 29 -- Claw
@@ -458,6 +460,7 @@
 #prec 13
 #forestshape 8966
 #stealthy 0
+#skirmisher 1
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -479,6 +482,7 @@
 #prec 13
 #plainshape 8965
 #stealthy 20
+#skirmisher 1
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -611,7 +615,7 @@
 #descr "tmp"
 #copyspr 1145 -- Yogi
 #gcost 20
-#airshield 50
+#airshield 60
 #weapon 928 -- Open Palm
 #weapon 926 -- Chakram melee
 #weapon 927 -- Chakram ranged
@@ -625,6 +629,7 @@
 #descr "tmp"
 #copyspr 1145 -- Yogi
 #gcost 20
+#weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
@@ -642,6 +647,7 @@
 #def 13
 #reclimit 2
 #weapon 929 -- Staff of enc
+#weapon 931 -- Perfect Kick
 #armor 183 -- Linen cuirass
 #end
 
