@@ -614,7 +614,7 @@
 #name "Arrow Catcher"
 #descr "tmp"
 #copyspr 1145 -- Yogi
-#gcost 20
+#gcost 18
 #airshield 60
 #weapon 928 -- Open Palm
 #weapon 926 -- Chakram melee
@@ -628,7 +628,7 @@
 #name "Guy"
 #descr "tmp"
 #copyspr 1145 -- Yogi
-#gcost 20
+#gcost 18
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 931 -- Perfect Kick
@@ -641,7 +641,8 @@
 #name "Stick guy"
 #descr "tmp"
 #copyspr 1145 -- Yogi
-#gcost 28
+#gcost 25
+#rpcost 34
 #hp 12
 #att 13
 #def 13
