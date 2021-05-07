@@ -220,7 +220,7 @@
 #weapon 23 -- Shortbow
 #end
 
-#newmonster 8956 -- Forestshape
+#newmonster 8956 -- fs
 #copystats 8952
 #copyspr 8952
 #name "Chhma Militia"
@@ -253,7 +253,7 @@
 #armor 158 -- Robes
 #end
 
-#newmonster 8958
+#newmonster 8958 -- fs
 #copystats 8951
 #copyspr 8951
 #name "Chhma Ambusher"
@@ -281,7 +281,7 @@
 #armor 2 -- Shield
 #end
 
-#newmonster 8960 -- Forestshape
+#newmonster 8960 -- fs
 #copystats 8951
 #copyspr 8951
 #name "Chhma Light Swordsman"
@@ -310,7 +310,7 @@
 #armor 2 -- Shield
 #end
 
-#newmonster 8962 -- Forestshape
+#newmonster 8962 -- fs
 #copystats 8951
 #copyspr 8951
 #name "Chhma Heavy Swordsman"
@@ -342,7 +342,7 @@
 #armor 2 -- Shield
 #end
 
-#newmonster 8964 -- Forestshape
+#newmonster 8964 -- fs
 #copystats 8951
 #copyspr 8951
 #name "Chhma Heavy Spearman"
@@ -379,7 +379,7 @@
 #armor 183 -- Linen Cuirass
 #end
 
-#newmonster 8966 -- Forestshape
+#newmonster 8966 -- fs
 #copystats 8951
 #copyspr 8951
 #name "Chhma Hunter"
@@ -421,7 +421,7 @@
 #armor 188 -- Sharkskin Cuirass
 #end
 
-#newmonster 8968 -- Forestshape
+#newmonster 8968 -- fs
 #copystats 8951
 #copyspr 8951
 #name "Chhma Spearfisher"
@@ -543,22 +543,22 @@
 #syncretism 1
 
 #startcom 34 		-- the Commander you get on turn 1
-#startunittype1 8955 	-- Chhma ambushers
-#startunittype2 8953 	-- Chhma militia
+#startunittype1 8959 	-- Chhma swords
+#startunittype2 8955 	-- Chhma militia
 #startunitnbrs1 16
 #startunitnbrs2 16
 
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
-#addrecunit 8953 	-- Chhma militia
-#addrecunit 8955 	-- Chhma ambusher
-#addrecunit 8957	-- Chhma light sword
-#addrecunit 8959	-- Chhma heavy sword
-#addrecunit 8961	-- Chhma heavy spear
-#forestrec 8963		-- Hunter
-#coastunit1 8965	-- Spearfisher
-#addrecunit 8967	-- Elephant crossbow
-#addrecunit 8968	-- Elephant trample
+#addrecunit 8955 	-- Chhma militia
+#addrecunit 8957 	-- Chhma ambusher
+#addrecunit 8959	-- Chhma light sword
+#addrecunit 8961	-- Chhma heavy sword
+#addrecunit 8963	-- Chhma heavy spear
+#forestrec 8965		-- Hunter
+#coastunit1 8967	-- Spearfisher
+#addrecunit 8969	-- Elephant crossbow
+#addrecunit 8970	-- Elephant trample
 
 #addreccom 426 		-- add the basic Scout to recruitable commanders
 #addreccom 240 		-- add basic Priest to recruitable commanders
