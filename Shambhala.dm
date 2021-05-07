@@ -750,7 +750,7 @@
 #newmonster 8978
 #copystats 8951
 #copyspr 8951
-#name "Chhma Spearfisher"
+#name "Chhma Fishing Chief"
 #descr "tmp"
 #gcost 45
 #rpcost 22
@@ -774,7 +774,7 @@
 #newmonster 8979 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Chhma Spearfisher"
+#name "Chhma Fishing Chief"
 #descr "tmp"
 #gcost 45
 #rpcost 22
