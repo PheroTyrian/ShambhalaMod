@@ -173,7 +173,6 @@
 #nomagicleader
 #noundeadleader
 #animal
-#forestshape 8952
 #nametype 144
 #end
 
@@ -210,7 +209,6 @@
 #nomagicleader
 #noundeadleader
 #animal
-#plainshape 8951
 #nametype 144
 #end
 
@@ -340,7 +338,7 @@
 #end
 
 #newmonster 8958 -- fs
-#copystats 8951
+#copystats 8952
 #copyspr 8951
 #name "Chhma Ambusher"
 #descr "tmp"
@@ -370,7 +368,7 @@
 #end
 
 #newmonster 8960 -- fs
-#copystats 8951
+#copystats 8952
 #copyspr 8951
 #name "Chhma Light Swordsman"
 #descr "tmp"
@@ -390,6 +388,7 @@
 #descr "tmp"
 #gcost 14
 #bodyguard 1
+#morale 11
 #forestshape 8962
 #clearweapons
 #weapon 921 -- Machete
@@ -399,12 +398,13 @@
 #end
 
 #newmonster 8962 -- fs
-#copystats 8951
+#copystats 8952
 #copyspr 8951
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
 #gcost 14
 #bodyguard 1
+#morale 12
 #plainshape 8961
 #clearweapons
 #weapon 921 -- Machete
@@ -421,6 +421,7 @@
 #descr "tmp"
 #gcost 14
 #att 11
+#morale 11
 #bodyguard 1
 #forestshape 8964
 #clearweapons
@@ -431,12 +432,13 @@
 #end
 
 #newmonster 8964 -- fs
-#copystats 8951
+#copystats 8952
 #copyspr 8951
 #name "Chhma Heavy Spearman"
 #descr "tmp"
 #gcost 14
 #att 11
+#morale 12
 #bodyguard 1
 #plainshape 8963
 #clearweapons
@@ -458,9 +460,11 @@
 #att 11
 #def 14
 #prec 13
+#morale 11
 #forestshape 8966
 #stealthy 0
 #skirmisher 1
+#female
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -470,7 +474,7 @@
 #end
 
 #newmonster 8966 -- fs
-#copystats 8951
+#copystats 8952
 #copyspr 8951
 #name "Chhma Hunter"
 #descr "tmp"
@@ -480,9 +484,11 @@
 #att 11
 #def 14
 #prec 13
+#morale 12
 #plainshape 8965
 #stealthy 20
 #skirmisher 1
+#female
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -503,18 +509,19 @@
 #att 11
 #def 14
 #prec 13
+#morale 11
 #swimming
 #swampsurvival
 #forestshape 8968
 #clearweapons
-#weapon 670 -- Bone Trident
+#weapon 3 -- Trident
 #weapon 21 -- Javelin
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
 #end
 
 #newmonster 8968 -- fs
-#copystats 8951
+#copystats 8952
 #copyspr 8951
 #name "Chhma Spearfisher"
 #descr "tmp"
@@ -524,11 +531,12 @@
 #att 11
 #def 14
 #prec 13
+#morale 12
 #swimming
 #swampsurvival
 #plainshape 8967
 #clearweapons
-#weapon 670 -- Bone Trident
+#weapon 3 -- Trident
 #weapon 21 -- Javelin
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
@@ -652,6 +660,175 @@
 #armor 183 -- Linen cuirass
 #end
 
+
+
+
+-- Commanders
+
+-- Scout
+#newmonster 8974
+#copystats 8965
+#copyspr 8951
+#name "Chhma Scout"
+#descr "Elite hunters chosen for their individual prowess"
+#gcost 25
+#rpcost 22
+#hp 14
+#att 12
+#def 15
+#prec 14
+#forestshape 8975
+#stealthy 20
+#female
+#noleader
+#end
+
+#newmonster 8975 -- fs
+#copystats 8966
+#copyspr 8951
+#name "Chhma Scout"
+#descr "Elite hunters chosen for their individual prowess"
+#gcost 25
+#hp 14
+#att 12
+#def 15
+#prec 14
+#plainshape 8974
+#stealthy 30
+#female
+#noleader
+#end
+
+-- Stealthy Commander
+#newmonster 8976
+#copystats 8951
+#copyspr 8951
+#name "Pack leader"
+#descr "Elite hunters with charisma and hunting skill"
+#gcost 55
+#rpcost 22
+#hp 14
+#att 12
+#def 15
+#prec 14
+#morale 12
+#stealthy 0
+#female
+#clearweapons
+#weapon 924 -- Karambit
+#weapon 924 -- Karambit
+#weapon 34 -- Blow Pipe
+#armor 120 -- Leather Cap
+#armor 183 -- Linen Cuirass
+#forestshape 8977
+#end
+
+#newmonster 8977 -- fs
+#copystats 8952
+#copyspr 8951
+#name "Pack leader"
+#descr "Elite hunters with charisma and hunting skill"
+#gcost 55
+#rpcost 22
+#hp 14
+#att 12
+#def 15
+#prec 14
+#morale 13
+#stealthy 20
+#female
+#clearweapons
+#weapon 924 -- Karambit
+#weapon 924 -- Karambit
+#weapon 34 -- Blow Pipe
+#armor 120 -- Leather Cap
+#armor 183 -- Linen Cuirass
+#plainshape 8976
+#end
+
+-- Coastal Commander
+#newmonster 8978
+#copystats 8951
+#copyspr 8951
+#name "Chhma Spearfisher"
+#descr "tmp"
+#gcost 45
+#rpcost 22
+#hp 14
+#att 12
+#def 15
+#prec 14
+#morale 12
+#swimming
+#swampsurvival
+#forestshape 8979
+#clearweapons
+#weapon 679 -- Short Trident
+#weapon 21 -- Javelin
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#armor 207 -- Wicker Shield
+#okleader
+#end
+
+#newmonster 8979 -- fs
+#copystats 8952
+#copyspr 8951
+#name "Chhma Spearfisher"
+#descr "tmp"
+#gcost 45
+#rpcost 22
+#hp 14
+#att 12
+#def 15
+#prec 14
+#morale 13
+#swimming
+#swampsurvival
+#plainshape 8978
+#clearweapons
+#weapon 679 -- Short Trident
+#weapon 21 -- Javelin
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#armor 207 -- Wicker Shield
+#okleader
+#end
+
+-- Good Commander
+#newmonster 8980
+#copystats 8951
+#copyspr 8951
+#name "Chhma Noble"
+#descr "tmp"
+#gcost 80
+#morale 13
+#forestshape 8981
+#clearweapons
+#weapon 921 -- Machete
+#armor 118 -- Half Helmet
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#goodleader
+#end
+
+#newmonster 8981 -- fs
+#copystats 8952
+#copyspr 8951
+#name "Chhma Noble"
+#descr "tmp"
+#gcost 80
+#morale 14
+#plainshape 8980
+#clearweapons
+#weapon 921 -- Machete
+#armor 118 -- Half Helmet
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
+#goodleader
+#end
+
+
 -- Sites
 
 #newsite 1676
@@ -682,7 +859,7 @@
 #syncretism 1
 
 #startcom 34 		-- the Commander you get on turn 1
-#startunittype1 8959 	-- Chhma swords
+#startunittype1 8959 	-- Chhma light swords
 #startunittype2 8955 	-- Chhma militia
 #startunitnbrs1 16
 #startunitnbrs2 16
@@ -699,9 +876,12 @@
 #addrecunit 8969	-- Elephant crossbow
 #addrecunit 8970	-- Elephant trample
 
-#addreccom 426 		-- add the basic Scout to recruitable commanders
-#addreccom 240 		-- add basic Priest to recruitable commanders
-#addreccom 105 		-- add Druid to recruitable commanders
+#addreccom 8974 	-- Scout
+#forestcom 8974
+#addreccom 8976		-- Stealthy Com
+#forestcom 8976
+#coastcom1 8978		-- Coast Com
+#addreccom 8980		-- Noble
 
 #defcom1 34 		-- the PD Commander
 #defunit1 8953 		-- Chhma militia
