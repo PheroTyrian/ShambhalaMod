@@ -615,7 +615,7 @@
 #weapon 928 -- Open Palm
 #weapon 926 -- Chakram melee
 #weapon 927 -- Chakram ranged
-#weapon 158 -- Robes
+#armor 158 -- Robes
 #end
 
 -- White One schmuck
@@ -627,7 +627,7 @@
 #gcost 20
 #weapon 928 -- Open Palm
 #weapon 931 -- Perfect Kick
-#weapon 158 -- Robes
+#armor 158 -- Robes
 #end
 
 -- White One magic dude
@@ -641,7 +641,7 @@
 #att 13
 #reclimit 2
 #weapon 929 -- Staff of enc
-#weapon 183 -- Linen cuirass
+#armor 183 -- Linen cuirass
 #end
 
 -- Sites
