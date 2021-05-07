@@ -639,6 +639,7 @@
 #gcost 28
 #hp 12
 #att 13
+#def 13
 #reclimit 2
 #weapon 929 -- Staff of enc
 #armor 183 -- Linen cuirass
