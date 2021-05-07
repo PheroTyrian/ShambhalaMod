@@ -135,6 +135,7 @@
 #end
 
 #newmonster 8953 -- White One unit base shape
+#copystats 1142 -- White One
 #name "White One"
 #descr "This is the base shape for the white ones, you should not be seeing this in game"
 #copyspr 1145 -- Yogi
