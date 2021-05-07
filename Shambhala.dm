@@ -6,8 +6,15 @@
 -- Weapons
 
 #newweapon 921
-#copyweapon 746
 #name "Machete"
+#len 1
+#att 1
+#def 0
+#dmg 7
+#slash
+#rcost 5
+#sound 8
+#ironweapon
 #end
 
 #newweapon 922
@@ -18,8 +25,9 @@
 #def 1
 #dmg 8
 #slash
-#rcost 4
+#rcost 6
 #sound 10
+#ironweapon
 #end
 
 #newweapon 923
@@ -54,6 +62,78 @@
 #copyweapon 437
 #name "Long Spear"
 #dmg 14
+#end
+
+#newweapon 926
+#name "Chakram"
+#len 0
+#att 1
+#def 1
+#dmg 4
+#slash
+#rcost 2
+#sound 10
+#ironweapon
+#end
+
+#newweapon 927
+#copyweapon 362
+#name "Chakram"
+#dmg 4
+#nratt 1
+#range -1
+#ammo 6
+#att 0
+#slash
+#rcost 3
+#end
+
+#newweapon 928
+#name "Open Palm"
+#len 0
+#att 0
+#def 0
+#dmg -3
+#blunt
+#armorpiercing
+#bonus
+#rcost 0
+#sound 7
+#end
+
+#newweapon 929
+#name "Sapping Staff"
+#twohanded
+#len 3
+#att 2
+#def 4
+#dmg 3
+#blunt
+#rcost 4
+#sound 10
+#magic
+#woodenweapon
+#secondaryeffect 930
+#end
+
+#newweapon 930
+#name "Curse of Stones"
+#magic
+#dt_aff
+#dmg 5 -- curse of stones effect
+#undeadimmune
+#inanimateimmune
+#end
+
+#newweapon 931
+#name "Perfect Kick"
+#len 0
+#att 0
+#def 1
+#dmg 1
+#blunt
+#sound 10
+#bonus
 #end
 
 
@@ -136,17 +216,19 @@
 
 #newmonster 8953 -- White One unit base shape
 #copystats 1142 -- White One
+#clearweapons
+#cleararmor
 #name "White One"
 #descr "This is the base shape for the white ones, you should not be seeing this in game"
 #copyspr 1145 -- Yogi
-#gcost 15
+#gcost 18
 #rcost 1
 #rpcost 30
 #hp 11
 #str 10
-#att 11
-#def 11
-#prec 10
+#att 12
+#def 12
+#prec 11
 #prot 1
 #size 2
 #mr 11
@@ -170,6 +252,8 @@
 #newmonster 8954 -- White One commander base shape
 #copystats 1145 -- Yogi
 #clearmagic
+#clearweapons
+#cleararmor
 #name "White One Com"
 #descr "This is the base shape for the commander white ones, you should not be seeing this in game"
 #copyspr 1145 -- Yogi
@@ -520,6 +604,46 @@
 #nametype 144
 #end
 
+-- White One arrow catcher
+#newmonster 8971
+#copystats 8953
+#name "Arrow Catcher"
+#descr "tmp"
+#copyspr 1145 -- Yogi
+#gcost 20
+#airshield 50
+#weapon 928 -- Open Palm
+#weapon 926 -- Chakram melee
+#weapon 927 -- Chakram ranged
+#weapon 158 -- Robes
+#end
+
+-- White One schmuck
+#newmonster 8972
+#copystats 8953
+#name "Guy"
+#descr "tmp"
+#copyspr 1145 -- Yogi
+#gcost 20
+#weapon 928 -- Open Palm
+#weapon 931 -- Perfect Kick
+#weapon 158 -- Robes
+#end
+
+-- White One magic dude
+#newmonster 8973
+#copystats 8953
+#name "Stick guy"
+#descr "tmp"
+#copyspr 1145 -- Yogi
+#gcost 28
+#hp 12
+#att 13
+#reclimit 2
+#weapon 929 -- Staff of enc
+#weapon 183 -- Linen cuirass
+#end
+
 -- Sites
 
 #newsite 1676
@@ -531,6 +655,9 @@
 #gems 3 1
 #gems 6 1
 #rarity 5
+#homemon 8971 -- Chakram One
+#homemon 8972 -- Martial Arts One
+#homemon 8973 -- Magic Staff One
 #end
 
 -- TODO add special pd and wall units to cap
