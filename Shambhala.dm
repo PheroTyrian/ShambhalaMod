@@ -327,7 +327,7 @@
 #name "Chhma Ambusher"
 #descr "tmp"
 #forestshape 8958
-#ambidextrous 1
+#att 11
 #stealthy 0
 #skirmisher 1
 #clearweapons
@@ -343,7 +343,7 @@
 #name "Chhma Ambusher"
 #descr "tmp"
 #plainshape 8957
-#ambidextrous 1
+#att 11
 #stealthy 20
 #skirmisher 1
 #clearweapons
