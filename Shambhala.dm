@@ -176,7 +176,7 @@
 #nametype 144
 #end
 
-#newmonster 8952 -- Chhma forestshape have +2 mm, +1 morale, and stealth
+#newmonster 8952 -- Chhma forestshape have +2 mm, +1 mor, and stealth
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
@@ -230,7 +230,7 @@
 #prot 1
 #size 2
 #mr 11
-#morale 13
+#mor 13
 #enc 3
 #mapmove 14
 #ap 10
@@ -266,7 +266,7 @@
 #prot 1
 #size 2
 #mr 11
-#morale 13
+#mor 13
 #enc 3
 #mapmove 14
 #ap 10
@@ -294,7 +294,7 @@
 #hp 11
 #att 9
 #def 12
-#morale 9
+#mor 9
 #forestshape 8956
 #clearweapons
 #weapon 29 -- Claw
@@ -312,7 +312,7 @@
 #hp 11
 #att 9
 #def 12
-#morale 10
+#mor 10
 #plainshape 8955
 #clearweapons
 #weapon 29 -- Claw
@@ -388,7 +388,7 @@
 #descr "tmp"
 #gcost 14
 #bodyguard 1
-#morale 11
+#mor 11
 #forestshape 8962
 #clearweapons
 #weapon 921 -- Machete
@@ -404,7 +404,7 @@
 #descr "tmp"
 #gcost 14
 #bodyguard 1
-#morale 12
+#mor 12
 #plainshape 8961
 #clearweapons
 #weapon 921 -- Machete
@@ -421,7 +421,7 @@
 #descr "tmp"
 #gcost 14
 #att 11
-#morale 11
+#mor 11
 #bodyguard 1
 #forestshape 8964
 #clearweapons
@@ -438,7 +438,7 @@
 #descr "tmp"
 #gcost 14
 #att 11
-#morale 12
+#mor 12
 #bodyguard 1
 #plainshape 8963
 #clearweapons
@@ -460,7 +460,7 @@
 #att 11
 #def 14
 #prec 13
-#morale 11
+#mor 11
 #forestshape 8966
 #stealthy 0
 #skirmisher 1
@@ -484,7 +484,7 @@
 #att 11
 #def 14
 #prec 13
-#morale 12
+#mor 12
 #plainshape 8965
 #stealthy 20
 #skirmisher 1
@@ -509,7 +509,7 @@
 #att 11
 #def 14
 #prec 13
-#morale 11
+#mor 11
 #swimming
 #swampsurvival
 #forestshape 8968
@@ -531,7 +531,7 @@
 #att 11
 #def 14
 #prec 13
-#morale 12
+#mor 12
 #swimming
 #swampsurvival
 #plainshape 8967
@@ -711,7 +711,7 @@
 #att 12
 #def 15
 #prec 14
-#morale 12
+#mor 12
 #stealthy 0
 #female
 #clearweapons
@@ -734,7 +734,7 @@
 #att 12
 #def 15
 #prec 14
-#morale 13
+#mor 13
 #stealthy 20
 #female
 #clearweapons
@@ -758,7 +758,7 @@
 #att 12
 #def 15
 #prec 14
-#morale 12
+#mor 12
 #swimming
 #swampsurvival
 #forestshape 8979
@@ -782,7 +782,7 @@
 #att 12
 #def 15
 #prec 14
-#morale 13
+#mor 13
 #swimming
 #swampsurvival
 #plainshape 8978
@@ -802,7 +802,11 @@
 #name "Chhma Noble"
 #descr "tmp"
 #gcost 80
-#morale 13
+#hp 14
+#att 11
+#def 14
+#prec 13
+#mor 13
 #forestshape 8981
 #clearweapons
 #weapon 921 -- Machete
@@ -818,7 +822,11 @@
 #name "Chhma Noble"
 #descr "tmp"
 #gcost 80
-#morale 14
+#hp 14
+#att 11
+#def 14
+#prec 13
+#mor 14
 #plainshape 8980
 #clearweapons
 #weapon 921 -- Machete
@@ -884,10 +892,12 @@
 #addreccom 8980		-- Noble
 
 #defcom1 8980 		-- the PD Commander
-#defunit1 8953 		-- Chhma militia
-#defunit2 8955 		-- Chhma light infantry
+#defunit1 8955 		-- Chhma militia
+#defunit1b 8959 	-- Chhma light infantry
+#defunit2 8963		-- Chhma Heavy Spearmen
 #defmult1 16
-#defmult2 16
+#defmult1b 16
+#defmult2 12
 
 -- TODO Add Heros
 
