@@ -670,13 +670,13 @@
 #copystats 8965
 #copyspr 8951
 #name "Chhma Scout"
-#descr "Elite hunters chosen for their individual prowess"
+#descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
 #rpcost 22
 #hp 14
-#att 12
-#def 15
-#prec 14
+#att 11
+#def 14
+#prec 13
 #forestshape 8975
 #stealthy 20
 #female
@@ -687,12 +687,12 @@
 #copystats 8966
 #copyspr 8951
 #name "Chhma Scout"
-#descr "Elite hunters chosen for their individual prowess"
+#descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
 #hp 14
-#att 12
-#def 15
-#prec 14
+#att 11
+#def 14
+#prec 13
 #plainshape 8974
 #stealthy 30
 #female
@@ -704,7 +704,7 @@
 #copystats 8951
 #copyspr 8951
 #name "Pack leader"
-#descr "Elite hunters with charisma and hunting skill"
+#descr "Elite hunters with charisma and combat prowess"
 #gcost 55
 #rpcost 22
 #hp 14
@@ -715,11 +715,11 @@
 #stealthy 0
 #female
 #clearweapons
-#weapon 924 -- Karambit
-#weapon 924 -- Karambit
+#weapon 921 -- Machete
 #weapon 34 -- Blow Pipe
 #armor 120 -- Leather Cap
 #armor 183 -- Linen Cuirass
+#armor 207 -- Wicker Shield
 #forestshape 8977
 #end
 
@@ -727,7 +727,7 @@
 #copystats 8952
 #copyspr 8951
 #name "Pack leader"
-#descr "Elite hunters with charisma and hunting skill"
+#descr "Elite hunters with charisma and combat prowess"
 #gcost 55
 #rpcost 22
 #hp 14
@@ -738,11 +738,11 @@
 #stealthy 20
 #female
 #clearweapons
-#weapon 924 -- Karambit
-#weapon 924 -- Karambit
+#weapon 921 -- Machete
 #weapon 34 -- Blow Pipe
 #armor 120 -- Leather Cap
 #armor 183 -- Linen Cuirass
+#armor 207 -- Wicker Shield
 #plainshape 8976
 #end
 
@@ -750,7 +750,7 @@
 #newmonster 8978
 #copystats 8951
 #copyspr 8951
-#name "Chhma Fishing Chief"
+#name "Fishing Chief"
 #descr "tmp"
 #gcost 45
 #rpcost 22
@@ -774,7 +774,7 @@
 #newmonster 8979 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Chhma Fishing Chief"
+#name "Fishing Chief"
 #descr "tmp"
 #gcost 45
 #rpcost 22
@@ -795,19 +795,39 @@
 #okleader
 #end
 
--- Good Commander
+--Priest
 #newmonster 8980
+#copystats 8954 -- White One Com Base
+#name "Itinerant Monk"
+#descr "tmp"
+#gcost 50
+#hp 12
+#mor 14
+#mr 14
+#plainshape 8980
+#weapon 7 -- Quarterstaff
+#weapon 931 -- Perfect Kick
+#armor 158 -- Robes
+#magicskill 8 1 -- Holy
+#end
+
+-- Note: 8981 unclaimed
+
+-- Mage-Commander. Note: The random is different between the two shapes
+#newmonster 8982
 #copystats 8951
 #copyspr 8951
 #name "Chhma Noble"
-#descr "tmp"
-#gcost 80
+#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
+#custommagic 10368 100 -- FSN random
+#gcost 100
 #hp 14
 #att 11
 #def 14
 #prec 13
 #mor 13
-#forestshape 8981
+#mr 14 -- +3
+#forestshape 8983
 #clearweapons
 #weapon 921 -- Machete
 #armor 118 -- Half Helmet
@@ -816,18 +836,20 @@
 #goodleader
 #end
 
-#newmonster 8981 -- fs
+#newmonster 8983 -- fs
 #copystats 8952
 #copyspr 8951
 #name "Chhma Noble"
-#descr "tmp"
-#gcost 80
+#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
+#custommagic 9728 100 -- FWE random
+#gcost 100
 #hp 14
 #att 11
 #def 14
 #prec 13
 #mor 14
-#plainshape 8980
+#mr 14 -- +3
+#plainshape 8982
 #clearweapons
 #weapon 921 -- Machete
 #armor 118 -- Half Helmet
@@ -835,6 +857,86 @@
 #armor 2 -- Shield
 #goodleader
 #end
+
+-- Anyfort FWE mage
+#newmonster 8984
+#copystats 8951
+#copyspr 8951
+#name "Some Mage"
+#descr "tmp"
+#magicskill 2 1 		-- W
+#custommagic 1152 100	-- FE random
+#custommagic 1152 100	-- FE random
+#custommagic 512 50		-- 50% W
+#gcost 10015
+#mor 12
+#mr 16 -- +5
+#forestshape 8985
+#poorleader
+#clearweapons
+#weapon 7 -- Quarterstaff
+#armor 158 -- Robes
+#end
+
+#newmonster 8985 -- fs
+#copystats 8952
+#copyspr 8951
+#name "Some Mage"
+#descr "tmp"
+#magicskill 2 1 		-- W
+#custommagic 1152 100	-- FE random
+#custommagic 1152 100	-- FE random
+#custommagic 512 50		-- 50% W
+#gcost 10015
+#mor 13
+#mr 16 -- +5
+#plainshape 8984
+#poorleader
+#clearweapons
+#weapon 7 -- Quarterstaff
+#armor 158 -- Robes
+#end
+
+#newmonster 8986
+#copystats 8951
+#copyspr 8951
+#name "Some other expensive Mage"
+#descr "tmp"
+#magicskill 5 1 		-- D
+#custommagic 1152 80	-- WN random
+#gcost 10015
+#mor 11
+#mr 15 -- +4
+#stealthy 0
+#forestshape 8987
+#poorleader
+#weapon 924 -- Karambit
+#armor 158 -- Robes
+#end
+
+#newmonster 8987 -- fs
+#copystats 8952
+#copyspr 8951
+#name "Some other expensive Mage"
+#descr "tmp"
+#magicskill 5 1 		-- D
+#custommagic 1152 80	-- WN random
+#gcost 10015
+#mor 12
+#mr 15 -- +4
+#stealthy 20
+#plainshape 8986
+#poorleader
+#weapon 924 -- Karambit
+#armor 158 -- Robes
+#end
+
+-- Cap only ascended mage
+
+
+-- Cap only even more ascended mage
+
+
 
 
 -- Sites
@@ -866,11 +968,11 @@
 #homefort 14
 #syncretism 1
 
-#startcom 8980 		-- the Commander you get on turn 1
+#startcom 8976 		-- the Commander you get on turn 1
 #startunittype1 8959 	-- Chhma light swords
 #startunittype2 8955 	-- Chhma militia
-#startunitnbrs1 16
-#startunitnbrs2 16
+#startunitnbrs1 12
+#startunitnbrs2 12
 
 #startscout 426 	-- the Scout or some other unit to get on turn 1
 
@@ -889,12 +991,18 @@
 #addreccom 8976		-- Stealthy Com
 #forestcom 8976
 #coastcom1 8978		-- Coast Com
-#addreccom 8980		-- Noble
+#addreccom 8980		-- Priest
+#addreccom 8982		-- Noble
+#addreccom 8984		-- Mage1
+#addreccom 8986		-- Mage2
+#addreccom 8988		-- Cap mage1
+#addreccom 8989		-- Cap mage2
 
-#defcom1 8980 		-- the PD Commander
+#defcom1 8976 		-- Chhma pack leader
 #defunit1 8955 		-- Chhma militia
 #defunit1b 8959 	-- Chhma light infantry
-#defunit2 8963		-- Chhma Heavy Spearmen
+#defcom2 8980		-- Chhma noble
+#defunit2 8963		-- Chhma heavy spearmen
 #defmult1 16
 #defmult1b 16
 #defmult2 12
