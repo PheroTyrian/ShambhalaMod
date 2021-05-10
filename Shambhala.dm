@@ -995,8 +995,8 @@
 #addreccom 8982		-- Noble
 #addreccom 8984		-- Mage1
 #addreccom 8986		-- Mage2
-#addreccom 8988		-- Cap mage1
-#addreccom 8989		-- Cap mage2
+--#addreccom 8988		-- Cap mage1
+--#addreccom 8989		-- Cap mage2
 
 #defcom1 8976 		-- Chhma pack leader
 #defunit1 8955 		-- Chhma militia
