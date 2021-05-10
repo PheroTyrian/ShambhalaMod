@@ -798,6 +798,7 @@
 --Priest
 #newmonster 8980
 #copystats 8954 -- White One Com Base
+#copyspr 1145 -- Yogi
 #name "Itinerant Monk"
 #descr "tmp"
 #gcost 50
