@@ -1039,7 +1039,7 @@
 #startunitnbrs1 12
 #startunitnbrs2 12
 
-#startscout 426 	-- the Scout or some other unit to get on turn 1
+#startscout 8974 	-- the Scout or some other unit to get on turn 1
 
 #addrecunit 8955 	-- Chhma militia
 #addrecunit 8957 	-- Chhma ambusher
