@@ -144,7 +144,7 @@
 #newmonster 8951 -- Base chhma shape
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
-#copyspr 728
+#copyspr 728 -- Jag warrior second shape
 #drawsize -20
 #gcost 12
 #rcost 1
@@ -179,7 +179,7 @@
 #newmonster 8952 -- Chhma forestshape have +2 mm, +1 mor, and stealth
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
-#copyspr 728
+#copyspr 728 -- Jag warrior second shape
 #drawsize -20
 #gcost 12
 #rcost 1
@@ -286,7 +286,6 @@
 -- Chhma militia archers
 #newmonster 8955
 #copystats 8951
-#copyspr 8951
 #name "Chhma Militia"
 #descr "tmp"
 #gcost 10
@@ -304,7 +303,6 @@
 
 #newmonster 8956 -- fs
 #copystats 8952
-#copyspr 8952
 #name "Chhma Militia"
 #descr "tmp"
 #gcost 10
@@ -323,7 +321,6 @@
 -- Chhma Ambusher
 #newmonster 8957
 #copystats 8951
-#copyspr 8951
 #name "Chhma Ambusher"
 #descr "tmp"
 #forestshape 8958
@@ -339,7 +336,6 @@
 
 #newmonster 8958 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Ambusher"
 #descr "tmp"
 #plainshape 8957
@@ -356,7 +352,6 @@
 -- Chhma Light Swordsman
 #newmonster 8959
 #copystats 8951
-#copyspr 8951
 #name "Chhma Light Swordsman"
 #descr "tmp"
 #forestshape 8960
@@ -369,7 +364,6 @@
 
 #newmonster 8960 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Light Swordsman"
 #descr "tmp"
 #plainshape 8959
@@ -383,7 +377,6 @@
 -- Chhma Heavy Swordsman
 #newmonster 8961
 #copystats 8951
-#copyspr 8951
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
 #gcost 14
@@ -399,7 +392,6 @@
 
 #newmonster 8962 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
 #gcost 14
@@ -416,7 +408,6 @@
 -- Chhma Heavy Spearman
 #newmonster 8963
 #copystats 8951
-#copyspr 8951
 #name "Chhma Heavy Spearman"
 #descr "tmp"
 #gcost 14
@@ -433,7 +424,6 @@
 
 #newmonster 8964 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Heavy Spearman"
 #descr "tmp"
 #gcost 14
@@ -451,7 +441,6 @@
 -- Chhma Hunter
 #newmonster 8965
 #copystats 8951
-#copyspr 8951
 #name "Chhma Hunter"
 #descr "tmp"
 #gcost 14
@@ -475,7 +464,6 @@
 
 #newmonster 8966 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Hunter"
 #descr "tmp"
 #gcost 14
@@ -500,7 +488,6 @@
 -- Chhma Coastal
 #newmonster 8967
 #copystats 8951
-#copyspr 8951
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 14
@@ -522,7 +509,6 @@
 
 #newmonster 8968 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 14
@@ -544,7 +530,7 @@
 
 -- Crossbow Elephant
 #newmonster 8969
-#copyspr 1147
+#copyspr 1147 -- Bandar Log Elephant
 #name "Artillery"
 #descr "tmp"
 #drawsize -20
@@ -580,7 +566,7 @@
 
 -- Stompy Elephant
 #newmonster 8970
-#copyspr 1147
+#copyspr 1147 -- Bandar Log Elephant
 #name "Chhma War Elephant"
 #descr "tmp"
 #drawsize -20
@@ -668,7 +654,6 @@
 -- Scout
 #newmonster 8974
 #copystats 8965
-#copyspr 8951
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -685,7 +670,6 @@
 
 #newmonster 8975 -- fs
 #copystats 8966
-#copyspr 8951
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -702,7 +686,6 @@
 -- Stealthy Commander
 #newmonster 8976
 #copystats 8951
-#copyspr 8951
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -725,7 +708,6 @@
 
 #newmonster 8977 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -749,7 +731,6 @@
 -- Coastal Commander
 #newmonster 8978
 #copystats 8951
-#copyspr 8951
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
@@ -773,7 +754,6 @@
 
 #newmonster 8979 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
@@ -816,7 +796,6 @@
 -- Mage-Commander. Note: The random is different between the two shapes
 #newmonster 8982
 #copystats 8951
-#copyspr 8951
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #custommagic 10368 100 -- FSN random
@@ -838,7 +817,6 @@
 
 #newmonster 8983 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #custommagic 9728 100 -- FWE random
@@ -861,7 +839,6 @@
 -- Anyfort FWE mage
 #newmonster 8984
 #copystats 8951
-#copyspr 8951
 #name "Some Mage"
 #descr "tmp"
 #magicskill 2 1 		-- W
@@ -880,7 +857,6 @@
 
 #newmonster 8985 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Some Mage"
 #descr "tmp"
 #magicskill 2 1 		-- W
@@ -899,7 +875,6 @@
 
 #newmonster 8986
 #copystats 8951
-#copyspr 8951
 #name "Some other expensive Mage"
 #descr "tmp"
 #magicskill 5 1 		-- D
@@ -916,7 +891,6 @@
 
 #newmonster 8987 -- fs
 #copystats 8952
-#copyspr 8951
 #name "Some other expensive Mage"
 #descr "tmp"
 #magicskill 5 1 		-- D
