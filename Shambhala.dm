@@ -910,6 +910,7 @@
 #stealthy 0
 #forestshape 8987
 #poorleader
+#heretic 1
 #weapon 924 -- Karambit
 #armor 158 -- Robes
 #end
@@ -927,15 +928,75 @@
 #stealthy 20
 #plainshape 8986
 #poorleader
+#heretic 1
 #weapon 924 -- Karambit
 #armor 158 -- Robes
 #end
 
 -- Cap only ascended mage
-
+#newmonster 8988
+#copystats 8954 -- White One Com Base
+#copyspr 1143 -- Guru
+#name "Cap only 1"
+#descr "Ascended monkey, has 4 arms and emits and aura of splendor"
+#gcost 10010
+#magicskill 4 2 -- Astral
+#magicskill 8 1 -- Holy
+#custommagic 10368 100 -- FSN random
+#hp 15
+#att 12
+#def 12
+#prec 11
+#enc 2
+#float
+#awe 1
+#ambidextrous 4
+#airshield 60
+#itemslots 7326 -- 4 armed humanoid with 1 misc slot
+#mor 15
+#mr 16
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 931 -- Perfect Kick
+#armor 158 -- Robes
+#end
 
 -- Cap only even more ascended mage
-
+#newmonster 8989
+#copystats 8954 -- White One Com Base
+#copyspr 1144 -- Rishi
+#name "Cap only 2"
+#descr "Ridiculously ascended monkey, travels by the Laws of Simulteneity"
+#gcost 10030
+#rpcost 4 -- slow to recruit
+#magicskill 4 2 -- Astral
+#magicskill 0 1 -- Fire
+#magicskill 8 2 -- Holy
+#custommagic 10368 100 -- FSN random
+#custommagic 10368 100 -- FSN random
+#custommagic 10880 10 -- FWSN random
+#hp 16
+#att 14
+#def 14
+#prec 13
+#enc 2
+#float
+#teleport
+#awe 3
+#ambidextrous 4
+#airshield 60
+#itemslots 7326 -- 4 armed humanoid with 1 misc slot
+#mor 16
+#mr 18
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 931 -- Perfect Kick
+#armor 158 -- Robes
+#end
 
 
 
