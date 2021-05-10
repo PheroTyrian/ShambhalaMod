@@ -805,7 +805,6 @@
 #hp 12
 #mor 14
 #mr 14
-#plainshape 8980
 #weapon 7 -- Quarterstaff
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
