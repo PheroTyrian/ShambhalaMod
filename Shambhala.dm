@@ -897,6 +897,7 @@
 #armor 158 -- Robes
 #end
 
+-- Death and stuff sneaky mage
 #newmonster 8986
 #copystats 8951
 #copyspr 8951
@@ -911,6 +912,8 @@
 #forestshape 8987
 #poorleader
 #heretic 1
+#clearweapons
+#weapon 29 -- Claw
 #weapon 924 -- Karambit
 #armor 158 -- Robes
 #end
@@ -929,6 +932,8 @@
 #plainshape 8986
 #poorleader
 #heretic 1
+#clearweapons
+#weapon 29 -- Claw
 #weapon 924 -- Karambit
 #armor 158 -- Robes
 #end
