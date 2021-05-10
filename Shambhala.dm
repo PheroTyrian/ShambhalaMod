@@ -904,7 +904,7 @@
 #descr "tmp"
 #magicskill 5 1 		-- D
 #custommagic 1152 80	-- WN random
-#gcost 10015
+#gcost 10045
 #mor 11
 #mr 15 -- +4
 #stealthy 0
@@ -920,8 +920,8 @@
 #name "Some other expensive Mage"
 #descr "tmp"
 #magicskill 5 1 		-- D
-#custommagic 1152 80	-- WN random
-#gcost 10015
+#custommagic 8704 80	-- WN random
+#gcost 10045
 #mor 12
 #mr 15 -- +4
 #stealthy 20
