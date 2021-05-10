@@ -1014,6 +1014,8 @@
 #homemon 8971 -- Chakram One
 #homemon 8972 -- Martial Arts One
 #homemon 8973 -- Magic Staff One
+#homecom 8988 -- Smol Cap mage
+#homecom 8989 -- Big Cap mage
 #end
 
 -- TODO add special pd and wall units to cap
@@ -1056,8 +1058,6 @@
 #addreccom 8982		-- Noble
 #addreccom 8984		-- Mage1
 #addreccom 8986		-- Mage2
---#addreccom 8988		-- Cap mage1
---#addreccom 8989		-- Cap mage2
 
 #defcom1 8976 		-- Chhma pack leader
 #defunit1 8955 		-- Chhma militia
