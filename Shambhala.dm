@@ -93,9 +93,10 @@
 #len 0
 #att 0
 #def 0
-#dmg -3
+#dmg 2
 #blunt
 #armorpiercing
+#halfstr
 #bonus
 #rcost 0
 #sound 7
