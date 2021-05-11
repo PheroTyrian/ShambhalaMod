@@ -1045,6 +1045,7 @@
 #selectnation 230
 #era 3
 #name "Shambhala"
+#flag "FourthAge_Shambhala/shambhala_flag.tga"
 #fortera 3
 #likesterr 2
 #homerealm 8
