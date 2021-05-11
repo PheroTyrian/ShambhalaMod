@@ -49,8 +49,8 @@
 #newweapon 924
 #name "Karambit"
 #len 0
-#att 1
-#def 0
+#att 0
+#def 1
 #dmg 3
 #slash
 #rcost 1
@@ -912,11 +912,12 @@
 #newmonster 8986
 #copystats 8951
 #copyspr 8951
-#name "Some other expensive Mage"
+#name "Some hard to mass Mage"
 #descr "tmp"
 #magicskill 5 1 		-- D
-#custommagic 1152 80	-- WN random
-#gcost 10045
+#custommagic 9728 80	-- WEN random
+#gcost 10035
+#rpcost 4
 #mor 11
 #mr 15 -- +4
 #stealthy 20
@@ -932,11 +933,12 @@
 #newmonster 8987 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Some other expensive Mage"
+#name "Some hard to mass Mage"
 #descr "tmp"
 #magicskill 5 1 		-- D
-#custommagic 8704 80	-- WN random
-#gcost 10045
+#custommagic 9728 80	-- WEN random
+#gcost 10035
+#rpcost 4
 #mor 12
 #mr 15 -- +4
 #stealthy 30
@@ -987,11 +989,11 @@
 #descr "Ridiculously ascended monkey, travels by the Laws of Simulteneity"
 #gcost 10030
 #rpcost 4 -- slow to recruit
-#magicskill 4 2 -- Astral
+#magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
-#custommagic 10368 100 -- FSN random
+#custommagic 8320 100 -- FN random
 #custommagic 10880 10 -- FWSN random
 #hp 16
 #att 14
