@@ -396,6 +396,7 @@
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
+#female
 #end
 
 #newmonster 8962 -- fs
@@ -412,6 +413,7 @@
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
+#female
 #end
 
 -- Chhma Heavy Spearman
@@ -430,6 +432,7 @@
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
+#female
 #end
 
 #newmonster 8964 -- fs
@@ -447,6 +450,7 @@
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
+#female
 #end
 
 -- Chhma Hunter
@@ -713,7 +717,7 @@
 #def 15
 #prec 14
 #mor 12
-#stealthy 0
+#stealthy 20
 #female
 #clearweapons
 #weapon 921 -- Machete
@@ -736,7 +740,7 @@
 #def 15
 #prec 14
 #mor 13
-#stealthy 20
+#stealthy 30
 #female
 #clearweapons
 #weapon 921 -- Machete
@@ -762,6 +766,7 @@
 #mor 12
 #swimming
 #swampsurvival
+#stealthy 0
 #forestshape 8979
 #clearweapons
 #weapon 679 -- Short Trident
@@ -786,6 +791,7 @@
 #mor 13
 #swimming
 #swampsurvival
+#stealthy 20
 #plainshape 8978
 #clearweapons
 #weapon 679 -- Short Trident
@@ -828,6 +834,7 @@
 #prec 13
 #mor 13
 #mr 14 -- +3
+#stealthy 0
 #forestshape 8983
 #clearweapons
 #weapon 921 -- Machete
@@ -850,6 +857,7 @@
 #prec 13
 #mor 14
 #mr 14 -- +3
+#stealthy 20
 #plainshape 8982
 #clearweapons
 #weapon 921 -- Machete
@@ -872,6 +880,7 @@
 #gcost 10015
 #mor 12
 #mr 16 -- +5
+#stealthy 0
 #forestshape 8985
 #poorleader
 #clearweapons
@@ -891,6 +900,7 @@
 #gcost 10015
 #mor 13
 #mr 16 -- +5
+#stealthy 20
 #plainshape 8984
 #poorleader
 #clearweapons
@@ -909,7 +919,7 @@
 #gcost 10045
 #mor 11
 #mr 15 -- +4
-#stealthy 0
+#stealthy 20
 #forestshape 8987
 #poorleader
 #heretic 1
@@ -929,7 +939,7 @@
 #gcost 10045
 #mor 12
 #mr 15 -- +4
-#stealthy 20
+#stealthy 30
 #plainshape 8986
 #poorleader
 #heretic 1
