@@ -549,9 +549,10 @@
 
 -- Crossbow Elephant
 #newmonster 8969
-#copyspr 1147
-#name "Artillery"
-#descr "tmp"
+#spr1 "FourthAge_Shambhala/crossbowelephant_a.tga"
+#spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
+#name "Elephant Mounted Crossbow"
+#descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i, is mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or tameable in the hands of Chhma handlers."
 #drawsize -20
 #gcost 70
 #rcost 20
@@ -1045,6 +1046,9 @@
 #selectnation 230
 #era 3
 #name "Shambhala"
+#epithet "Karmic Justice"
+#color 1 0.2 0.2
+#secondarycolor 0.4 0.6 1
 #flag "FourthAge_Shambhala/shambhala_flag.tga"
 #fortera 3
 #likesterr 2
