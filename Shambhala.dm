@@ -553,7 +553,7 @@
 #spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
 #name "Elephant Mounted Crossbow"
 #descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i, is mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or tameable in the hands of Chhma handlers."
-#drawsize -20
+#drawsize -10
 #gcost 70
 #rcost 20
 #rpcost 35
@@ -586,10 +586,11 @@
 
 -- Stompy Elephant
 #newmonster 8970
-#copyspr 1147
+#spr1 "FourthAge_Shambhala/trampleelephant_a.tga"
+#spr2 "FourthAge_Shambhala/trampleelephant_b.tga"
 #name "Chhma War Elephant"
 #descr "tmp"
-#drawsize -20
+#drawsize -10
 #gcost 80
 #rcost 20
 #rpcost 35
