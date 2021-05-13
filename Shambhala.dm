@@ -3,6 +3,12 @@
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
 #version 0.03
 
+-- IDs used:
+-- Nation 230
+-- Units 8951-8999
+-- Weapons 921-950
+-- Sites 1676-1685
+
 -- Weapons
 
 #newweapon 921
