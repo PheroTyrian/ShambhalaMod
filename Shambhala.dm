@@ -152,7 +152,6 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
-#drawsize -20
 #gcost 12
 #rcost 1
 #rpcost 15
@@ -187,7 +186,6 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
-#drawsize -20
 #gcost 12
 #rcost 1
 #rpcost 15
@@ -293,7 +291,8 @@
 -- Chhma militia archers
 #newmonster 8955
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/militia_a.tga"
+#spr2 "FourthAge_Shambhala/militia_b.tga"
 #name "Chhma Militia"
 #descr "tmp"
 #gcost 10
@@ -311,7 +310,8 @@
 
 #newmonster 8956 -- fs
 #copystats 8952
-#copyspr 8952
+#spr1 "FourthAge_Shambhala/militia_a.tga"
+#spr2 "FourthAge_Shambhala/militia_b.tga"
 #name "Chhma Militia"
 #descr "tmp"
 #gcost 10
@@ -363,7 +363,8 @@
 -- Chhma Light Swordsman
 #newmonster 8959
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/lightsword_a.tga"
+#spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp"
 #forestshape 8960
@@ -376,7 +377,8 @@
 
 #newmonster 8960 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/lightsword_a.tga"
+#spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp"
 #plainshape 8959
