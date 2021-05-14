@@ -330,7 +330,8 @@
 -- Chhma Ambusher
 #newmonster 8957
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/ambusher_a.tga"
+#spr2 "FourthAge_Shambhala/ambusher_b.tga"
 #name "Chhma Ambusher"
 #descr "tmp"
 #forestshape 8958
@@ -346,7 +347,8 @@
 
 #newmonster 8958 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/ambusher_a.tga"
+#spr2 "FourthAge_Shambhala/ambusher_b.tga"
 #name "Chhma Ambusher"
 #descr "tmp"
 #plainshape 8957
