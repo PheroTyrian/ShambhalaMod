@@ -394,7 +394,8 @@
 -- Chhma Heavy Swordsman
 #newmonster 8961
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/heavysword_a.tga"
+#spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
 #gcost 14
@@ -411,7 +412,8 @@
 
 #newmonster 8962 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/heavysword_a.tga"
+#spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Chhma Heavy Swordsman"
 #descr "tmp"
 #gcost 14
@@ -433,7 +435,6 @@
 #name "Chhma Heavy Spearman"
 #descr "tmp"
 #gcost 14
-#att 11
 #mor 11
 #bodyguard 1
 #forestshape 8964
@@ -441,7 +442,7 @@
 #weapon 1 -- Spear
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
-#armor 2 -- Shield
+#armor 4 -- Tower shield
 #female
 #end
 
