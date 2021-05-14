@@ -451,7 +451,6 @@
 #name "Chhma Heavy Spearman"
 #descr "tmp"
 #gcost 14
-#att 11
 #mor 12
 #bodyguard 1
 #plainshape 8963
@@ -459,7 +458,7 @@
 #weapon 1 -- Spear
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
-#armor 2 -- Shield
+#armor 4 -- Tower shield
 #female
 #end
 
