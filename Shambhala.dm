@@ -1072,7 +1072,7 @@
 #copyspell 624 -- Numbness
 #name "Curse of Ice and Stone"
 #descr "The caster molds a curse from mud and frost and hurls it at the enemy. On impact the icy concoction seeps into their flesh and saps their energy. Even after the frost has left the earth continues to draw on their strength"
-#details ""
+#details "Freezes those hit and grants a curse of stones if the target fails an MR check"
 #school 5 -- Thaumaturgy
 #researchlevel 6
 #path 0 2 -- Water
@@ -1088,6 +1088,7 @@
 -- #sound
 #strikesound 21 -- Frost blast
 #nextspell "Cloying Earth"
+#restricted 230
 #end
 
 
