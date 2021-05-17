@@ -1056,6 +1056,40 @@
 #notfornation 230
 #end
 
+-- Cloying Earth
+#newspell
+#name "Cloying Earth"
+#path 0 3 -- earth
+#researchlevel -1
+#aoe 1
+#damage 32
+#effect 11 -- Curse of Stones
+#spec 8392704 -- UW ok and MR negates
+#end
+
+-- Curse of Ice and Stone
+#newspell
+#copyspell 624 -- Numbness
+#name "Curse of Ice and Stone"
+#descr "The caster molds a curse from mud and frost and hurls it at the enemy. On impact the icy concoction seeps into their flesh and saps their energy. Even after the frost has left the earth continues to draw on their strength"
+#details ""
+#school 5 -- Thaumaturgy
+#researchlevel 6
+#path 0 2 -- Water
+#path 1 3 -- Earth
+#pathlevel 0 2
+#pathlevel 1 1
+#fatiguecost 60
+#aoe 1003
+#range 5030
+#precision 4
+#flightspr 137 -- Frost swirl
+#explspr 10041 -- Rising mists?
+-- #sound
+#strikesound 21 -- Frost blast
+#nextspell "Cloying Earth"
+#end
+
 
 
 
