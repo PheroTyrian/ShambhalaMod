@@ -7,6 +7,7 @@
 -- Nation 230
 -- Units 8951-8999
 -- Weapons 921-950
+-- Spells 2450-2469
 -- Sites 1676-1685
 
 -- Weapons
@@ -18,20 +19,20 @@
 #def 0
 #dmg 7
 #slash
-#rcost 5
+#rcost 4
 #sound 8
 #ironweapon
 #end
 
 #newweapon 922
-#name "Phkak"
+#name "Ph'kak"
 #twohanded
 #len 2
 #att 2
 #def 1
 #dmg 8
 #slash
-#rcost 6
+#rcost 5
 #sound 10
 #ironweapon
 #end
@@ -1026,6 +1027,33 @@
 #weapon 928 -- Open Palm
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
+#end
+
+
+
+
+-- Spells
+
+-- Power of the Self
+#newspell
+#copyspell 739 -- PoS
+#name "Power of the Self"
+#descr "By channelling inner strength, this spell makes the caster more powerful in all paths of magic."
+#details "Grants a +1 bonus to all magic paths"
+#school 0 -- conjuration
+#researchlevel 3
+#path 0 4 -- astral
+#pathlevel 0 2
+#fatiguecost 90
+#effect 23
+#damage 128
+#spec 8388608 -- can be cast UW
+#restricted 230
+#end
+
+-- Disallow Power of the Spheres
+#selectspell 739
+#notfornation 230
 #end
 
 
