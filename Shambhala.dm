@@ -840,7 +840,7 @@
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #custommagic 10368 100 -- FSN random
-#gcost 100
+#gcost 80
 #hp 14
 #att 11
 #def 14
@@ -855,6 +855,7 @@
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
 #goodleader
+#command -20
 #end
 
 #newmonster 8983 -- fs
@@ -863,7 +864,7 @@
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #custommagic 9728 100 -- FWE random
-#gcost 100
+#gcost 80
 #hp 14
 #att 11
 #def 14
@@ -878,6 +879,7 @@
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
 #goodleader
+#command -20
 #end
 
 -- Anyfort FWE mage
