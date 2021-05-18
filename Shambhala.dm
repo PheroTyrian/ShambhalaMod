@@ -1125,9 +1125,12 @@
 #flag "FourthAge_Shambhala/shambhala_flag.tga"
 #fortera 3
 #likesterr 2
-#homerealm 8
+#homerealm 8 -- India
+#homerealm 10 -- Default
 #homefort 14
+#templepic 7 -- Southeast Indian
 #syncretism 1
+-- #likespop 103 -- Cats and Dogs lol
 
 #startcom 8976 		-- the Commander you get on turn 1
 #startunittype1 8959 	-- Chhma light swords
@@ -1162,9 +1165,15 @@
 #defunit1b 8959 	-- Chhma light infantry
 #defcom2 8980		-- Chhma noble
 #defunit2 8963		-- Chhma heavy spearmen
-#defmult1 16
-#defmult1b 16
-#defmult2 12
+#defmult1 12
+#defmult1b 12
+#defmult2 16
+
+#wallcom 8976		-- Chhma pack leader
+#wallunit 8955		-- Chhma militia
+#wallmult 10
+#wallunit 8963		-- Chhma H spear
+#wallmult 2
 
 -- TODO Add Heros
 
