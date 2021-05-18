@@ -850,10 +850,9 @@
 #stealthy 0
 #forestshape 8983
 #clearweapons
-#weapon 921 -- Machete
+#weapon 922 -- Ph'kak
 #armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
-#armor 2 -- Shield
 #goodleader
 #command -20
 #end
@@ -874,10 +873,9 @@
 #stealthy 20
 #plainshape 8982
 #clearweapons
-#weapon 921 -- Machete
+#weapon 922 -- Ph'kak
 #armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
-#armor 2 -- Shield
 #goodleader
 #command -20
 #end
