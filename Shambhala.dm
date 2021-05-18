@@ -1056,23 +1056,23 @@
 #notfornation 230
 #end
 
--- Cloying Earth
+-- Thirsting Earth
 #newspell
-#name "Cloying Earth"
+#name "Thirsting Earth"
 #path 0 3 -- earth
 #researchlevel -1
 #aoe 1
 #damage 32
 #effect 11 -- Curse of Stones
-#spec 8392704 -- UW ok and MR negates
+#spec 545788032 -- UW ok and MR negates
 #end
 
--- Curse of Ice and Stone
+-- Curse of Thirsting Earth
 #newspell
-#copyspell 624 -- Numbness
-#name "Curse of Ice and Stone"
-#descr "The caster molds a curse from mud and frost and hurls it at the enemy. On impact the icy concoction seeps into their flesh and saps their energy. Even after the frost has left the earth continues to draw on their strength"
-#details "Freezes those hit and grants a curse of stones if the target fails an MR check"
+#copyspell 973 -- Dessication
+#name "Curse of Thirsting Earth"
+#descr "The caster molds cursed orbs of mist and hurls them at the enemy. On impact the malicious concoction draws the water out of their bodies and into the thirsting earth. Even after the worst effects have subsided the earth continues to draw on their strength. While very dangerous, a strong will can lessen the effects by breaking the connection to the earth, though it will not negate them entirely."
+#details "Those affected gain dessication fatigue 2d8 per round, MR vs 22 to end. Also grants curse of stones if the target fails an MR check"
 #school 5 -- Thaumaturgy
 #researchlevel 6
 #path 0 2 -- Water
@@ -1081,11 +1081,12 @@
 #pathlevel 1 1
 #fatiguecost 60
 #aoe 1003
-#range 5030
+#range 5025
 #precision 4
-#flightspr 137 -- Frost swirl
-#explspr 10041 -- Rising mists?
--- #sound
+#spec 545783936 -- AN, UWOK, no eff on lifeless and undead
+#flightspr 10080 -- Small Particle Ball
+#explspr 10108
+-- #sound -- need to set this
 #strikesound 21 -- Frost blast
 #nextspell "Cloying Earth"
 #restricted 230
