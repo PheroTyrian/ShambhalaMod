@@ -1088,7 +1088,7 @@
 #explspr 10108
 -- #sound -- need to set this
 #strikesound 21 -- Frost blast
-#nextspell "Cloying Earth"
+#nextspell "Thirsting Earth"
 #restricted 230
 #end
 
