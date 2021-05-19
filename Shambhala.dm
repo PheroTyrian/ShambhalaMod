@@ -3,6 +3,10 @@
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
 #version 0.03
 
+-- Current research material:
+-- https://en.wikipedia.org/wiki/Asian_witchcraft
+-- https://en.wikipedia.org/wiki/Philippine_shamans
+
 -- IDs used:
 -- Nation 230
 -- Units 8951-8999
@@ -480,7 +484,6 @@
 #forestshape 8966
 #stealthy 0
 #skirmisher 1
-#female
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -504,7 +507,6 @@
 #plainshape 8965
 #stealthy 20
 #skirmisher 1
-#female
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -885,7 +887,7 @@
 #copystats 8951
 #copyspr 8951
 #name "Some Mage"
-#descr "tmp"
+#descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility"
 #magicskill 2 1 		-- W
 #custommagic 1152 100	-- FE random
 #custommagic 1152 100	-- FE random
@@ -899,6 +901,7 @@
 #clearweapons
 #weapon 7 -- Quarterstaff
 #armor 158 -- Robes
+#female
 #end
 
 #newmonster 8985 -- fs
@@ -919,6 +922,7 @@
 #clearweapons
 #weapon 7 -- Quarterstaff
 #armor 158 -- Robes
+#female
 #end
 
 -- Death and stuff sneaky mage
@@ -926,10 +930,10 @@
 #copystats 8951
 #copyspr 8951
 #name "Some hard to mass Mage"
-#descr "tmp"
+#descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
-#gcost 10035
+#gcost 10025
 #rpcost 4
 #mor 11
 #mr 15 -- +4
@@ -941,16 +945,17 @@
 #weapon 29 -- Claw
 #weapon 924 -- Karambit
 #armor 158 -- Robes
+#female
 #end
 
 #newmonster 8987 -- fs
 #copystats 8952
 #copyspr 8951
 #name "Some hard to mass Mage"
-#descr "tmp"
+#descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
-#gcost 10035
+#gcost 10025
 #rpcost 4
 #mor 12
 #mr 15 -- +4
@@ -962,6 +967,7 @@
 #weapon 29 -- Claw
 #weapon 924 -- Karambit
 #armor 158 -- Robes
+#female
 #end
 
 -- Cap only ascended mage
@@ -1084,7 +1090,7 @@
 #range 5025
 #precision 4
 #spec 545783936 -- AN, UWOK, no eff on lifeless and undead
-#flightspr 10080 -- Small Particle Ball
+#flightspr 10081 -- Small Particle Ball 80 is smoke
 #explspr 10108
 -- #sound -- need to set this
 #strikesound 21 -- Frost blast
