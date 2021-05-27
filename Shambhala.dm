@@ -347,7 +347,7 @@
 #weapon 57 -- Sickle
 #weapon 29 -- Claw
 #armor 249 -- Cloth headpiece
-#armor 158 -- Robes
+#armor 202 -- Cloth Armour
 #end
 
 #newmonster 8958 -- fs
@@ -364,7 +364,7 @@
 #weapon 57 -- Sickle
 #weapon 29 -- Claw
 #armor 249 -- Cloth headpiece
-#armor 158 -- Robes
+#armor 202 -- Cloth Armour
 #end
 
 -- Chhma Light Swordsman
@@ -378,7 +378,7 @@
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
-#armor 158 -- Robes
+#armor 202 -- Cloth Armour
 #armor 2 -- Shield
 #end
 
@@ -392,7 +392,7 @@
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
-#armor 158 -- Robes
+#armor 202 -- Cloth Armour
 #armor 2 -- Shield
 #end
 
@@ -401,7 +401,7 @@
 #copystats 8951
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
-#name "Chhma Heavy Swordsman"
+#name "Sword Maiden"
 #descr "tmp"
 #gcost 14
 #bodyguard 1
@@ -419,7 +419,7 @@
 #copystats 8952
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
-#name "Chhma Heavy Swordsman"
+#name "Sword Maiden"
 #descr "tmp"
 #gcost 14
 #bodyguard 1
@@ -437,7 +437,7 @@
 #newmonster 8963
 #copystats 8951
 #copyspr 8951
-#name "Chhma Heavy Spearman"
+#name "Spear Maiden"
 #descr "tmp"
 #gcost 14
 #mor 11
@@ -454,7 +454,7 @@
 #newmonster 8964 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Chhma Heavy Spearman"
+#name "Spear Maiden"
 #descr "tmp"
 #gcost 14
 #mor 12
@@ -488,8 +488,8 @@
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
 #weapon 34 -- Blow Pipe
-#armor 120 -- Leather Cap
-#armor 183 -- Linen Cuirass
+#armor 20 -- Iron Cap
+#armor 203 -- Reinforced Cloth
 #end
 
 #newmonster 8966 -- fs
@@ -511,8 +511,8 @@
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
 #weapon 34 -- Blow Pipe
-#armor 120 -- Leather Cap
-#armor 183 -- Linen Cuirass
+#armor 20 -- Iron Cap
+#armor 183 -- Reinforced Cloth
 #end
 
 -- Chhma Coastal
@@ -677,7 +677,7 @@
 #reclimit 2
 #weapon 929 -- Staff of enc
 #weapon 931 -- Perfect Kick
-#armor 183 -- Linen cuirass
+#armor 203 -- Reinforced Cloth
 #end
 
 
@@ -738,7 +738,7 @@
 #weapon 921 -- Machete
 #weapon 34 -- Blow Pipe
 #armor 120 -- Leather Cap
-#armor 183 -- Linen Cuirass
+#armor 203 -- Reinforced Cloth
 #armor 207 -- Wicker Shield
 #forestshape 8977
 #end
@@ -761,7 +761,7 @@
 #weapon 921 -- Machete
 #weapon 34 -- Blow Pipe
 #armor 120 -- Leather Cap
-#armor 183 -- Linen Cuirass
+#armor 203 -- Reinforced Cloth
 #armor 207 -- Wicker Shield
 #plainshape 8976
 #end
@@ -773,7 +773,6 @@
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
-#rpcost 22
 #hp 14
 #att 12
 #def 15
@@ -798,7 +797,6 @@
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
-#rpcost 22
 #hp 14
 #att 12
 #def 15
@@ -940,7 +938,6 @@
 #stealthy 20
 #forestshape 8987
 #poorleader
-#heretic 1
 #clearweapons
 #weapon 29 -- Claw
 #weapon 924 -- Karambit
@@ -962,7 +959,6 @@
 #stealthy 30
 #plainshape 8986
 #poorleader
-#heretic 1
 #clearweapons
 #weapon 29 -- Claw
 #weapon 924 -- Karambit
