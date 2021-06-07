@@ -564,7 +564,7 @@
 #newmonster 8969
 #spr1 "FourthAge_Shambhala/crossbowelephant_a.tga"
 #spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
-#name "Elephant Mounted Crossbow"
+#name "Domrey"
 #descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i, is mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or tameable in the hands of Chhma handlers."
 #drawsize -10
 #gcost 70
