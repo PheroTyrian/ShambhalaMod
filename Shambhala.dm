@@ -6,6 +6,7 @@
 -- Current research material:
 -- https://en.wikipedia.org/wiki/Asian_witchcraft
 -- https://en.wikipedia.org/wiki/Philippine_shamans
+-- and associated citations
 
 -- IDs used:
 -- Nation 230
@@ -403,6 +404,7 @@
 #name "Sword Maiden"
 #descr "tmp"
 #gcost 15
+#rpcost 17
 #hp 13
 #bodyguard 1
 #mor 12
@@ -422,6 +424,7 @@
 #name "Sword Maiden"
 #descr "tmp"
 #gcost 15
+#rpcost 17
 #hp 13
 #bodyguard 1
 #mor 13
@@ -442,6 +445,7 @@
 #name "Spear Maiden"
 #descr "tmp"
 #gcost 15
+#rpcost 17
 #hp 13
 #mor 12
 #bodyguard 1
@@ -461,6 +465,7 @@
 #name "Spear Maiden"
 #descr "tmp"
 #gcost 15
+#rpcost 17
 #hp 13
 #mor 13
 #bodyguard 1
@@ -481,7 +486,7 @@
 #name "Chhma Hunter"
 #descr "tmp"
 #gcost 14
-#rpcost 22
+#rpcost 20
 #hp 13
 #att 11
 #def 14
@@ -505,7 +510,7 @@
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #gcost 14
-#rpcost 22
+#rpcost 20
 #hp 13
 #att 11
 #def 14
@@ -530,7 +535,7 @@
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 14
-#rpcost 22
+#rpcost 20
 #hp 13
 #att 11
 #def 14
@@ -553,7 +558,7 @@
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 14
-#rpcost 22
+#rpcost 20
 #hp 13
 #att 11
 #def 14
@@ -1064,6 +1069,15 @@
 
 -- Disallow Power of the Spheres
 #selectspell 739
+#notfornation 230
+#end
+
+-- Disallow Communion
+#selectspell 976
+#notfornation 230
+#end
+
+#selectspell 977
 #notfornation 230
 #end
 
