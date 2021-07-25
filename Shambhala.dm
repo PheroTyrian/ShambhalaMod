@@ -436,7 +436,8 @@
 -- Chhma Heavy Spearman
 #newmonster 8963
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/heavyspear_a.tga"
+#spr2 "FourthAge_Shambhala/heavyspear_b.tga"
 #name "Spear Maiden"
 #descr "tmp"
 #gcost 14
@@ -453,7 +454,8 @@
 
 #newmonster 8964 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/heavyspear_a.tga"
+#spr2 "FourthAge_Shambhala/heavyspear_b.tga"
 #name "Spear Maiden"
 #descr "tmp"
 #gcost 14
