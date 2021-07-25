@@ -340,12 +340,10 @@
 #name "Chhma Ambusher"
 #descr "tmp"
 #forestshape 8958
-#att 11
 #stealthy 0
 #skirmisher 1
 #clearweapons
-#weapon 57 -- Sickle
-#weapon 29 -- Claw
+#weapon 922 -- Ph'kak
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #end
@@ -357,12 +355,10 @@
 #name "Chhma Ambusher"
 #descr "tmp"
 #plainshape 8957
-#att 11
 #stealthy 20
 #skirmisher 1
 #clearweapons
-#weapon 57 -- Sickle
-#weapon 29 -- Claw
+#weapon 922 -- Ph'kak
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #end
@@ -403,9 +399,10 @@
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
 #descr "tmp"
-#gcost 14
+#gcost 15
+#hp 13
 #bodyguard 1
-#mor 11
+#mor 12
 #forestshape 8962
 #clearweapons
 #weapon 921 -- Machete
@@ -421,9 +418,10 @@
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
 #descr "tmp"
-#gcost 14
+#gcost 15
+#hp 13
 #bodyguard 1
-#mor 12
+#mor 13
 #plainshape 8961
 #clearweapons
 #weapon 921 -- Machete
@@ -440,8 +438,9 @@
 #spr2 "FourthAge_Shambhala/heavyspear_b.tga"
 #name "Spear Maiden"
 #descr "tmp"
-#gcost 14
-#mor 11
+#gcost 15
+#hp 13
+#mor 12
 #bodyguard 1
 #forestshape 8964
 #clearweapons
@@ -458,8 +457,9 @@
 #spr2 "FourthAge_Shambhala/heavyspear_b.tga"
 #name "Spear Maiden"
 #descr "tmp"
-#gcost 14
-#mor 12
+#gcost 15
+#hp 13
+#mor 13
 #bodyguard 1
 #plainshape 8963
 #clearweapons
@@ -567,7 +567,7 @@
 #spr1 "FourthAge_Shambhala/crossbowelephant_a.tga"
 #spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
 #name "Domrey"
-#descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i, is mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or tameable in the hands of Chhma handlers."
+#descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
 #drawsize -10
 #gcost 70
 #rcost 20
