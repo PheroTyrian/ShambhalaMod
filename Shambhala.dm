@@ -1060,7 +1060,7 @@
 #researchlevel 3
 #path 0 4 -- astral
 #pathlevel 0 2
-#fatiguecost 90
+#fatiguecost 50
 #effect 23
 #damage 128
 #spec 8388608 -- can be cast UW
