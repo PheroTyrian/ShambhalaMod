@@ -148,7 +148,10 @@
 #bonus
 #end
 
-
+#newweapon 932
+#copyweapon 34 -- Blowpipe
+#ammo 4
+#end
 
 
 -- Units
@@ -473,7 +476,8 @@
 -- Chhma Hunter
 #newmonster 8965
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/hunter_a.tga"
+#spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
 #descr "tmp"
 #gcost 14
@@ -489,7 +493,7 @@
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
-#weapon 34 -- Blow Pipe
+#weapon 932 -- Blow Pipe
 #armor 20 -- Iron Cap
 #armor 203 -- Reinforced Cloth
 #end
@@ -498,7 +502,8 @@
 #copystats 8952
 #copyspr 8951
 #name "Chhma Hunter"
-#descr "tmp"
+#spr1 "FourthAge_Shambhala/hunter_a.tga"
+#spr2 "FourthAge_Shambhala/hunter_b.tga"
 #gcost 14
 #rpcost 22
 #hp 13
@@ -512,7 +517,7 @@
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
-#weapon 34 -- Blow Pipe
+#weapon 932 -- Blow Pipe
 #armor 20 -- Iron Cap
 #armor 183 -- Reinforced Cloth
 #end
@@ -520,7 +525,8 @@
 -- Chhma Coastal
 #newmonster 8967
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 14
@@ -535,14 +541,15 @@
 #forestshape 8968
 #clearweapons
 #weapon 3 -- Trident
-#weapon 21 -- Javelin
+#weapon 452 -- Harpoon
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
 #end
 
 #newmonster 8968 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 14
@@ -557,7 +564,7 @@
 #plainshape 8967
 #clearweapons
 #weapon 3 -- Trident
-#weapon 21 -- Javelin
+#weapon 452 -- Harpoon
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
 #end
