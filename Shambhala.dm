@@ -15,6 +15,17 @@
 -- Spells 2450-2469
 -- Sites 1676-1685
 
+-- National spell ideas and todos:
+-- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
+-- Death boosting combat spell that withers the mage
+-- Twiceborn shape for death mage
+-- Offensive curse luck spell
+-- Minor healing ritual for theming
+-- Sacred lion statues summon
+-- Dragon guard on asian noodle drakes summon
+-- Krasue summon
+-- Some other weird mythical stuff
+
 -- Weapons
 
 #newweapon 921
@@ -152,6 +163,11 @@
 #newweapon 932
 #copyweapon 34 -- Blowpipe
 #ammo 4
+#end
+
+#newweapon 933
+#copyweapon 928 -- Open palm
+#bonus
 #end
 
 
@@ -1015,7 +1031,7 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Cap only 2"
-#descr "Ridiculously ascended monkey, travels by the Laws of Simulteneity"
+#descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity"
 #gcost 10030
 #rpcost 4 -- slow to recruit
 #magicskill 4 3 -- Astral
@@ -1039,8 +1055,8 @@
 #mr 18
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 928 -- Open Palm
-#weapon 928 -- Open Palm
+#weapon 933 -- Open Palm
+#weapon 933 -- Open Palm
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
 #end
