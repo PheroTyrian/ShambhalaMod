@@ -232,7 +232,6 @@
 #itemslots 15494
 #maxage 40
 #darkvision 50
-#stealthy 0
 #weapon 29
 #forestsurvival
 #okleader
@@ -312,6 +311,8 @@
 #nametype 129
 #holy
 #end
+
+--
 
 -- Chhma militia archers
 #newmonster 8955
@@ -675,8 +676,8 @@
 #gcost 18
 #airshield 60
 #weapon 928 -- Open Palm
-#weapon 926 -- Chakram melee
-#weapon 927 -- Chakram ranged
+#weapon 928 -- Open Palm
+#weapon 360 -- Sticks and stones
 #armor 158 -- Robes
 #end
 
@@ -687,8 +688,7 @@
 #descr "tmp"
 #copyspr 1145 -- Yogi
 #gcost 18
-#weapon 928 -- Open Palm
-#weapon 928 -- Open Palm
+#weapon 7 -- Quarterstaff
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
 #end
@@ -708,7 +708,7 @@
 #weapon 929 -- Staff of enc
 #weapon 931 -- Perfect Kick
 #armor 203 -- Reinforced Cloth
-#end
+#end -- Should maybe give skull amulet as well?
 
 
 
@@ -718,7 +718,7 @@
 -- Scout
 #newmonster 8974
 #copystats 8965
-#copyspr 8951
+#copyspr 8965
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -735,7 +735,7 @@
 
 #newmonster 8975 -- fs
 #copystats 8966
-#copyspr 8951
+#copyspr 8965
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -752,7 +752,7 @@
 -- Stealthy Commander
 #newmonster 8976
 #copystats 8951
-#copyspr 8951
+#copyspr 8965
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -762,7 +762,7 @@
 #def 15
 #prec 14
 #mor 12
-#stealthy 20
+#stealthy 10
 #female
 #clearweapons
 #weapon 921 -- Machete
@@ -775,7 +775,7 @@
 
 #newmonster 8977 -- fs
 #copystats 8952
-#copyspr 8951
+#copyspr 8965
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -785,7 +785,7 @@
 #def 15
 #prec 14
 #mor 13
-#stealthy 30
+#stealthy 20
 #female
 #clearweapons
 #weapon 921 -- Machete
@@ -799,7 +799,7 @@
 -- Coastal Commander
 #newmonster 8978
 #copystats 8951
-#copyspr 8951
+#copyspr 8967
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
@@ -810,11 +810,10 @@
 #mor 12
 #swimming
 #swampsurvival
-#stealthy 0
 #forestshape 8979
 #clearweapons
 #weapon 679 -- Short Trident
-#weapon 21 -- Javelin
+#weapon 452 -- Harpoon
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
 #armor 207 -- Wicker Shield
@@ -823,7 +822,7 @@
 
 #newmonster 8979 -- fs
 #copystats 8952
-#copyspr 8951
+#copyspr 8967
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
@@ -834,11 +833,10 @@
 #mor 13
 #swimming
 #swampsurvival
-#stealthy 20
 #plainshape 8978
 #clearweapons
 #weapon 679 -- Short Trident
-#weapon 21 -- Javelin
+#weapon 452 -- Harpoon
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
 #armor 207 -- Wicker Shield
@@ -866,7 +864,7 @@
 -- Mage-Commander. Note: The random is different between the two shapes
 #newmonster 8982
 #copystats 8951
-#copyspr 8951
+#copyspr 8961
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #custommagic 10368 100 -- FSN random
@@ -877,7 +875,6 @@
 #prec 13
 #mor 13
 #mr 14 -- +3
-#stealthy 0
 #forestshape 8983
 #clearweapons
 #weapon 922 -- Ph'kak
@@ -889,7 +886,7 @@
 
 #newmonster 8983 -- fs
 #copystats 8952
-#copyspr 8951
+#copyspr 8961
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #custommagic 9728 100 -- FWE random
@@ -900,7 +897,6 @@
 #prec 13
 #mor 14
 #mr 14 -- +3
-#stealthy 20
 #plainshape 8982
 #clearweapons
 #weapon 922 -- Ph'kak
@@ -923,7 +919,6 @@
 #gcost 10015
 #mor 12
 #mr 16 -- +5
-#stealthy 0
 #forestshape 8985
 #poorleader
 #clearweapons
@@ -944,7 +939,6 @@
 #gcost 10015
 #mor 13
 #mr 16 -- +5
-#stealthy 20
 #plainshape 8984
 #poorleader
 #clearweapons
@@ -965,7 +959,7 @@
 #rpcost 4
 #mor 11
 #mr 15 -- +4
-#stealthy 20
+#stealthy 10
 #forestshape 8987
 #poorleader
 #clearweapons
@@ -986,7 +980,7 @@
 #rpcost 4
 #mor 12
 #mr 15 -- +4
-#stealthy 30
+#stealthy 20
 #plainshape 8986
 #poorleader
 #clearweapons
@@ -1004,7 +998,7 @@
 #descr "Ascended monkey, has 4 arms and emits and aura of splendor"
 #gcost 10010
 #magicskill 4 2 -- Astral
-#magicskill 8 1 -- Holy
+#magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
 #hp 15
 #att 12
@@ -1015,6 +1009,7 @@
 #awe 1
 #ambidextrous 4
 #airshield 60
+#maxage 150
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 15
 #mr 16
@@ -1050,6 +1045,7 @@
 #awe 3
 #ambidextrous 4
 #airshield 60
+#maxage 300
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 16
 #mr 18
@@ -1143,13 +1139,21 @@
 #path 8
 #level 0
 #loc 735
-#gems 4 2
-#gems 3 1
+#gems 0 1
 #gems 6 1
 #rarity 5
-#homemon 8971 -- Chakram One
+#homemon 8971 -- Ranged One
 #homemon 8972 -- Martial Arts One
 #homemon 8973 -- Magic Staff One
+#end
+
+#newsite 1677
+#name "The Five Towers"
+#path 8
+#level 0
+#loc 735
+#gems 4 2
+#rarity 5
 #homecom 8988 -- Smol Cap mage
 #homecom 8989 -- Big Cap mage
 #end
@@ -1220,5 +1224,6 @@
 -- TODO Add Heros
 
 -- add magic sites that grant gem income and units as capital only benefits
-#startsite  "City of Temples" -- "City of Temples" 2 astral, 1 water, 1 nature 
+#startsite  "City of Temples" -- 1 fire, 1 nature
+#startsite "The Five Towers" -- 2 astral
 #end
