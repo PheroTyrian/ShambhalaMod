@@ -15,16 +15,24 @@
 -- Spells 2450-2469
 -- Sites 1676-1685
 
--- National spell ideas and todos:
+-- National spell ideas and todos: (lim 16)
 -- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
 -- Death boosting combat spell that withers the mage
 -- Twiceborn shape for death mage
 -- Offensive curse luck spell
--- Minor healing ritual for theming
--- Sacred lion statues summon
--- Dragon guard on asian noodle drakes summon
+-- Minor healing ritual for theming?
+-- Open the gates 20S
+-- Close the gates (look into if this can be the same spell)
+-- Asian noodle drakes summon
 -- Krasue summon
--- Some other weird mythical stuff
+-- Some other weird mythical stuff?
+-- Remote attack or similar effect spell that encourages open gates (maybe allowing cap onlies to move??)
+
+-- Event todos:
+-- Noodle Drake + Maiden Guard => Dragon Guard in 2 luck at a chance (lim x per turn somehow)
+-- Same but 3% chances for rare dragon rider commander couplings
+-- Luck only spells that punish enemies in Shambhala's dom
+-- Misfortune events that somehow encourage attacking enemies??
 
 -- Weapons
 
