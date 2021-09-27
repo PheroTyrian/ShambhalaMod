@@ -1137,7 +1137,38 @@
 #restricted 230
 #end
 
+-- Decay
+#newspell
+#copyspell "Decay"
+#name "The Flesh is Weak"
+#school -1
+#spec 8405120
+#end
 
+-- Pos effect
+#newspell
+#copyspell "Power of the Spheres"
+#name "Great Power"
+#school -1
+#nextspell "The Flesh is Weak"
+#end
+
+-- Spirit possession spell
+#newspell
+#copyspell "Reinvigoration"
+#name "Spirit Channelling"
+#descr "The caster calls a powerful spirit into themselves to add its might to their own. This is a path to great power, but living bodies are imperfect vessels and the pairing quickly tears the flesh apart. Few survive the experience."
+#school 0 -- Conjuration
+#researchlevel 4
+#path 0 5 -- Death
+#pathlevel 0 1
+#fatiguecost 100
+#spec 8405120
+#sound 20 -- Banshee?
+#ainocast 1
+#nextspell "Great Power"
+#restricted 230
+#end
 
 
 -- Sites
