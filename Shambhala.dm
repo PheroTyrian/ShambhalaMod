@@ -1145,9 +1145,9 @@
 #spec 8405120
 #end
 
--- Pos effect
+-- Fatigue removal effect
 #newspell
-#copyspell "Power of the Spheres"
+#copyspell "Reinvigoration"
 #name "Great Power"
 #school -1
 #nextspell "The Flesh is Weak"
@@ -1155,7 +1155,7 @@
 
 -- Spirit possession spell
 #newspell
-#copyspell "Reinvigoration"
+#copyspell "Power of the Spheres"
 #name "Spirit Channelling"
 #descr "The caster calls a powerful spirit into themselves to add its might to their own. This is a path to great power, but living bodies are imperfect vessels and the pairing quickly tears the flesh apart. Few survive the experience."
 #school 0 -- Conjuration
