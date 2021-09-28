@@ -1072,7 +1072,7 @@
 
 -- Power of the Self
 #newspell
-#copyspell 739 -- PoS
+#copyspell "Power of the Spheres" -- PoS
 #name "Power of the Self"
 #descr "By channelling inner strength, this spell makes the caster more powerful in all paths of magic."
 #details "Grants a +1 bonus to all magic paths"
@@ -1081,9 +1081,7 @@
 #path 0 4 -- astral
 #pathlevel 0 2
 #fatiguecost 50
-#effect 23
-#damage 128
-#spec 8388608 -- can be cast UW
+#spec 8404992 -- can be cast UW
 #restricted 230
 #end
 
@@ -1125,7 +1123,7 @@
 
 -- Decay
 #newspell
-#copyspell "Decay"
+#copyspell 980 -- Decay
 #name "The Flesh is Weak"
 #school -1
 #spec 8405120
@@ -1133,15 +1131,16 @@
 
 -- Fatigue removal effect
 #newspell
-#copyspell "Reinvigoration"
+#copyspell 1054 -- Reinvigoration
 #name "Great Power"
 #school -1
+#spec 8405120
 #nextspell "The Flesh is Weak"
 #end
 
 -- Spirit possession spell
 #newspell
-#copyspell "Power of the Spheres"
+#copyspell 739 --PoS
 #name "Spirit Channelling"
 #descr "The caster calls a powerful spirit into themselves to add its might to their own. This is a path to great power, but living bodies are imperfect vessels and the pairing quickly tears the flesh apart. Few survive the experience."
 #school 0 -- Conjuration
@@ -1149,7 +1148,7 @@
 #path 0 5 -- Death
 #pathlevel 0 1
 #fatiguecost 100
-#spec 8405120
+#spec 8404992
 #sound 20 -- Banshee?
 #ainocast 1
 #nextspell "Great Power"
