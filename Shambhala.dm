@@ -1087,20 +1087,6 @@
 #restricted 230
 #end
 
--- Disallow Power of the Spheres
-#selectspell 739
-#notfornation 230
-#end
-
--- Disallow Communion
-#selectspell 976
-#notfornation 230
-#end
-
-#selectspell 977
-#notfornation 230
-#end
-
 -- Thirsting Earth
 #newspell
 #name "Thirsting Earth"
@@ -1168,6 +1154,20 @@
 #ainocast 1
 #nextspell "Great Power"
 #restricted 230
+#end
+
+-- Disallow Power of the Spheres
+#selectspell 739
+#notfornation 230
+#end
+
+-- Disallow Communion
+#selectspell 976
+#notfornation 230
+#end
+
+#selectspell 977
+#notfornation 230
 #end
 
 
