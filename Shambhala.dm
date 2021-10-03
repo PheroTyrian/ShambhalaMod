@@ -215,7 +215,7 @@
 #nametype 144
 #end
 
-#newmonster 8952 -- Chhma forestshape have +2 mm, +1 mor, and stealth
+#newmonster 8952 -- Chhma forestshape have +2 mm, +1 mor
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
@@ -240,6 +240,7 @@
 #itemslots 15494
 #maxage 40
 #darkvision 50
+#falsearmy -1
 #weapon 29
 #forestsurvival
 #okleader
@@ -875,8 +876,9 @@
 #copyspr 8961
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
-#custommagic 10368 100 -- FSN random
-#gcost 80
+#magicskill 0 1 -- Fire
+#custommagic 10240 100 -- SN random
+#gcost 90
 #hp 14
 #att 11
 #def 14
@@ -897,8 +899,9 @@
 #copyspr 8961
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
-#custommagic 9728 100 -- FWE random
-#gcost 80
+#magicskill 0 1 -- Fire
+#custommagic 1536 100 -- WE random
+#gcost 90
 #hp 14
 #att 11
 #def 14
