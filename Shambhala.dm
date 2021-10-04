@@ -1125,7 +1125,7 @@
 #explspr 10108
 -- #sound -- need to set this
 #strikesound 21 -- Frost blast
-#nextspell "Thirsting Earth"
+#nextspell 2451
 #restricted 230
 #end
 
@@ -1145,7 +1145,7 @@
 #name "Great Power"
 #school -1
 #spec 8405120
-#nextspell "The Flesh is Weak"
+#nextspell 2453
 #end
 
 -- Spirit possession spell
@@ -1162,7 +1162,7 @@
 #spec 8404992
 #sound 20 -- Banshee?
 #ainocast 1
-#nextspell "Great Power"
+#nextspell 2454
 #restricted 230
 #end
 
