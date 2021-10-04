@@ -631,7 +631,7 @@
 #spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
 #name "Domrey"
 #descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
-#drawsize -10
+#drawsize -5
 #gcost 85
 #rcost 20
 #rpcost 35
@@ -668,7 +668,7 @@
 #spr2 "FourthAge_Shambhala/trampleelephant_b.tga"
 #name "Chhma War Elephant"
 #descr "tmp"
-#drawsize -10
+#drawsize -5
 #gcost 90
 #rcost 20
 #rpcost 35
@@ -704,10 +704,9 @@
 -- White One arrow catcher
 #newmonster 8971
 #copystats 8953
-#copysprite 1124
 #name "Arrow Catcher"
 #descr "tmp"
-#copyspr 1145 -- Yogi
+#copyspr 1124
 #gcost 18
 #airshield 60
 #weapon 928 -- Open Palm
@@ -719,10 +718,9 @@
 -- White One schmuck
 #newmonster 8972
 #copystats 8953
-#copysprite 1142
 #name "Guy"
 #descr "tmp"
-#copyspr 1145 -- Yogi
+#copyspr 1142
 #gcost 18
 #weapon 7 -- Quarterstaff
 #weapon 931 -- Perfect Kick
@@ -732,10 +730,9 @@
 -- White One magic dude
 #newmonster 8973
 #copystats 8953
-#copysprite 1128
 #name "Stick guy"
 #descr "tmp"
-#copyspr 1145 -- Yogi
+#copyspr 1128
 #gcost 25
 #rpcost 34
 #hp 12
@@ -1007,8 +1004,8 @@
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
-#gcost 10025
-#rpcost 4
+#gcost 10015
+#rpcost 3
 #mor 11
 #mr 15 -- +4
 #stealthy 10
@@ -1029,7 +1026,7 @@
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
-#gcost 10025
+#gcost 10015
 #rpcost 3
 #mor 12
 #mr 15 -- +4
