@@ -830,7 +830,8 @@
 -- Coastal Commander
 #newmonster 8978
 #copystats 8951
-#copyspr 8967
+#spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
@@ -853,7 +854,8 @@
 
 #newmonster 8979 -- fs
 #copystats 8952
-#copyspr 8967
+#spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
 #name "Fishing Chief"
 #descr "tmp"
 #gcost 45
