@@ -907,7 +907,8 @@
 -- Mage-Commander. Note: The random is different between the two shapes
 #newmonster 8982
 #copystats 8951
-#copyspr 8963
+#spr1 "FourthAge_Shambhala/noble_a.tga"
+#spr2 "FourthAge_Shambhala/noble_b.tga"
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #magicskill 0 1 -- Fire
@@ -930,7 +931,8 @@
 
 #newmonster 8983 -- fs
 #copystats 8952
-#copyspr 8964
+#spr1 "FourthAge_Shambhala/noble_a.tga"
+#spr2 "FourthAge_Shambhala/noble_b.tga"
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #magicskill 0 1 -- Fire
