@@ -14,6 +14,8 @@
 -- Weapons 921-950
 -- Spells 2450-2469
 -- Sites 1676-1685
+-- Magic items 700-709
+-- Enchantment 650-654
 
 -- National spell ideas and todos: (lim 16)
 -- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
@@ -1071,10 +1073,11 @@
 
 
 
--- Spells
+-- Combat Spells
 
 -- Power of the Self
-#newspell
+#selectspell 2450
+#clear
 #copyspell "Power of the Spheres" -- PoS
 #name "Power of the Self"
 #descr "By channelling inner strength, this spell makes the caster more powerful in all paths of magic."
@@ -1089,7 +1092,8 @@
 #end
 
 -- Thirsting Earth
-#newspell
+#selectspell 2451
+#clear
 #name "Thirsting Earth"
 #path 0 3 -- earth
 #researchlevel -1
@@ -1100,7 +1104,8 @@
 #end
 
 -- Curse of Thirsting Earth
-#newspell
+#selectspell 2452
+#clear
 #copyspell 973 -- Dessication
 #name "Curse of Thirsting Earth"
 #descr "The caster molds cursed orbs of mist and hurls them at the enemy. On impact the malicious concoction draws the water out of their bodies and into the thirsting earth. Even after the worst effects have subsided the earth continues to draw on their strength. While very dangerous, a strong will can lessen the effects by breaking the connection to the earth, though it will not negate them entirely."
@@ -1125,7 +1130,8 @@
 #end
 
 -- Decay
-#newspell
+#selectspell 2453
+#clear
 #copyspell 980 -- Decay
 #name "The Flesh is Weak"
 #school -1
@@ -1133,7 +1139,8 @@
 #end
 
 -- Fatigue removal effect
-#newspell
+#selectspell 2454
+#clear
 #copyspell 1054 -- Reinvigoration
 #name "Great Power"
 #school -1
@@ -1142,7 +1149,8 @@
 #end
 
 -- Spirit possession spell
-#newspell
+#selectspell 2455
+#clear
 #copyspell 739 --PoS
 #name "Spirit Channelling"
 #descr "The caster calls a powerful spirit into themselves to add its might to their own. This is a path to great power, but living bodies are imperfect vessels and the pairing quickly tears the flesh apart. Few survive the experience."
@@ -1173,6 +1181,44 @@
 #end
 
 
+-- Ritual Spells
+
+-- Open the gates
+#selectspell 2456
+#clear
+#copyspell 106
+#name "Open the Gates"
+#school 5
+#researchlevel 0
+#restricted 230
+#onlyatsite "Closed Gates of Shambhala"
+#descr "Open the gates of Shambhala, to bring enlightenment to the darkened corners of the world." 
+#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d6 white ones will join the cause."
+#path 0 4 -- Astral 
+#pathlevel 0 3
+#effect 10082
+#fatiguecost 2000 -- 20 gems
+#damage 650 -- enchantment code 650
+#end
+
+-- Open the gates
+#selectspell 2457
+#clear
+#copyspell 106
+#name "Close the Gates"
+#school 5
+#researchlevel 0
+#restricted 230
+#onlyatsite "Closed Gates of Shambhala"
+#descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment." 
+#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d6 white ones will join the cause."
+#path 0 4 -- Astral 
+#pathlevel 0 3
+#effect 10082
+#fatiguecost 2000 -- 20 gems
+#damage 651 -- enchantment code 651
+#end
+
 -- Sites
 
 #newsite 1676
@@ -1185,7 +1231,6 @@
 #rarity 5
 #homemon 8971 -- Ranged One
 #homemon 8972 -- Martial Arts One
-#homemon 8973 -- Magic Staff One
 #end
 
 #newsite 1677
@@ -1197,6 +1242,32 @@
 #rarity 5
 #homecom 8988 -- Smol Cap mage
 #homecom 8989 -- Big Cap mage
+#end
+
+#newsite 1678
+#name "Closed Gates of Shambhala"
+#path 8
+#level 0
+#loc 735
+#gems 4 2
+#rarity 5
+#decunrest 2
+#wallunit 8971 -- Ranged Monke
+#wallmult 5
+#goddommisfortune -3
+#end
+
+#newsite 1679
+#name "Open Gates of Shambhala"
+#path 8
+#level 0
+#loc 735
+#gems 4 2
+#rarity 5
+#decunrest -5
+#wallunit 8971 -- Ranged Monke
+#wallmult 5
+#goddommisfortune 3
 #end
 
 -- TODO add special pd and wall units to cap
@@ -1265,6 +1336,48 @@
 -- TODO Add Heros
 
 -- add magic sites that grant gem income and units as capital only benefits
-#startsite  "City of Temples" -- 1 fire, 1 nature
+#startsite "City of Temples" -- 1 fire, 1 nature
 #startsite "The Five Towers" -- 2 astral
+#startsite "Closed Gates of Shambhala" -- Special mechanic site
+#futuresite "Open Gates of Shambhala" -- Other version of special mechanic site
+#end
+
+-- Events
+
+-- Opening the gates, todo: create a better description
+#newevent
+#rarity 5
+#req_ench 650 -- A code pertaining to the spell Open the Gates
+#req_nation 230 -- Shambhala
+#req_fornation 230
+#req_owncapital 1
+#req_freesites 1
+#req_site 1 -- Requires the site in square brackets in the description
+#msg "The gates of Shambhala open in conquest!
+Sensing the changing times, some reclusive monks have ended their contemplation to join you. [Closed Gates of Shambhala]"
+#nation -2 -- Event is owned by the province owner
+#addsite 1679 -- Open Gates 
+#removesite 1678 -- Closed Gates
+#incscale3 4 -- misfortune increased by 3
+#4d6units 8973 -- Magic white one
+#req_pop0ok
+#end
+
+-- Closing the gates, todo: create unique unit for this event, and give it a proper description
+#newevent
+#rarity 5
+#req_ench 651 -- A code pertaining to the spell Close the Gates
+#req_nation 230 -- Shambhala
+#req_fornation 230
+#req_owncapital 1
+#req_freesites 1
+#req_site 1 -- Requires the site in square brackets in the description
+#msg "The gates of Shambhala close and the drums of war fall silent.
+Sensing the changing times, some reclusive monks have ended their contemplation to join you. [Open Gates of Shambhala]"
+#nation -2 -- Event is owned by the province owner
+#addsite 1678 -- Closed Gates 
+#removesite 1679 -- Open Gates
+#decscale3 4 -- misfortune decreased by 3
+#4d6units 8973 -- Magic white one
+#req_pop0ok
 #end
