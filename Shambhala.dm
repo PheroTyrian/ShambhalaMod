@@ -1209,7 +1209,7 @@
 #school 5
 #researchlevel 0
 #restricted 230
-#onlyatsite "Closed Gates of Shambhala"
+#onlyatsite "Open Gates of Shambhala"
 #descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment." 
 #details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d6 white ones will join the cause."
 #path 0 4 -- Astral 
