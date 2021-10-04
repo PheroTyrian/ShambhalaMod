@@ -353,6 +353,7 @@
 #att 9
 #def 12
 #mor 9
+#stealth 0
 #forestshape 8956
 #clearweapons
 #weapon 29 -- Claw
@@ -372,6 +373,7 @@
 #att 9
 #def 12
 #mor 10
+#stealth 10
 #plainshape 8955
 #clearweapons
 #weapon 29 -- Claw
@@ -402,7 +404,7 @@
 #name "Chhma Ambusher"
 #descr "tmp"
 #plainshape 8957
-#stealthy 20
+#stealthy 10
 #skirmisher 1
 #clearweapons
 #weapon 922 -- Ph'kak
@@ -417,6 +419,7 @@
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp"
+#stealthy 0
 #forestshape 8960
 #clearweapons
 #weapon 934 -- Golok
@@ -431,6 +434,7 @@
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp"
+#stealthy 10
 #plainshape 8959
 #clearweapons
 #weapon 934 -- Golok
@@ -535,7 +539,7 @@
 #prec 13
 #mor 11
 #forestshape 8966
-#stealthy 0
+#stealthy 20
 #skirmisher 1
 #clearweapons
 #weapon 924 -- Karambit
@@ -560,7 +564,7 @@
 #prec 13
 #mor 12
 #plainshape 8965
-#stealthy 20
+#stealthy 30
 #skirmisher 1
 #clearweapons
 #weapon 924 -- Karambit
@@ -587,6 +591,7 @@
 #mor 11
 #swimming
 #swampsurvival
+#stealthy 0
 #forestshape 8968
 #clearweapons
 #weapon 3 -- Trident
@@ -611,6 +616,7 @@
 #mor 12
 #swimming
 #swampsurvival
+#stealthy 10
 #plainshape 8967
 #clearweapons
 #weapon 3 -- Trident
@@ -844,6 +850,7 @@
 #mor 12
 #swimming
 #swampsurvival
+#stealthy 0
 #forestshape 8979
 #clearweapons
 #weapon 679 -- Short Trident
@@ -868,6 +875,7 @@
 #mor 13
 #swimming
 #swampsurvival
+#stealthy 10
 #plainshape 8978
 #clearweapons
 #weapon 679 -- Short Trident
@@ -957,6 +965,7 @@
 #gcost 10015
 #mor 12
 #mr 16 -- +5
+#stealthy 0
 #forestshape 8985
 #poorleader
 #clearweapons
@@ -978,6 +987,7 @@
 #gcost 10015
 #mor 13
 #mr 16 -- +5
+#stealthy 10
 #plainshape 8984
 #poorleader
 #clearweapons
