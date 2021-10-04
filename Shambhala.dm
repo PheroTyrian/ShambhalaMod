@@ -1041,7 +1041,7 @@
 #name "Cap only 2"
 #descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity"
 #gcost 10030
-#rpcost 4 -- slow to recruit
+#rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
 #magicskill 8 2 -- Holy
