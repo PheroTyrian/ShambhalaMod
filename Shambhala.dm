@@ -1357,7 +1357,7 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #addsite 1679 -- Open Gates 
 #removesite 1678 -- Closed Gates
 #incscale3 4 -- misfortune increased by 3
-#4d6units 8973 -- Magic white one
+#4d3units 8973 -- Magic white one
 #req_pop0ok
 #end
 
@@ -1376,6 +1376,6 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #addsite 1678 -- Closed Gates 
 #removesite 1679 -- Open Gates
 #decscale3 4 -- misfortune decreased by 3
-#4d6units 8973 -- Magic white one
+#4d3units 8973 -- Magic white one
 #req_pop0ok
 #end
