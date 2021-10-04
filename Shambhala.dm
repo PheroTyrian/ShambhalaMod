@@ -31,6 +31,7 @@
 -- Same but 3% chances for rare dragon rider commander couplings
 -- Luck only spells that punish enemies in Shambhala's dom?
 -- Misfortune events that somehow encourage attacking enemies??
+-- Change gates site to mundane one if province is owned by an enemy
 
 -- Monster todos:
 -- Twiceborn shape for death mage
@@ -38,6 +39,7 @@
 -- Krasue
 -- Directional beasts
 -- Firearm cats
+-- Consider giving ambushers a promotion shape
 
 -- Weapons
 
@@ -202,6 +204,7 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
+#drawsize 20
 #gcost 12
 #rcost 1
 #rpcost 15
@@ -236,6 +239,7 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
+#drawsize 20
 #gcost 12
 #rcost 1
 #rpcost 15
@@ -552,9 +556,10 @@
 #newmonster 8966 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Chhma Hunter"
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
+#name "Chhma Hunter"
+#descr "tmp"
 #gcost 14
 #rpcost 20
 #hp 13
@@ -812,7 +817,7 @@
 #copystats 8952
 #spr1 "FourthAge_Shambhala/hunterCom_a.tga"
 #spr2 "FourthAge_Shambhala/hunterCom_b.tga"
-#name "Pack leader"
+#name "Pack Leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
 #rpcost 22
@@ -1046,7 +1051,7 @@
 #copyspr 1143 -- Guru
 #name "Cap only 1"
 #descr "Ascended monkey, has 4 arms and emits and aura of splendor"
-#gcost 10010
+#gcost 9090
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
@@ -1059,7 +1064,7 @@
 #awe 1
 #ambidextrous 4
 #airshield 60
-#maxage 150
+#maxage 200
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 15
 #mr 16
@@ -1095,7 +1100,7 @@
 #awe 3
 #ambidextrous 4
 #airshield 60
-#maxage 300
+#maxage 400
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 16
 #mr 18
