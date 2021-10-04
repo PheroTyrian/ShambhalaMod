@@ -946,7 +946,8 @@
 -- Anyfort FWE mage
 #newmonster 8984
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/sorcerer_a.tga"
+#spr2 "FourthAge_Shambhala/sorcerer_b.tga"
 #name "Sorcerer"
 #descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility"
 #magicskill 2 1 		-- W
@@ -966,7 +967,8 @@
 
 #newmonster 8985 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/sorcerer_a.tga"
+#spr2 "FourthAge_Shambhala/sorcerer_b.tga"
 #name "Sorcerer"
 #descr "tmp"
 #magicskill 2 1 		-- W
