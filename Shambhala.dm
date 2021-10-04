@@ -19,12 +19,8 @@
 
 -- National spell ideas and todos: (lim 16)
 -- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
--- Death boosting combat spell that withers the mage
--- Twiceborn shape for death mage
 -- Offensive curse luck spell
 -- Minor healing ritual for theming?
--- Open the gates 20S
--- Close the gates (look into if this can be the same spell)
 -- Asian noodle drakes summon
 -- Krasue summon
 -- Some other weird mythical stuff?
@@ -33,8 +29,15 @@
 -- Event todos:
 -- Noodle Drake + Maiden Guard => Dragon Guard in 2 luck at a chance (lim x per turn somehow)
 -- Same but 3% chances for rare dragon rider commander couplings
--- Luck only spells that punish enemies in Shambhala's dom
+-- Luck only spells that punish enemies in Shambhala's dom?
 -- Misfortune events that somehow encourage attacking enemies??
+
+-- Monster todos:
+-- Twiceborn shape for death mage
+-- Asian noodle drakes
+-- Krasue
+-- Directional beasts
+-- Firearm cats
 
 -- Weapons
 
@@ -178,6 +181,18 @@
 #newweapon 933
 #copyweapon 928 -- Open palm
 #bonus
+#end
+
+#newweapon 934
+#name "Golok"
+#len 1
+#att 1
+#def 0
+#dmg 5
+#slash
+#rcost 3
+#sound 8
+#ironweapon
 #end
 
 
@@ -404,7 +419,7 @@
 #descr "tmp"
 #forestshape 8960
 #clearweapons
-#weapon 921 -- Machete
+#weapon 934 -- Golok
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -418,91 +433,89 @@
 #descr "tmp"
 #plainshape 8959
 #clearweapons
-#weapon 921 -- Machete
+#weapon 934 -- Golok
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
 #end
 
--- Chhma Heavy Swordsman
-#newmonster 8961
-#copystats 8951
-#spr1 "FourthAge_Shambhala/heavysword_a.tga"
-#spr2 "FourthAge_Shambhala/heavysword_b.tga"
-#name "Sword Maiden"
-#descr "tmp"
-#gcost 15
-#rpcost 17
-#hp 13
-#bodyguard 1
-#mor 12
-#forestshape 8962
-#clearweapons
-#weapon 921 -- Machete
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
-#armor 2 -- Shield
-#female
-#end
-
-#newmonster 8962 -- fs
-#copystats 8952
-#spr1 "FourthAge_Shambhala/heavysword_a.tga"
-#spr2 "FourthAge_Shambhala/heavysword_b.tga"
-#name "Sword Maiden"
-#descr "tmp"
-#gcost 15
-#rpcost 17
-#hp 13
-#bodyguard 1
-#mor 13
-#plainshape 8961
-#clearweapons
-#weapon 921 -- Machete
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
-#armor 2 -- Shield
-#female
-#end
-
 -- Chhma Heavy Spearman
-#newmonster 8963
+#newmonster 8961
 #copystats 8951
 #spr1 "FourthAge_Shambhala/heavyspear_a.tga"
 #spr2 "FourthAge_Shambhala/heavyspear_b.tga"
-#name "Spear Maiden"
+#name "Shield bearer"
 #descr "tmp"
 #gcost 15
 #rpcost 17
 #hp 13
 #mor 12
-#bodyguard 1
-#forestshape 8964
+#att 11
+#forestshape 8962
 #clearweapons
 #weapon 1 -- Spear
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
 #armor 4 -- Tower shield
+#end
+
+#newmonster 8962 -- fs
+#copystats 8952
+#spr1 "FourthAge_Shambhala/heavyspear_a.tga"
+#spr2 "FourthAge_Shambhala/heavyspear_b.tga"
+#name "Shield bearer"
+#descr "tmp"
+#gcost 15
+#rpcost 17
+#hp 13
+#mor 13
+#att 11
+#plainshape 8961
+#clearweapons
+#weapon 1 -- Spear
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 4 -- Tower shield
+#end
+
+-- Chhma Heavy Swordsman
+#newmonster 8963
+#copystats 8951
+#spr1 "FourthAge_Shambhala/heavysword_a.tga"
+#spr2 "FourthAge_Shambhala/heavysword_b.tga"
+#name "Sword Maiden"
+#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female."
+#gcost 15
+#rpcost 17
+#hp 13
+#bodyguard 1
+#mor 12
+#forestshape 8964
+#clearweapons
+#weapon 921 -- Machete
+#armor 20 -- Iron Cap
+#armor 9 -- Plate Cuirass
+#armor 2 -- Shield
 #female
 #end
 
 #newmonster 8964 -- fs
 #copystats 8952
-#spr1 "FourthAge_Shambhala/heavyspear_a.tga"
-#spr2 "FourthAge_Shambhala/heavyspear_b.tga"
-#name "Spear Maiden"
-#descr "tmp"
+#spr1 "FourthAge_Shambhala/heavysword_a.tga"
+#spr2 "FourthAge_Shambhala/heavysword_b.tga"
+#name "Sword Maiden"
+#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female."
 #gcost 15
 #rpcost 17
 #hp 13
-#mor 13
 #bodyguard 1
+#mor 13
 #plainshape 8963
 #clearweapons
-#weapon 1 -- Spear
+#weapon 921 -- Machete
 #armor 20 -- Iron Cap
 #armor 9 -- Plate Cuirass
-#armor 4 -- Tower shield
+#armor 2 -- Shield
 #female
 #end
 
@@ -609,7 +622,7 @@
 #name "Domrey"
 #descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
 #drawsize -10
-#gcost 70
+#gcost 85
 #rcost 20
 #rpcost 35
 #hp 44
@@ -646,7 +659,7 @@
 #name "Chhma War Elephant"
 #descr "tmp"
 #drawsize -10
-#gcost 80
+#gcost 90
 #rcost 20
 #rpcost 35
 #hp 45
@@ -681,6 +694,7 @@
 -- White One arrow catcher
 #newmonster 8971
 #copystats 8953
+#copysprite 1124
 #name "Arrow Catcher"
 #descr "tmp"
 #copyspr 1145 -- Yogi
@@ -695,6 +709,7 @@
 -- White One schmuck
 #newmonster 8972
 #copystats 8953
+#copysprite 1142
 #name "Guy"
 #descr "tmp"
 #copyspr 1145 -- Yogi
@@ -707,6 +722,7 @@
 -- White One magic dude
 #newmonster 8973
 #copystats 8953
+#copysprite 1128
 #name "Stick guy"
 #descr "tmp"
 #copyspr 1145 -- Yogi
@@ -875,7 +891,7 @@
 -- Mage-Commander. Note: The random is different between the two shapes
 #newmonster 8982
 #copystats 8951
-#copyspr 8961
+#copyspr 8963
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #magicskill 0 1 -- Fire
@@ -898,7 +914,7 @@
 
 #newmonster 8983 -- fs
 #copystats 8952
-#copyspr 8961
+#copyspr 8964
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
 #magicskill 0 1 -- Fire
@@ -990,7 +1006,7 @@
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
 #gcost 10025
-#rpcost 4
+#rpcost 3
 #mor 12
 #mr 15 -- +4
 #stealthy 20
@@ -1193,7 +1209,7 @@
 #restricted 230
 #onlyatsite "Closed Gates of Shambhala"
 #descr "Open the gates of Shambhala, to bring enlightenment to the darkened corners of the world." 
-#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d6 white ones will join the cause."
+#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d3 white ones will join the cause."
 #path 0 4 -- Astral 
 #pathlevel 0 3
 #effect 10082
@@ -1211,7 +1227,7 @@
 #restricted 230
 #onlyatsite "Open Gates of Shambhala"
 #descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment." 
-#details "Spending additional gems does nothing. Shifts national misfortune boost to luck. 4d6 white ones will join the cause."
+#details "Spending additional gems does nothing. Shifts national misfortune boost to luck. 4d3 white ones will join the cause."
 #path 0 4 -- Astral 
 #pathlevel 0 3
 #effect 10082
