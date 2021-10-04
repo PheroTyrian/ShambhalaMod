@@ -999,7 +999,8 @@
 -- Death and stuff sneaky mage
 #newmonster 8986
 #copystats 8951
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/medium_a.tga"
+#spr2 "FourthAge_Shambhala/medium_b.tga"
 #name "Medium"
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
@@ -1020,7 +1021,8 @@
 
 #newmonster 8987 -- fs
 #copystats 8952
-#copyspr 8951
+#spr1 "FourthAge_Shambhala/medium_a.tga"
+#spr2 "FourthAge_Shambhala/medium_b.tga"
 #name "Medium"
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
