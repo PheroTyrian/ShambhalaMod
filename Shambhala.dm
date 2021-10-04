@@ -478,7 +478,7 @@
 #armor 4 -- Tower shield
 #end
 
--- Chhma Heavy Swordsman
+-- Chhma Heavy Swordsman, consider giving bad formation fighter?
 #newmonster 8963
 #copystats 8951
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
@@ -529,6 +529,7 @@
 #gcost 14
 #rpcost 20
 #hp 13
+#str 12
 #att 11
 #def 14
 #prec 13
@@ -553,6 +554,7 @@
 #gcost 14
 #rpcost 20
 #hp 13
+#str 12
 #att 11
 #def 14
 #prec 13
@@ -578,6 +580,7 @@
 #gcost 14
 #rpcost 20
 #hp 13
+#str 12
 #att 11
 #def 14
 #prec 13
@@ -601,6 +604,7 @@
 #gcost 14
 #rpcost 20
 #hp 13
+#str 12
 #att 11
 #def 14
 #prec 13
