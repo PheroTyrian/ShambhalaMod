@@ -783,7 +783,8 @@
 -- Stealthy Commander
 #newmonster 8976
 #copystats 8951
-#copyspr 8965
+#spr1 "FourthAge_Shambhala/hunterCom_a.tga"
+#spr2 "FourthAge_Shambhala/hunterCom_b.tga"
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -806,7 +807,8 @@
 
 #newmonster 8977 -- fs
 #copystats 8952
-#copyspr 8965
+#spr1 "FourthAge_Shambhala/hunterCom_a.tga"
+#spr2 "FourthAge_Shambhala/hunterCom_b.tga"
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -945,7 +947,7 @@
 #newmonster 8984
 #copystats 8951
 #copyspr 8951
-#name "Some Mage"
+#name "Sorcerer"
 #descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility"
 #magicskill 2 1 		-- W
 #custommagic 1152 100	-- FE random
@@ -965,7 +967,7 @@
 #newmonster 8985 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Some Mage"
+#name "Sorcerer"
 #descr "tmp"
 #magicskill 2 1 		-- W
 #custommagic 1152 100	-- FE random
@@ -986,7 +988,7 @@
 #newmonster 8986
 #copystats 8951
 #copyspr 8951
-#name "Some hard to mass Mage"
+#name "Medium"
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
@@ -1007,7 +1009,7 @@
 #newmonster 8987 -- fs
 #copystats 8952
 #copyspr 8951
-#name "Some hard to mass Mage"
+#name "Medium"
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
 #custommagic 9728 80	-- WEN random
