@@ -1,7 +1,7 @@
-#modname "The Fourth Age: Shambhala, Karmic Justice v0.03"
+#modname "The Fourth Age: Shambhala, Karmic Justice v0.04"
 #description "A nation of sacred monkeys and heathen cat people"
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
-#version 0.03
+#version 0.04
 
 -- Current research material:
 -- https://en.wikipedia.org/wiki/Asian_witchcraft
@@ -1201,7 +1201,7 @@
 #damage 650 -- enchantment code 650
 #end
 
--- Open the gates
+-- Close the gates
 #selectspell 2457
 #clear
 #copyspell 106
@@ -1249,7 +1249,6 @@
 #path 8
 #level 0
 #loc 735
-#gems 4 2
 #rarity 5
 #decunrest 2
 #wallunit 8971 -- Ranged Monke
@@ -1262,7 +1261,6 @@
 #path 8
 #level 0
 #loc 735
-#gems 4 2
 #rarity 5
 #decunrest -5
 #wallunit 8971 -- Ranged Monke
