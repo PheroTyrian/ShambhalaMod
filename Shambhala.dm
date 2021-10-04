@@ -1211,7 +1211,7 @@
 #restricted 230
 #onlyatsite "Open Gates of Shambhala"
 #descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment." 
-#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d6 white ones will join the cause."
+#details "Spending additional gems does nothing. Shifts national misfortune boost to luck. 4d6 white ones will join the cause."
 #path 0 4 -- Astral 
 #pathlevel 0 3
 #effect 10082
