@@ -757,7 +757,8 @@
 -- Scout
 #newmonster 8974
 #copystats 8965
-#copyspr 8965
+#spr1 "FourthAge_Shambhala/scout_a.tga"
+#spr2 "FourthAge_Shambhala/scout_b.tga"
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -768,6 +769,10 @@
 #prec 13
 #forestshape 8975
 #stealthy 20
+#clearweapons
+#weapon 924 -- Karambit
+#weapon 924 -- Karambit
+#weapon 34 -- Blow Pipe
 #cleararmor
 #armor 20 -- Iron Cap
 #armor 202 -- Cloth Armour
@@ -777,7 +782,8 @@
 
 #newmonster 8975 -- fs
 #copystats 8966
-#copyspr 8965
+#spr1 "FourthAge_Shambhala/scout_a.tga"
+#spr2 "FourthAge_Shambhala/scout_b.tga"
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -787,6 +793,10 @@
 #prec 13
 #plainshape 8974
 #stealthy 30
+#clearweapons
+#weapon 924 -- Karambit
+#weapon 924 -- Karambit
+#weapon 34 -- Blow Pipe
 #cleararmor
 #armor 20 -- Iron Cap
 #armor 202 -- Cloth Armour
