@@ -809,7 +809,7 @@
 #weapon 34 -- Blow Pipe
 #armor 120 -- Leather Cap
 #armor 203 -- Reinforced Cloth
-#armor 207 -- Wicker Shield
+#armor 2 -- Shield
 #forestshape 8977
 #end
 
@@ -833,7 +833,7 @@
 #weapon 34 -- Blow Pipe
 #armor 120 -- Leather Cap
 #armor 203 -- Reinforced Cloth
-#armor 207 -- Wicker Shield
+#armor 2 -- Shield
 #plainshape 8976
 #end
 
