@@ -823,7 +823,7 @@
 #clearweapons
 #weapon 921 -- Machete
 #weapon 34 -- Blow Pipe
-#armor 120 -- Leather Cap
+#armor 20 -- Iron Cap
 #armor 203 -- Reinforced Cloth
 #armor 2 -- Shield
 #forestshape 8977
@@ -847,7 +847,7 @@
 #clearweapons
 #weapon 921 -- Machete
 #weapon 34 -- Blow Pipe
-#armor 120 -- Leather Cap
+#armor 20 -- Iron Cap
 #armor 203 -- Reinforced Cloth
 #armor 2 -- Shield
 #plainshape 8976
@@ -977,7 +977,7 @@
 #spr1 "FourthAge_Shambhala/sorcerer_a.tga"
 #spr2 "FourthAge_Shambhala/sorcerer_b.tga"
 #name "Sorcerer"
-#descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility"
+#descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility, healing powers extend their lifespan"
 #magicskill 2 1 		-- W
 #custommagic 1152 100	-- FE random
 #custommagic 1152 100	-- FE random
@@ -985,6 +985,7 @@
 #gcost 10015
 #mor 12
 #mr 16 -- +5
+#maxage 60
 #stealthy 0
 #forestshape 8985
 #poorleader
@@ -999,7 +1000,7 @@
 #spr1 "FourthAge_Shambhala/sorcerer_a.tga"
 #spr2 "FourthAge_Shambhala/sorcerer_b.tga"
 #name "Sorcerer"
-#descr "tmp"
+#descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility, healing powers extend their lifespan"
 #magicskill 2 1 		-- W
 #custommagic 1152 100	-- FE random
 #custommagic 1152 100	-- FE random
@@ -1007,6 +1008,7 @@
 #gcost 10015
 #mor 13
 #mr 16 -- +5
+#maxage 60
 #stealthy 10
 #plainshape 8984
 #poorleader
