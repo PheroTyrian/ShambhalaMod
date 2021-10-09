@@ -426,7 +426,7 @@
 #stealthy 0
 #forestshape 8960
 #clearweapons
-#weapon 921 -- Machete
+#weapon 934 -- Golok
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -441,7 +441,7 @@
 #stealthy 10
 #plainshape 8959
 #clearweapons
-#weapon 921 -- Machete
+#weapon 934 -- Golok
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -1332,6 +1332,13 @@
 #era 3
 #name "Shambhala"
 #epithet "Karmic Justice"
+#descr ""
+#summary "Race: Chhma, agile halfmen native to dense jungles, sacred Vanara monks in capital. 
+Military: Lightly armoured stealthy infantry, medium armoured infantry, elephants. Sacred monks, some of which are extremely mobile.
+Magic: High astral in capital. Good access to Fire, Water, Earth and Nature. Limited Death. Some mage randoms change if recruited in Forests.
+Priests: Medium, but only Weak access outside of the Capital. Synecretic.
+Special: National luck scales are increased or decreased by 3 depending on Gate status, the Gate being open allows for powerful offensive rituals." -- Notice the string ends here and only here
+#brief "An isolationist nation turned empire of enlightened monks ruling over feline halfmen"
 #color 1 0.2 0.2
 #secondarycolor 0.4 0.6 1
 #flag "FourthAge_Shambhala/shambhala_flag.tga"
