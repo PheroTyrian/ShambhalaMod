@@ -1334,7 +1334,9 @@
 #era 3
 #name "Shambhala"
 #epithet "Karmic Justice"
-#descr ""
+#descr "In the ancient kingdom of Bandar Log, a wise Bandaraja chose to expel a sect of sun worshiping monks from his lands. He soon realised these were the best of his people and bid them return, but few did. The rest journeyed far to the east, to find a land shrouded in dense jungle, and within it a great temple complex tended by a curious race of feline halfmen called the Chhma. Installing themselves in these temples they erected great walls around the site, and began a many centuries long isolation from the world.
+
+Now, however, the world has declined into war and greed as was prophesied. The white ones of Shambhala end their isolation and rally the Chhma behind them. A powerful force stirs in the temple city. Soon the gates will swing open and from them will come an army to vanquish the dark forces and usher in a golden age of peace and enlightenment."
 #summary "Race: Chhma, agile halfmen native to dense jungles, sacred Vanara monks in capital. 
 Military: Lightly armoured stealthy infantry, medium armoured infantry, elephants. Sacred monks, some of which are extremely mobile.
 Magic: High astral in capital. Good access to Fire, Water, Earth and Nature. Limited Death. Some mage randoms change if recruited in Forests.
