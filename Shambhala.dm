@@ -362,7 +362,7 @@
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
-#weapon 23 -- Shortbow
+#weapon 264 -- Compbow
 #end
 
 #newmonster 8956 -- fs
@@ -382,7 +382,7 @@
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
-#weapon 23 -- Shortbow
+#weapon 264 -- Compbow
 #end
 
 -- Chhma Ambusher
@@ -426,7 +426,7 @@
 #stealthy 0
 #forestshape 8960
 #clearweapons
-#weapon 934 -- Golok
+#weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -441,7 +441,7 @@
 #stealthy 10
 #plainshape 8959
 #clearweapons
-#weapon 934 -- Golok
+#weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -768,6 +768,9 @@
 #prec 13
 #forestshape 8975
 #stealthy 20
+#cleararmor
+#armor 20 -- Iron Cap
+#armor 202 -- Cloth Armour
 #female
 #noleader
 #end
@@ -784,6 +787,9 @@
 #prec 13
 #plainshape 8974
 #stealthy 30
+#cleararmor
+#armor 20 -- Iron Cap
+#armor 202 -- Cloth Armour
 #female
 #noleader
 #end
