@@ -1067,7 +1067,7 @@
 #copyspr 1143 -- Guru
 #name "Solar Monk"
 #descr "Ascended monkey, has 4 arms and emits and aura of splendor"
-#gcost 9090
+#gcost 220
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
