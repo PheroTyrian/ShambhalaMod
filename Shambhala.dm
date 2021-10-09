@@ -1287,6 +1287,8 @@
 #gems 0 1
 #gems 6 1
 #rarity 5
+#wallunit 8971 -- Ranged Monke
+#wallmult 5
 #homemon 8971 -- Ranged One
 #homemon 8972 -- Martial Arts One
 #end
@@ -1309,8 +1311,6 @@
 #loc 735
 #rarity 5
 #decunrest 2
-#wallunit 8971 -- Ranged Monke
-#wallmult 5
 #goddommisfortune -3
 #end
 
@@ -1321,8 +1321,6 @@
 #loc 735
 #rarity 5
 #decunrest -5
-#wallunit 8971 -- Ranged Monke
-#wallmult 5
 #goddommisfortune 3
 #end
 
