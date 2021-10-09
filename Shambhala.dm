@@ -723,7 +723,7 @@
 -- White One schmuck
 #newmonster 8972
 #copystats 8953
-#name "Guy"
+#name "Samanera"
 #descr "tmp"
 #copyspr 1142
 #gcost 18
@@ -735,7 +735,7 @@
 -- White One magic dude
 #newmonster 8973
 #copystats 8953
-#name "Stick guy"
+#name "Bhikkhu"
 #descr "tmp"
 #copyspr 1128
 #gcost 25
@@ -1049,7 +1049,7 @@
 #newmonster 8988
 #copystats 8954 -- White One Com Base
 #copyspr 1143 -- Guru
-#name "Cap only 1"
+#name "Solar Monk"
 #descr "Ascended monkey, has 4 arms and emits and aura of splendor"
 #gcost 9090
 #magicskill 4 2 -- Astral
@@ -1080,7 +1080,7 @@
 #newmonster 8989
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
-#name "Cap only 2"
+#name "Bodhisattva"
 #descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity"
 #gcost 10030
 #rpcost 6 -- Very slow to recruit
@@ -1324,6 +1324,7 @@
 #fortera 3
 #likesterr 2
 #homerealm 8 -- India
+#homerealm 4 -- Far East
 #homerealm 10 -- Default
 #homefort 14
 #templepic 7 -- Southeast Indian
