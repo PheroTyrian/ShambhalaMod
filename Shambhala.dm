@@ -135,7 +135,6 @@
 #blunt
 #armorpiercing
 #halfstr
-#bonus
 #rcost 0
 #sound 7
 #end
@@ -1079,7 +1078,7 @@
 #prec 11
 #enc 2
 #float
-#awe 1
+#sunawe 1
 #ambidextrous 4
 #airshield 60
 #maxage 200
@@ -1099,8 +1098,8 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Bodhisattva"
-#descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity"
-#gcost 10030
+#descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity, has 6 arms, pretty crazy"
+#gcost 10080
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
@@ -1115,7 +1114,7 @@
 #enc 2
 #float
 #teleport
-#awe 3
+#sunawe 3
 #ambidextrous 4
 #airshield 60
 #maxage 400
