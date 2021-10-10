@@ -1,4 +1,4 @@
-#modname "The Fourth Age: Shambhala, Karmic Justice v0.10"
+#modname "The Fourth Age: Shambhala, Karmic Justice v0.11"
 #description "A nation of sacred monkeys and heathen cat people"
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
 #version 0.11
