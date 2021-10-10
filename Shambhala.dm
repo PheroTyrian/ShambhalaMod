@@ -390,7 +390,7 @@
 #spr1 "FourthAge_Shambhala/ambusher_a.tga"
 #spr2 "FourthAge_Shambhala/ambusher_b.tga"
 #name "Chhma Ambusher"
-#descr "tmp"
+#descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #forestshape 8958
 #stealthy 0
 #skirmisher 1
@@ -405,7 +405,7 @@
 #spr1 "FourthAge_Shambhala/ambusher_a.tga"
 #spr2 "FourthAge_Shambhala/ambusher_b.tga"
 #name "Chhma Ambusher"
-#descr "tmp"
+#descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #plainshape 8957
 #stealthy 10
 #skirmisher 1
@@ -421,7 +421,7 @@
 #spr1 "FourthAge_Shambhala/lightsword_a.tga"
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
-#descr "tmp"
+#descr "tmp. They wield golok, cutting blades that are essential tools for traversing dense jungle."
 #stealthy 0
 #forestshape 8960
 #clearweapons
@@ -436,7 +436,7 @@
 #spr1 "FourthAge_Shambhala/lightsword_a.tga"
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
-#descr "tmp"
+#descr "tmp. They wield golok, cutting blades that are essential tools for traversing dense jungle."
 #stealthy 10
 #plainshape 8959
 #clearweapons
@@ -491,7 +491,7 @@
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female."
+#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor"
 #gcost 15
 #rpcost 17
 #hp 13
@@ -511,7 +511,7 @@
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female."
+#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor"
 #gcost 15
 #rpcost 17
 #hp 13
@@ -532,7 +532,7 @@
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
-#descr "tmp"
+#descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws. Held in the palm with the blades pointing downward."
 #gcost 14
 #rpcost 20
 #hp 13
@@ -558,7 +558,7 @@
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
-#descr "tmp"
+#descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws. Held in the palm with the blades pointing downward."
 #gcost 14
 #rpcost 20
 #hp 13
