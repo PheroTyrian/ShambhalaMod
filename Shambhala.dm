@@ -1278,6 +1278,38 @@
 #damage 651 -- enchantment code 651
 #end
 
+-- Gate spell 1
+#selectspell 2458
+#clear
+#name ""
+#descr ""
+#onlyatsite "Open Gates of Shambhala"
+#end
+
+-- Gate spell 2
+#selectspell 2459
+#clear
+#name ""
+#descr ""
+#onlyatsite "Open Gates of Shambhala"
+#end
+
+-- Gate spell 3
+#selectspell 2460
+#clear
+#name ""
+#descr ""
+#onlyatsite "Open Gates of Shambhala"
+#end
+
+-- Gate spell 4
+#selectspell 2461
+#clear
+#name ""
+#descr ""
+#onlyatsite "Open Gates of Shambhala"
+#end
+
 -- Sites
 
 #newsite 1676
