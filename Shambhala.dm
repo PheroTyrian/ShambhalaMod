@@ -1317,7 +1317,7 @@
 #path 0 4 -- Astral 
 #pathlevel 0 3
 #effect 10082
-#fatiguecost 2000 -- 20 gems
+#fatiguecost 1500 -- 15 gems
 #damage 650 -- enchantment code 650
 #end
 
@@ -1331,45 +1331,45 @@
 #restricted 230
 #onlyatsite "Open Gates of Shambhala"
 #descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment." 
-#details "Spending additional gems does nothing. Shifts national misfortune boost to luck. 4d3 white ones will join the cause."
+#details "Spending additional gems does nothing. Shifts national misfortune boost to luck."
 #path 0 4 -- Astral 
 #pathlevel 0 3
 #effect 10082
-#fatiguecost 2000 -- 20 gems
+#fatiguecost 1500 -- 15 gems
 #damage 651 -- enchantment code 651
 #end
 
 -- Gate spell 1
-#selectspell 2458
-#clear
-#name ""
-#descr ""
-#onlyatsite "Open Gates of Shambhala"
-#end
+--#selectspell 2458
+--#clear
+--#name ""
+--#descr ""
+--#onlyatsite "Open Gates of Shambhala"
+--#end
 
 -- Gate spell 2
-#selectspell 2459
-#clear
-#name ""
-#descr ""
-#onlyatsite "Open Gates of Shambhala"
-#end
+--#selectspell 2459
+--#clear
+--#name ""
+--#descr ""
+--#onlyatsite "Open Gates of Shambhala"
+--#end
 
 -- Gate spell 3
-#selectspell 2460
-#clear
-#name ""
-#descr ""
-#onlyatsite "Open Gates of Shambhala"
-#end
+--#selectspell 2460
+--#clear
+--#name ""
+--#descr ""
+--#onlyatsite "Open Gates of Shambhala"
+--#end
 
 -- Gate spell 4
-#selectspell 2461
-#clear
-#name ""
-#descr ""
-#onlyatsite "Open Gates of Shambhala"
-#end
+--#selectspell 2461
+--#clear
+--#name ""
+--#descr ""
+--#onlyatsite "Open Gates of Shambhala"
+--#end
 
 -- Sites
 
