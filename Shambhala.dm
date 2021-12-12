@@ -1410,7 +1410,7 @@
 #goddommisfortune 3
 #homecom 8988 -- Smol Cap mage
 #homecom 8989 -- Big Cap mage
-#end1
+#end
 
 #newsite 1680
 #name "Ruins of the Gates"
