@@ -532,7 +532,7 @@
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
-#descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws. Held in the palm with the blades pointing downward."
+#descr "tmp. They wield karambit, concealable daggers that resemble tiger claws."
 #gcost 14
 #rpcost 20
 #hp 13
@@ -558,7 +558,7 @@
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
-#descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws. Held in the palm with the blades pointing downward."
+#descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws."
 #gcost 14
 #rpcost 20
 #hp 13
@@ -927,7 +927,7 @@
 #spr1 "FourthAge_Shambhala/noble_a.tga"
 #spr2 "FourthAge_Shambhala/noble_b.tga"
 #name "Chhma Noble"
-#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
+#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often adopt more traditional practices."
 #magicskill 0 1 -- Fire
 #custommagic 10240 100 -- SN random
 #gcost 90
@@ -951,7 +951,7 @@
 #spr1 "FourthAge_Shambhala/noble_a.tga"
 #spr2 "FourthAge_Shambhala/noble_b.tga"
 #name "Chhma Noble"
-#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. With the gates of Shambhala opening in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often take to more traditional practices."
+#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often adopt more traditional practices."
 #magicskill 0 1 -- Fire
 #custommagic 1536 100 -- WE random
 #gcost 90
@@ -1025,7 +1025,7 @@
 #name "Medium"
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
-#custommagic 9728 80	-- WEN random
+#custommagic 8832 80	-- FWN random
 #gcost 10015
 #rpcost 3
 #mor 11
@@ -1047,7 +1047,7 @@
 #name "Medium"
 #descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
 #magicskill 5 1 		-- D
-#custommagic 9728 80	-- WEN random
+#custommagic 8832 80	-- FWN random
 #gcost 10015
 #rpcost 3
 #mor 12
