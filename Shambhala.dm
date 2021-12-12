@@ -1,5 +1,5 @@
 #modname "The Fourth Age: Shambhala, Karmic Justice v0.12"
-#description "A nation of sacred monkeys and heathen cat people"
+#description "A nation of sacred monks and feline halfmen"
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
 #version 0.12
 
@@ -31,7 +31,6 @@
 -- Same but 3% chances for rare dragon rider commander couplings
 -- Luck only spells that punish enemies in Shambhala's dom?
 -- Misfortune events that somehow encourage attacking enemies??
--- Change gates site to mundane one if province is owned by an enemy
 
 -- Monster todos:
 -- Twiceborn shape for death mage
@@ -1100,7 +1099,7 @@
 #copyspr 1144 -- Rishi
 #name "Bodhisattva"
 #descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity, has 6 arms, pretty crazy"
-#gcost 10080
+#gcost 375
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
@@ -1136,7 +1135,7 @@
 #copyspr 1143 -- Guru
 #name "Sitting Monk"
 #descr "Still in isolation. This monk continues to sit in contemplation, awaiting the right time to act."
-#gcost 220
+#gcost 195
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
 #researchbonus 2
@@ -1166,7 +1165,7 @@
 #copyspr 1144 -- Rishi
 #name "Sitting Bodhisattva"
 #descr "Still in isolation. This being continues to sit in contemplation, awaiting the right time to act."
-#gcost 10080
+#gcost 325
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
