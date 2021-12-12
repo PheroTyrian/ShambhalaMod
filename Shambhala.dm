@@ -1072,6 +1072,7 @@
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
+#custommagic 10880 10 -- FWSN random
 #hp 15
 #att 12
 #def 12
@@ -1104,8 +1105,8 @@
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
 #magicskill 8 2 -- Holy
-#custommagic 10368 100 -- FSN random
 #custommagic 8320 100 -- FN random
+#custommagic 10880 100 -- FWSN random
 #custommagic 10880 10 -- FWSN random
 #hp 16
 #att 14
@@ -1129,8 +1130,69 @@
 #armor 158 -- Robes
 #end
 
+-- Cap only ascended mage immobile form
+#newmonster 8990
+#copystats 8954 -- White One Com Base
+#copyspr 1143 -- Guru
+#name "Sitting Monk"
+#descr "Still in isolation. This monk continues to sit in contemplation, awaiting the right time to act."
+#gcost 220
+#magicskill 4 2 -- Astral
+#magicskill 8 2 -- Holy
+#researchbonus 2
+#hp 15
+#att 12
+#def 12
+#prec 11
+#enc 2
+#immobile
+#unteleportable
+#sunawe 1
+#ambidextrous 4
+#airshield 60
+#maxage 200
+#itemslots 1 -- Nothing
+#mor 15
+#mr 16
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 931 -- Perfect Kick
+#armor 158 -- Robes
+#end
 
-
+-- Cap only even more ascended mage immobile form
+#newmonster 8991
+#copystats 8954 -- White One Com Base
+#copyspr 1144 -- Rishi
+#name "Sitting Bodhisattva"
+#descr "Still in isolation. This being continues to sit in contemplation, awaiting the right time to act."
+#gcost 10080
+#rpcost 6 -- Very slow to recruit
+#magicskill 4 3 -- Astral
+#magicskill 0 1 -- Fire
+#magicskill 8 2 -- Holy
+#researchbonus 4
+#hp 16
+#att 14
+#def 14
+#prec 13
+#enc 2
+#immobile
+#unteleportable
+#sunawe 3
+#ambidextrous 4
+#airshield 60
+#maxage 400
+#itemslots 1 -- Nothing
+#mor 16
+#mr 18
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 933 -- Open Palm
+#weapon 933 -- Open Palm
+#weapon 931 -- Perfect Kick
+#armor 158 -- Robes
+#end
 
 -- Combat Spells
 
@@ -1318,23 +1380,13 @@
 #level 0
 #loc 735
 #gems 0 1
+#gems 4 2
 #gems 6 1
 #rarity 5
 #wallunit 8971 -- Ranged Monke
 #wallmult 5
 #homemon 8971 -- Ranged One
 #homemon 8972 -- Martial Arts One
-#end
-
-#newsite 1677
-#name "The Five Towers"
-#path 8
-#level 0
-#loc 735
-#gems 4 2
-#rarity 5
-#homecom 8988 -- Smol Cap mage
-#homecom 8989 -- Big Cap mage
 #end
 
 #newsite 1678
@@ -1345,6 +1397,8 @@
 #rarity 5
 #decunrest 2
 #goddommisfortune -3
+#homecom 8990 -- Smol immobile Cap mage
+#homecom 8991 -- Big immobile Cap mage
 #end
 
 #newsite 1679
@@ -1355,6 +1409,25 @@
 #rarity 5
 #decunrest -5
 #goddommisfortune 3
+#homecom 8988 -- Smol Cap mage
+#homecom 8989 -- Big Cap mage
+#end1
+
+#newsite 1680
+#name "Ruins of the Gates"
+#path 5
+#level 0
+#loc 735
+#rarity 5
+#end
+
+#newsite 1681
+#name "Shambhala forest mages"
+#path 6
+#level 0
+#loc 735
+#rarity 5
+#homecom 8983 -- Chhma noble fs
 #end
 
 -- TODO add special pd and wall units to cap
@@ -1433,10 +1506,10 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 -- TODO Add Heros
 
 -- add magic sites that grant gem income and units as capital only benefits
-#startsite "City of Temples" -- 1 fire, 1 nature
-#startsite "The Five Towers" -- 2 astral
+#startsite "City of Temples" -- 1 fire, 1 nature, 2 astral
 #startsite "Closed Gates of Shambhala" -- Special mechanic site
 #futuresite "Open Gates of Shambhala" -- Other version of special mechanic site
+#futuresite "Shambhala forest mages"
 #end
 
 -- Events
@@ -1469,12 +1542,93 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #req_owncapital 1
 #req_freesites 1
 #req_site 1 -- Requires the site in square brackets in the description
-#msg "The gates of Shambhala close and the drums of war fall silent.
-Sensing the changing times, some reclusive monks have ended their contemplation to join you. [Open Gates of Shambhala]"
+#msg "The gates of Shambhala close and the drums of war fall silent. [Open Gates of Shambhala]"
 #nation -2 -- Event is owned by the province owner
 #addsite 1678 -- Closed Gates 
 #removesite 1679 -- Open Gates
 #decscale3 4 -- misfortune decreased by 3
-#4d3units 8973 -- Magic white one
 #req_pop0ok
+#end
+
+-- Remove the open gates if conquered by another nation
+#newevent
+#rarity 5
+#req_notfornation 230
+#req_freesites 1
+#req_site 1 -- Requires the site in square brackets in the description
+#msg "As your forces stormed the temple city they sundered the once mighty gates that stood there. [Open Gates of Shambhala]"
+#nation -2 -- Event is owned by the province owner
+#addsite 1680 -- Gates Ruins
+#removesite 1679 -- Open Gates
+#req_pop0ok
+#end
+
+-- Remove the closed gates if conquered by another nation
+#newevent
+#rarity 5
+#req_notfornation 230
+#req_freesites 1
+#req_site 1 -- Requires the site in square brackets in the description
+#msg "As your forces stormed the temple city they sundered the once mighty gates that stood there. [Closed Gates of Shambhala]"
+#nation -2 -- Event is owned by the province owner
+#addsite 1680 -- Gates Ruins
+#removesite 1678 -- Closed Gates
+#req_pop0ok
+#end
+
+-- Repair the gates if reconquered by Shambhala
+#newevent
+#rarity 5
+#req_owncapital 1
+#req_fullowner 230
+#req_fornation 230
+#req_freesites 1
+#req_site 1 -- Requires the site in square brackets in the description
+#msg "The temple city is returned to its rightful stewards. The gates have been repaired. [Ruins of the Gates]"
+#nation -2 -- Event is owned by the province owner
+#addsite 1679 -- Closed Gates
+#removesite 1680 -- Gates Ruins
+#req_pop0ok
+#end
+
+-- Replace a sitting monk with an awakened one
+#newevent
+#rarity 5
+#req_owncapital 1
+#req_fullowner 230
+#req_fornation 230
+#req_nositenbr 1678 -- Gates are not closed (so they're open)
+#req_monster 8990 -- Sitting Monk
+#killcom 8990
+#com 8988 -- Solar Monk
+#notext
+#nolog
+#end
+
+-- Replace a sitting monk with an awakened one number 2
+#newevent
+#rarity 5
+#req_owncapital 1
+#req_fullowner 230
+#req_fornation 230
+#req_nositenbr 1678 -- Gates are not closed (so they're open)
+#req_monster 8990 -- Sitting Monk
+#killcom 8990
+#com 8988 -- Solar Monk
+#notext
+#nolog
+#end
+
+-- Replace a sitting Bodhisattva with an awakened one
+#newevent
+#rarity 5
+#req_owncapital 1
+#req_fullowner 230
+#req_fornation 230
+#req_nositenbr 1678 -- Gates are not closed (so they're open)
+#req_monster 8991 -- Sitting Bodhisattva
+#killcom 8991
+#com 8989 -- Bodhisattva
+#notext
+#nolog
 #end
