@@ -1438,7 +1438,7 @@
 #selectspell 2461
 #clear
 #name "Send Emissary of the North"
-#descr " "
+#descr "Tmp description: The caster summons a divine Emissary of the Heavenly King of the North direction to a target province, where it will fight alongside your forces for a month before returning to the celestial sphere. Causes rain and mist to occur in battles."
 #school 4 -- Enchantment
 #researchlevel 4
 #path 0 4 -- Astral
@@ -1458,7 +1458,7 @@
 #selectspell 2462
 #clear
 #name "Send Emissary of the South"
-#descr " "
+#descr "Tmp description: The caster summons a divine Emissary of the Heavenly King of the South direction to a target province, where it will fight alongside your forces for a month before returning to the celestial sphere. Causes the wind to aid in the accuracy of missiles and spells in battles."
 #school 4 -- Enchantment
 #researchlevel 4
 #path 0 4 -- Astral
@@ -1478,7 +1478,7 @@
 #selectspell 2463
 #clear
 #name "Send Emissary of the East"
-#descr " "
+#descr "Tmp description: The caster summons a divine Emissary of the Heavenly King of the East direction to a target province, where it will fight alongside your forces for a month before returning to the celestial sphere. Plays divine music that alters the fates of allies in battle."
 #school 6 -- Enchantment
 #researchlevel 6
 #path 0 4 -- Astral
@@ -1498,7 +1498,7 @@
 #selectspell 2464
 #clear
 #name "Send Emissary of the West"
-#descr " "
+#descr "Tmp description: The caster summons a divine Emissary of the Heavenly King of the West direction to a target province, where it will fight alongside your forces for a month before returning to the celestial sphere. Causes those it fights against to be temporarily vulnerable at the start of combat."
 #school 6 -- Enchantment
 #researchlevel 6
 #path 0 4 -- Astral
@@ -1509,7 +1509,7 @@
 #fatiguecost 1200
 #effect 10037 -- Farsummon
 #provrange 8
-#farsumcom 8995 -- Eastern Emissary
+#farsumcom 8995 -- Western Emissary
 #nreff 0
 #damage 8995
 #end
