@@ -1357,7 +1357,6 @@
 #clear
 #copyspell 617 -- cheat fate
 #name "Protection of the East"
-#descr ""
 #school -1
 #fatiguecost 200
 #aoe 666 -- 100% of battlefield
@@ -1369,7 +1368,6 @@
 #clear
 #copyspell 617 -- cheat fate
 #name "Sight of the West"
-#descr ""
 #school -1
 #fatiguecost 200
 #aoe 666 -- 100% of battlefield
