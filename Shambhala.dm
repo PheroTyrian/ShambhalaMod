@@ -8,7 +8,7 @@
 -- https://en.wikipedia.org/wiki/Philippine_shamans
 -- and associated citations
 
--- IDs used:
+-- IDs reserved:
 -- Nation 230
 -- Units 8951-8999
 -- Weapons 921-950
@@ -1193,6 +1193,72 @@
 #armor 158 -- Robes
 #end
 
+-- Northern directional summon
+#newmonster 8992
+#copystats 1329 -- Yaksha
+#clearmagic
+#name "Emissary of the North"
+#descr "An envoy summoned for a single month from the retinue of Vessarana, the heavenly King of the North direction and ruler of rain. This divine emissary brings some of its kings rain, and the thick mist of the northern mountains."
+#gold 0
+#mapmove 0
+#ap 4
+#mr 18
+#morale 30
+#onebattlespell 518 -- mist
+#onebattlespell 510 -- rain
+#end
+
+-- Southern directional summon
+#newmonster 8993
+#copystats 1746 -- Anusara
+#clearmagic
+#name "Emissary of the South"
+#descr "An envoy summoned for a single month from the retinue of Virūlhaka, the heavenly King of the South direction and ruler of wind. This divine emissary calls blessed winds to aid the righteous."
+#gold 0
+#mapmove 0
+#ap 4
+#mr 18
+#morale 30
+#chaospower 0 -- to remove it from the chassis
+#onebattlespell 629 -- wind guide
+#end
+
+-- Eastern directional summon
+#newmonster 8994
+#copystats 1713 -- Devala
+#clearmagic
+#name "Emissary of the East"
+#descr "An envoy summoned for a single month from the retinue of Dhatarattha, the heavenly King of the East direction who has dominion over music. This divine emissary plays heavenly melodies that rewrite the fates of the faithful."
+#gold 0
+#mapmove 0
+#ap 4
+#mr 18
+#morale 30
+#onebattlespell 2456 -- Mass Twist Fate
+#end
+
+-- Eastern directional summon
+#newmonster 8995
+#copystats 1319 -- naga warrior
+#copyspr 1321 -- Nagarishi
+#clearmagic
+#cleararmor
+#clearweapons
+#name "Emissary of the West"
+#descr "An envoy summoned for a single month from the retinue of Virūpakkha, the heavenly King of the West direction who sees all. This divine emissary brings the sight of the West, revealing the weaknesses of the enemy to all the forces of the world for a brief time."
+#gold 0
+#hp 25
+#mapmove 0
+#ap 4
+#mr 18
+#morale 30
+#onebattlespell 2457 -- Mass Curse Luck
+#weapon 141 -- Poison spit
+#weapon 595 -- Hypnotise
+#weapon 256 -- Kryss
+#weapon 30 -- Venomous bite
+#end
+
 -- Combat Spells
 
 -- Power of the Self
@@ -1286,6 +1352,33 @@
 #restricted 230
 #end
 
+-- Battle wide Twist Fate
+#selectspell 2456
+#clear
+#copyspell 617 -- cheat fate
+#name "Protection of the East"
+#descr ""
+#school -1
+#fatiguecost 200
+#aoe 666 -- 100% of battlefiels
+#spec 12582912 -- UW OK, Only affects allies
+#end
+
+--Battle wide curse luck TODO: make this have the right effect
+#selectspell 2457
+#clear
+#copyspell 617 -- cheat fate
+#name "Sight of the West"
+#descr ""
+#school -1
+#fatiguecost 200
+#aoe 666 -- 100% of battlefiels
+#spec 17592194695168 -- UW OK, Only affects enemies, hard mr negates
+#end
+
+--
+--#selectspell 2458
+
 -- Disallow Power of the Spheres
 #selectspell 739
 #notfornation 230
@@ -1304,7 +1397,7 @@
 -- Ritual Spells
 
 -- Open the gates
-#selectspell 2456
+#selectspell 2459
 #clear
 #copyspell 106
 #name "Open the Gates"
@@ -1322,7 +1415,7 @@
 #end
 
 -- Close the gates
-#selectspell 2457
+#selectspell 2460
 #clear
 #copyspell 106
 #name "Close the Gates"
@@ -1340,36 +1433,46 @@
 #end
 
 -- Gate spell 1
---#selectspell 2458
---#clear
---#name ""
---#descr ""
---#onlyatsite "Open Gates of Shambhala"
---#end
-
--- Gate spell 2
---#selectspell 2459
---#clear
---#name ""
---#descr ""
---#onlyatsite "Open Gates of Shambhala"
---#end
-
--- Gate spell 3
---#selectspell 2460
---#clear
---#name ""
---#descr ""
---#onlyatsite "Open Gates of Shambhala"
---#end
-
--- Gate spell 4
 --#selectspell 2461
 --#clear
 --#name ""
 --#descr ""
+--#restricted 230
 --#onlyatsite "Open Gates of Shambhala"
+--#nogeodst 2060 -- no UW
 --#end
+
+-- Gate spell 2
+--#selectspell 2462
+--#clear
+--#name ""
+--#descr ""
+--#restricted 230
+--#onlyatsite "Open Gates of Shambhala"
+--#nogeodst 2060 -- no UW
+--#end
+
+-- Gate spell 3
+--#selectspell 2463
+--#clear
+--#name ""
+--#descr ""
+--#restricted 230
+--#onlyatsite "Open Gates of Shambhala"
+--#nogeodst 2060 -- no UW
+--#end
+
+-- Gate spell 4
+--#selectspell 2464
+--#clear
+--#name ""
+--#descr ""
+--#restricted 230
+--#onlyatsite "Open Gates of Shambhala"
+--#nogeodst 2060 -- no UW
+--#end
+
+
 
 -- Sites
 
