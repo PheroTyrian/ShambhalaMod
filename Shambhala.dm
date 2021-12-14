@@ -1639,7 +1639,7 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #req_pop0ok
 #end
 
--- Closing the gates, todo: create unique unit for this event, and give it a proper description
+-- Closing the gates
 #newevent
 #rarity 5
 #req_ench 651 -- A code pertaining to the spell Close the Gates
