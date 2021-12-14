@@ -1360,7 +1360,7 @@
 #descr ""
 #school -1
 #fatiguecost 200
-#aoe 666 -- 100% of battlefiels
+#aoe 666 -- 100% of battlefield
 #spec 12582912 -- UW OK, Only affects allies
 #end
 
@@ -1372,9 +1372,13 @@
 #descr ""
 #school -1
 #fatiguecost 200
-#aoe 666 -- 100% of battlefiels
-#spec 17592194695168 -- UW OK, Only affects enemies, hard mr negates
+#aoe 666 -- 100% of battlefield
+#effect 23 -- buff type 2
+#damage 4294967296 -- fools luck effect
+#spec 8654848 -- UW OK, MR negates, Only enemies
 #end
+
+--17592194695168 -- UW OK, Only affects enemies, hard mr negates
 
 --
 --#selectspell 2458
