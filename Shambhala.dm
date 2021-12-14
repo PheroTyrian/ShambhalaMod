@@ -1364,7 +1364,7 @@
 #spec 12582912 -- UW OK, Only affects allies
 #end
 
---Battle wide curse luck TODO: make this have the right effect
+--Battle wide curse luck
 #selectspell 2457
 #clear
 #copyspell 617 -- cheat fate
@@ -1373,14 +1373,12 @@
 #school -1
 #fatiguecost 200
 #aoe 666 -- 100% of battlefield
-#effect 23 -- buff type 2
-#damage 4294967296 -- fools luck effect
-#spec 8654848 -- UW OK, MR negates, Only enemies
+#effect 503 -- Curse luck for 4 turns
+#damage 255
+#spec 17592194695168 -- UW OK, hard MR negates, Only enemies
 #end
 
---17592194695168 -- UW OK, Only affects enemies, hard mr negates
 
---
 --#selectspell 2458
 
 -- Disallow Power of the Spheres
