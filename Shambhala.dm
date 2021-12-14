@@ -1203,7 +1203,7 @@
 #mapmove 0
 #ap 4
 #mr 18
-#morale 30
+#mor 30
 #onebattlespell 518 -- mist
 #onebattlespell 510 -- rain
 #end
@@ -1218,7 +1218,7 @@
 #mapmove 0
 #ap 4
 #mr 18
-#morale 30
+#mor 30
 #chaospower 0 -- to remove it from the chassis
 #onebattlespell 629 -- wind guide
 #end
@@ -1233,7 +1233,7 @@
 #mapmove 0
 #ap 4
 #mr 18
-#morale 30
+#mor 30
 #onebattlespell 2456 -- Mass Twist Fate
 #end
 
@@ -1251,7 +1251,7 @@
 #mapmove 0
 #ap 4
 #mr 18
-#morale 30
+#mor 30
 #onebattlespell 2457 -- Mass Curse Luck
 #weapon 141 -- Poison spit
 #weapon 595 -- Hypnotise
