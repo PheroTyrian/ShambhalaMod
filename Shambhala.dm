@@ -1379,7 +1379,7 @@
 #end
 
 
---#selectspell 2458
+--#selectspell 2458 reserved
 
 -- Disallow Power of the Spheres
 #selectspell 739
@@ -1435,44 +1435,84 @@
 #end
 
 -- Gate spell 1
---#selectspell 2461
---#clear
---#name ""
---#descr ""
---#restricted 230
---#onlyatsite "Open Gates of Shambhala"
---#nogeodst 2060 -- no UW
---#end
+#selectspell 2461
+#clear
+#name "Send Emissary of the North"
+#descr " "
+#school 4 -- Enchantment
+#researchlevel 4
+#path 0 4 -- Astral
+#pathlevel 0 3
+#restricted 230
+#onlyatsite "Open Gates of Shambhala"
+#nogeodst 2060 -- no UW
+#fatiguecost 600
+#effect 10037 -- Farsummon
+#provrange 8
+#farsumcom 8992 -- Northern Emissary
+#nreff 0
+#damage 8992
+#end
 
 -- Gate spell 2
---#selectspell 2462
---#clear
---#name ""
---#descr ""
---#restricted 230
---#onlyatsite "Open Gates of Shambhala"
---#nogeodst 2060 -- no UW
---#end
+#selectspell 2462
+#clear
+#name "Send Emissary of the South"
+#descr " "
+#school 4 -- Enchantment
+#researchlevel 4
+#path 0 4 -- Astral
+#pathlevel 0 3
+#restricted 230
+#onlyatsite "Open Gates of Shambhala"
+#nogeodst 2060 -- no UW
+#fatiguecost 600
+#effect 10037 -- Farsummon
+#provrange 8
+#farsumcom 8993 -- Southern Emissary
+#nreff 0
+#damage 8993
+#end
 
 -- Gate spell 3
---#selectspell 2463
---#clear
---#name ""
---#descr ""
---#restricted 230
---#onlyatsite "Open Gates of Shambhala"
---#nogeodst 2060 -- no UW
---#end
+#selectspell 2463
+#clear
+#name "Send Emissary of the East"
+#descr " "
+#school 6 -- Enchantment
+#researchlevel 6
+#path 0 4 -- Astral
+#pathlevel 0 3
+#restricted 230
+#onlyatsite "Open Gates of Shambhala"
+#nogeodst 2060 -- no UW
+#fatiguecost 1200
+#effect 10037 -- Farsummon
+#provrange 8
+#farsumcom 8994 -- Eastern Emissary
+#nreff 0
+#damage 8994
+#end
 
 -- Gate spell 4
---#selectspell 2464
---#clear
---#name ""
---#descr ""
---#restricted 230
---#onlyatsite "Open Gates of Shambhala"
---#nogeodst 2060 -- no UW
---#end
+#selectspell 2464
+#clear
+#name "Send Emissary of the West"
+#descr " "
+#school 6 -- Enchantment
+#researchlevel 6
+#path 0 4 -- Astral
+#pathlevel 0 3
+#restricted 230
+#onlyatsite "Open Gates of Shambhala"
+#nogeodst 2060 -- no UW
+#fatiguecost 1200
+#effect 10037 -- Farsummon
+#provrange 8
+#farsumcom 8995 -- Eastern Emissary
+#nreff 0
+#damage 8995
+#end
 
 
 
