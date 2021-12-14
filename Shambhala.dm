@@ -1401,7 +1401,7 @@
 #clear
 #copyspell 106
 #name "Open the Gates"
-#school 5
+#school 4 -- Enchantment
 #researchlevel 0
 #restricted 230
 #onlyatsite "Closed Gates of Shambhala"
@@ -1419,7 +1419,7 @@
 #clear
 #copyspell 106
 #name "Close the Gates"
-#school 5
+#school 4 -- Enchantment
 #researchlevel 0
 #restricted 230
 #onlyatsite "Open Gates of Shambhala"
@@ -1477,7 +1477,7 @@
 #clear
 #name "Send Emissary of the East"
 #descr "Tmp description: The caster summons a divine Emissary of the Heavenly King of the East direction to a target province, where it will fight alongside your forces for a month before returning to the celestial sphere. Plays divine music that alters the fates of allies in battle."
-#school 6 -- Enchantment
+#school 4 -- Enchantment
 #researchlevel 6
 #path 0 4 -- Astral
 #pathlevel 0 3
@@ -1497,7 +1497,7 @@
 #clear
 #name "Send Emissary of the West"
 #descr "Tmp description: The caster summons a divine Emissary of the Heavenly King of the West direction to a target province, where it will fight alongside your forces for a month before returning to the celestial sphere. Causes those it fights against to be temporarily vulnerable at the start of combat."
-#school 6 -- Enchantment
+#school 4 -- Enchantment
 #researchlevel 6
 #path 0 4 -- Astral
 #pathlevel 0 3
