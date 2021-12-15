@@ -355,7 +355,7 @@
 #att 9
 #def 12
 #mor 9
-#stealth 0
+#stealthy 0
 #forestshape 8956
 #clearweapons
 #weapon 29 -- Claw
@@ -375,7 +375,7 @@
 #att 9
 #def 12
 #mor 10
-#stealth 10
+#stealthy 10
 #plainshape 8955
 #clearweapons
 #weapon 29 -- Claw
@@ -1146,6 +1146,7 @@
 #enc 2
 #immobile
 #unteleportable
+#mapmove 0
 #sunawe 1
 #ambidextrous 4
 #airshield 60
@@ -1178,6 +1179,7 @@
 #enc 2
 #immobile
 #unteleportable
+#mapmove 0
 #sunawe 3
 #ambidextrous 4
 #airshield 60
@@ -1739,6 +1741,7 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #req_owncapital 1
 #req_fullowner 230
 #req_fornation 230
+#nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
 #req_monster 8990 -- Sitting Monk
 #killcom 8990
@@ -1753,6 +1756,7 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #req_owncapital 1
 #req_fullowner 230
 #req_fornation 230
+#nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
 #req_monster 8990 -- Sitting Monk
 #killcom 8990
@@ -1767,6 +1771,7 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #req_owncapital 1
 #req_fullowner 230
 #req_fornation 230
+#nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
 #req_monster 8991 -- Sitting Bodhisattva
 #killcom 8991
