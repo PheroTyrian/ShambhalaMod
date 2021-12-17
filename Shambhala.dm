@@ -1208,6 +1208,7 @@
 #ap 4
 #mr 18
 #mor 30
+#weapon 10 -- Falchion
 #weapon 24 -- Longbow
 #onebattlespell 2458 -- mist and rain
 #end
@@ -1226,6 +1227,7 @@
 #mr 18
 #mor 30
 #chaospower 0 -- to remove it from the chassis
+#weapon 12 -- Mace
 #weapon 24 -- Longbow
 #onebattlespell 629 -- wind guide
 #end
@@ -1244,6 +1246,7 @@
 #mr 18
 #mor 30
 #spreaddom 0 -- to remove domspreader
+#weapon 397 -- Kick
 #weapon 24 -- Longbow
 #onebattlespell 2456 -- Mass Twist Fate
 #end
