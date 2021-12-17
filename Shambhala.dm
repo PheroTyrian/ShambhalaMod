@@ -1586,8 +1586,8 @@
 
 Now, however, the world has declined into war and greed as was prophesied. The white ones of Shambhala end their isolation and rally the Chhma behind them. A powerful force stirs in the temple city. Soon the gates will swing open and from them will come an army to vanquish the dark forces and usher in a golden age of peace and enlightenment."
 #summary "Race: Chhma, agile halfmen native to dense jungles, sacred Vanara monks in capital. 
-Military: Light stealthy infantry, medium armoured infantry, elephants. Sacred monks, some of which are extremely mobile.
-Magic: High Astral. Good access to Fire, Water, Earth and Nature. Limited Death.
+Military: Light stealthy infantry, some armoured infantry, elephants. Sacred monks. Chhma hide themselves or others in forests.
+Magic: High Astral. Fire, Water, Earth and Nature. Limited Death.
 Priests: Medium, Synecretic.
 Special: National luck scales are increased or decreased by 3 depending on Gate status, the Gate being open allows for powerful offensive rituals." -- Notice the string ends here and only here
 #brief "An isolationist nation turned empire of enlightened monks ruling over feline halfmen"
