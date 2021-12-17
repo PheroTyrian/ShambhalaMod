@@ -1023,14 +1023,15 @@
 #spr1 "FourthAge_Shambhala/medium_a.tga"
 #spr2 "FourthAge_Shambhala/medium_b.tga"
 #name "Medium"
-#descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
+#descr "tmp. Shaman and Spirit medium, magical power is granted through spirit possession rather than innate magical power. Their practice challenges the teachings of the Monks and their services are only barely tolerated."
 #magicskill 5 1 		-- D
 #custommagic 8832 80	-- FWN random
-#gcost 10015
+#gcost 10010
 #rpcost 3
 #mor 11
 #mr 15 -- +4
 #stealthy 10
+#heretic 1
 #forestshape 8987
 #poorleader
 #clearweapons
@@ -1045,14 +1046,15 @@
 #spr1 "FourthAge_Shambhala/medium_a.tga"
 #spr2 "FourthAge_Shambhala/medium_b.tga"
 #name "Medium"
-#descr "tmp. Shaman, Spirit medium, magical power is granted through spirit possession rather than innate magical power"
+#descr "tmp. Shaman and Spirit medium, magical power is granted through spirit possession rather than innate magical power. Their practice challenges the teachings of the Monks and their services are only barely tolerated."
 #magicskill 5 1 		-- D
 #custommagic 8832 80	-- FWN random
-#gcost 10015
+#gcost 10010
 #rpcost 3
 #mor 12
 #mr 15 -- +4
 #stealthy 20
+#heretic 1
 #plainshape 8986
 #poorleader
 #clearweapons
@@ -1137,6 +1139,7 @@
 #name "Sitting Monk"
 #descr "Still in isolation. This monk continues to sit in contemplation, awaiting the right time to act."
 #gcost 195
+#addupkeep 25 -- To match awakened upkeep
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
 #researchbonus 2
@@ -1168,6 +1171,7 @@
 #name "Sitting Bodhisattva"
 #descr "Still in isolation. This being continues to sit in contemplation, awaiting the right time to act."
 #gcost 325
+#addupkeep 50 -- To match awakened upkeep
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
@@ -1190,8 +1194,8 @@
 #mr 18
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 933 -- Open Palm
-#weapon 933 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
 #end
