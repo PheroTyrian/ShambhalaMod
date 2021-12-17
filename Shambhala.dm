@@ -907,7 +907,7 @@
 #okleader
 #end
 
-#newmonster 8978 -- UW shape to reduce the effects of poor amph (+1 enc, -3 att and def, cs / 2)
+#newmonster 8980 -- UW shape to reduce the effects of poor amph (+1 enc, -3 att and def, cs / 2)
 #copystats 8951
 #spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
@@ -964,6 +964,7 @@
 #prec 13
 #mor 14
 #mr 14 -- +3
+#older -5 -- Younger by 5 years
 #forestshape 8983
 #clearweapons
 #weapon 922 -- Ph'kak
@@ -988,6 +989,7 @@
 #prec 13
 #mor 15
 #mr 14 -- +3
+#older -5 -- Younger by 5 years
 #plainshape 8982
 #clearweapons
 #weapon 922 -- Ph'kak
@@ -1013,6 +1015,7 @@
 #mr 16 -- +5
 #maxage 60
 #stealthy 0
+#older -5 -- Younger by 5 years
 #forestshape 8985
 #poorleader
 #clearweapons
@@ -1036,6 +1039,7 @@
 #mr 16 -- +5
 #maxage 60
 #stealthy 10
+#older -5 -- Younger by 5 years
 #plainshape 8984
 #poorleader
 #clearweapons
@@ -1059,6 +1063,7 @@
 #mr 15 -- +4
 #stealthy 10
 #heretic 1
+#older -5 -- Younger by 5 years
 #forestshape 8987
 #poorleader
 #clearweapons
@@ -1082,6 +1087,7 @@
 #mr 15 -- +4
 #stealthy 20
 #heretic 1
+#older -5 -- Younger by 5 years
 #plainshape 8986
 #poorleader
 #clearweapons
