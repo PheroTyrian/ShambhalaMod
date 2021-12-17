@@ -203,7 +203,7 @@
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
 #drawsize 20
-#gcost 12
+#gcost 14
 #rcost 1
 #rpcost 15
 #hp 12
@@ -238,7 +238,7 @@
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
 #drawsize 20
-#gcost 12
+#gcost 14
 #rcost 1
 #rpcost 15
 #hp 12
@@ -370,7 +370,7 @@
 #name "Chhma Militia"
 #descr "tmp"
 #gcost 10
-#rpcost 10
+#rpcost 8
 #hp 11
 #att 9
 #def 12
@@ -421,6 +421,7 @@
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp. They wield golok, cutting blades that are essential tools for traversing dense jungle."
+#rpcost 18 -- +3
 #stealthy 0
 #forestshape 8960
 #clearweapons
@@ -436,6 +437,7 @@
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp. They wield golok, cutting blades that are essential tools for traversing dense jungle."
+#rpcost 18 -- +3
 #stealthy 10
 #plainshape 8959
 #clearweapons
@@ -452,8 +454,8 @@
 #spr2 "FourthAge_Shambhala/heavyspear_b.tga"
 #name "Shield bearer"
 #descr "tmp"
-#gcost 15
-#rpcost 17
+#gcost 16 -- +2
+#rpcost 18 -- +3
 #hp 13
 #mor 12
 #att 11
@@ -471,8 +473,8 @@
 #spr2 "FourthAge_Shambhala/heavyspear_b.tga"
 #name "Shield bearer"
 #descr "tmp"
-#gcost 15
-#rpcost 17
+#gcost 16 -- +2
+#rpcost 18 -- +3
 #hp 13
 #mor 13
 #att 11
@@ -491,8 +493,8 @@
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
 #descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor"
-#gcost 15
-#rpcost 17
+#gcost 16 -- +2
+#rpcost 18 -- +3
 #hp 13
 #bodyguard 1
 #mor 12
@@ -511,8 +513,8 @@
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
 #descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor"
-#gcost 15
-#rpcost 17
+#gcost 16 -- +2
+#rpcost 18 -- +3
 #hp 13
 #bodyguard 1
 #mor 13
@@ -532,8 +534,8 @@
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
 #descr "tmp. They wield karambit, concealable daggers that resemble tiger claws."
-#gcost 14
-#rpcost 20
+#gcost 16 -- +2
+#rpcost 20 -- +5
 #hp 13
 #str 12
 #att 11
@@ -558,8 +560,8 @@
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
 #name "Chhma Hunter"
 #descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws."
-#gcost 14
-#rpcost 20
+#gcost 16 -- +2
+#rpcost 20 -- +5
 #hp 13
 #str 12
 #att 11
@@ -584,8 +586,8 @@
 #spr2 "FourthAge_Shambhala/spearfisher_b.tga"
 #name "Chhma Spearfisher"
 #descr "tmp"
-#gcost 14
-#rpcost 20
+#gcost 16 -- +2
+#rpcost 20 -- +5
 #hp 13
 #str 12
 #att 11
@@ -609,8 +611,8 @@
 #spr2 "FourthAge_Shambhala/spearfisher_b.tga"
 #name "Chhma Spearfisher"
 #descr "tmp"
-#gcost 14
-#rpcost 20
+#gcost 16 -- +2
+#rpcost 20 -- +5
 #hp 13
 #str 12
 #att 11
@@ -736,12 +738,11 @@
 #name "Bhikkhu"
 #descr "tmp"
 #copyspr 1128
-#gcost 25
+#gcost 20
 #rpcost 34
 #hp 12
 #att 13
 #def 13
-#reclimit 2
 #weapon 929 -- Staff of enc
 #weapon 931 -- Perfect Kick
 #armor 203 -- Reinforced Cloth
@@ -1066,7 +1067,7 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1143 -- Guru
 #name "Solar Monk"
-#descr "Ascended monkey, has 4 arms and emits and aura of splendor"
+#descr "A monk that has begun the process of attaining physical perfection, has 4 arms and emits and aura of splendor."
 #gcost 220
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
@@ -1098,7 +1099,7 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Bodhisattva"
-#descr "Ridiculously ascended monkey, travels by the Laws of Simultaneity, has 6 arms, pretty crazy"
+#descr "Ascended monkey, travels by the Laws of Simultaneity, has 6 arms and vast magical power."
 #gcost 375
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
@@ -1123,8 +1124,8 @@
 #mr 18
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 933 -- Open Palm
-#weapon 933 -- Open Palm
+#weapon 928 -- Open Palm
+#weapon 928 -- Open Palm
 #weapon 931 -- Perfect Kick
 #armor 158 -- Robes
 #end
