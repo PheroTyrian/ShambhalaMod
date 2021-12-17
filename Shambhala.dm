@@ -1206,8 +1206,7 @@
 #ap 4
 #mr 18
 #mor 30
-#onebattlespell 518 -- mist
-#onebattlespell 510 -- rain
+#onebattlespell 2458 -- mist and rain
 #end
 
 -- Southern directional summon
@@ -1378,8 +1377,13 @@
 #spec 17592194695168 -- UW OK, hard MR negates, Only enemies
 #end
 
-
---#selectspell 2458 reserved
+-- Mist and Rain
+#selectspell 2458
+#clear
+#copyspell 518 -- Mist
+#name "Mists of the North"
+#nextspell 510 -- Rain
+#end
 
 -- Disallow Power of the Spheres
 #selectspell 739
