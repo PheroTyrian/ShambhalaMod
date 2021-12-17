@@ -598,6 +598,7 @@
 #swampsurvival
 #stealthy 0
 #forestshape 8968
+#watershape 8996
 #clearweapons
 #weapon 3 -- Trident
 #weapon 452 -- Harpoon
@@ -623,6 +624,7 @@
 #swampsurvival
 #stealthy 10
 #plainshape 8967
+#watershape 8996
 #clearweapons
 #weapon 3 -- Trident
 #weapon 452 -- Harpoon
@@ -869,6 +871,7 @@
 #swampsurvival
 #stealthy 0
 #forestshape 8979
+#watershape 8980
 #clearweapons
 #weapon 679 -- Short Trident
 #weapon 452 -- Harpoon
@@ -894,6 +897,7 @@
 #swampsurvival
 #stealthy 10
 #plainshape 8978
+#watershape 8980
 #clearweapons
 #weapon 679 -- Short Trident
 #weapon 452 -- Harpoon
@@ -903,8 +907,33 @@
 #okleader
 #end
 
+#newmonster 8978 -- UW shape to reduce the effects of poor amph (+1 enc, -3 att and def, cs / 2)
+#copystats 8951
+#spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
+#name "Fishing Chief"
+#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armour of the spearfishers allows them to move and fight effectively underwater."
+#gcost 45
+#hp 14
+#att 14 -- +2
+#def 17 -- +2
+#prec 14
+#mor 12
+#ap 24 -- +10
+#swimming
+#swampsurvival
+#stealthy 0
+#landshape 8978
+#clearweapons
+#weapon 679 -- Short Trident
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#armor 207 -- Wicker Shield
+#okleader
+#end
+
 --Priest
-#newmonster 8980
+#newmonster 8981
 #copystats 8954 -- White One Com Base
 #copyspr 1145 -- Yogi
 #name "Itinerant Monk"
@@ -918,8 +947,6 @@
 #armor 158 -- Robes
 #magicskill 8 1 -- Holy
 #end
-
--- Note: 8981 unclaimed
 
 -- Mage-Commander. Note: The random is different between the two shapes
 #newmonster 8982
@@ -1256,7 +1283,7 @@
 #onebattlespell 2456 -- Mass Twist Fate
 #end
 
--- Eastern directional summon
+-- Western directional summon
 #newmonster 8995
 #copystats 1319 -- naga warrior
 #spr1 "FourthAge_Shambhala/1321_1.tga"
@@ -1278,6 +1305,34 @@
 #weapon 256 -- Kryss
 #weapon 30 -- Venomous bite
 #end
+
+-- Spearfisher UW shape
+#newmonster 8996
+#copystats 8951
+#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
+#name "Chhma Spearfisher"
+#descr "tmp"
+#gcost 16
+#rpcost 20
+#hp 13
+#str 12
+#att 13 -- +2
+#def 16 -- +2
+#prec 13
+#mor 11
+#ap 24 -- +10
+#swimming
+#swampsurvival
+#stealthy 0
+#landshape 8967
+#clearweapons
+#weapon 3 -- Trident
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#end
+
+
 
 -- Combat Spells
 
@@ -1650,7 +1705,7 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #addreccom 8976		-- Stealthy Com
 #forestcom 8976
 #coastcom1 8978		-- Coast Com
-#addreccom 8980		-- Priest
+#addreccom 8981		-- Priest
 #addreccom 8982		-- Noble
 #addreccom 8984		-- Mage1
 #addreccom 8986		-- Mage2
@@ -1658,7 +1713,7 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #defcom1 8976 		-- Chhma pack leader
 #defunit1 8955 		-- Chhma militia
 #defunit1b 8959 	-- Chhma light infantry
-#defcom2 8980		-- Chhma noble
+#defcom2 8982		-- Chhma noble
 #defunit2 8963		-- Chhma heavy spearmen
 #defmult1 12
 #defmult1b 12
