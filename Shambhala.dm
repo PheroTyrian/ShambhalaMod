@@ -1198,8 +1198,8 @@
 -- Northern directional summon
 #newmonster 8992
 #copystats 1329 -- Yaksha
-#spr1 "FourthAge_Shambhala/Yaksha_Idle.png"
-#spr2 "FourthAge_Shambhala/Yaksha_Attack.png"
+#spr1 "FourthAge_Shambhala/1329_1.tga"
+#spr2 "FourthAge_Shambhala/1329_2.tga"
 #clearmagic
 #name "Emissary of the North"
 #descr "An envoy summoned for a single month from the retinue of Vessarana, the heavenly King of the North direction and ruler of rain. This divine emissary brings some of its kings rain, and the thick mist of the northern mountains."
@@ -1215,8 +1215,8 @@
 -- Southern directional summon
 #newmonster 8993
 #copystats 1746 -- Anusara
-#spr1 "FourthAge_Shambhala/Anusara_Idle.png"
-#spr2 "FourthAge_Shambhala/Anusara_Attack.png"
+#spr1 "FourthAge_Shambhala/1746_1.tga"
+#spr2 "FourthAge_Shambhala/1746_2.tga"
 #clearmagic
 #name "Emissary of the South"
 #descr "An envoy summoned for a single month from the retinue of Virūlhaka, the heavenly King of the South direction and ruler of wind. This divine emissary calls blessed winds to aid the righteous."
@@ -1233,8 +1233,8 @@
 -- Eastern directional summon
 #newmonster 8994
 #copystats 1713 -- Devala
-#spr1 "FourthAge_Shambhala/Devala_Idle.png"
-#spr2 "FourthAge_Shambhala/Devala_Attack.png"
+#spr1 "FourthAge_Shambhala/1713_1.tga"
+#spr2 "FourthAge_Shambhala/1713_2.tga"
 #clearmagic
 #name "Emissary of the East"
 #descr "An envoy summoned for a single month from the retinue of Dhatarattha, the heavenly King of the East direction who has dominion over music. This divine emissary plays heavenly melodies that rewrite the fates of the faithful."
@@ -1251,8 +1251,8 @@
 -- Eastern directional summon
 #newmonster 8995
 #copystats 1319 -- naga warrior
-#spr1 "FourthAge_Shambhala/Nagarishi_Idle.png"
-#spr2 "FourthAge_Shambhala/Nagarishi_Attack.png"
+#spr1 "FourthAge_Shambhala/1321_1.tga"
+#spr2 "FourthAge_Shambhala/1321_2.tga"
 #clearmagic
 #cleararmor
 #clearweapons
