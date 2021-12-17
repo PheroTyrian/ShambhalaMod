@@ -1312,7 +1312,7 @@
 #spr1 "FourthAge_Shambhala/spearfisher_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisher_b.tga"
 #name "Chhma Spearfisher"
-#descr "tmp"
+#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armour of the spearfishers allows them to move and fight effectively underwater."
 #gcost 16
 #rpcost 20
 #hp 13
