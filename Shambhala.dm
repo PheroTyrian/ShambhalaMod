@@ -29,8 +29,8 @@
 -- Event todos:
 -- Noodle Drake + Maiden Guard => Dragon Guard in 2 luck at a chance (lim x per turn somehow)
 -- Same but 3% chances for rare dragon rider commander couplings
--- Luck only spells that punish enemies in Shambhala's dom?
--- Misfortune events that somehow encourage attacking enemies??
+-- Luck only spells that push the narrative of the nation
+-- Misfortune events involving assassinations and province conquering attempts
 
 -- Monster todos:
 -- Twiceborn shape for death mage
@@ -932,10 +932,10 @@
 #custommagic 10240 100 -- SN random
 #gcost 90
 #hp 14
-#att 11
-#def 14
+#att 12
+#def 15
 #prec 13
-#mor 13
+#mor 14
 #mr 14 -- +3
 #forestshape 8983
 #clearweapons
@@ -956,10 +956,10 @@
 #custommagic 1536 100 -- WE random
 #gcost 90
 #hp 14
-#att 11
-#def 14
+#att 12
+#def 15
 #prec 13
-#mor 14
+#mor 15
 #mr 14 -- +3
 #plainshape 8982
 #clearweapons
