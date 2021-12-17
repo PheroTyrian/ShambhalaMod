@@ -981,7 +981,7 @@
 #custommagic 1152 100	-- FE random
 #custommagic 1152 100	-- FE random
 #custommagic 512 50		-- 50% W
-#gcost 10015
+#gcost 10035
 #mor 12
 #mr 16 -- +5
 #maxage 60
@@ -1004,7 +1004,7 @@
 #custommagic 1152 100	-- FE random
 #custommagic 1152 100	-- FE random
 #custommagic 512 50		-- 50% W
-#gcost 10015
+#gcost 10035
 #mor 13
 #mr 16 -- +5
 #maxage 60
