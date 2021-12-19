@@ -59,10 +59,9 @@
 #twohanded
 #len 2
 #att 2
-#def 1
-#dmg 8
+#dmg 9
 #slash
-#rcost 5
+#rcost 4
 #sound 10
 #ironweapon
 #end
