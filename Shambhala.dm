@@ -61,7 +61,7 @@
 #att 2
 #dmg 9
 #slash
-#rcost 4
+#rcost 3
 #sound 10
 #ironweapon
 #end
@@ -204,7 +204,7 @@
 #drawsize 20
 #gcost 14
 #rcost 1
-#rpcost 15
+#rpcost 13
 #hp 12
 #str 11
 #att 10
@@ -239,7 +239,7 @@
 #drawsize 20
 #gcost 14
 #rcost 1
-#rpcost 15
+#rpcost 13
 #hp 12
 #str 11
 #att 10
@@ -391,7 +391,7 @@
 #descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #forestshape 8958
 #stealthy 0
-#skirmisher 1
+#skirmisher 2
 #clearweapons
 #weapon 922 -- Ph'kak
 #armor 249 -- Cloth headpiece
@@ -406,7 +406,7 @@
 #descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #plainshape 8957
 #stealthy 10
-#skirmisher 1
+#skirmisher 2
 #clearweapons
 #weapon 922 -- Ph'kak
 #armor 249 -- Cloth headpiece
@@ -419,12 +419,12 @@
 #spr1 "FourthAge_Shambhala/lightsword_a.tga"
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
-#descr "tmp. They wield golok, cutting blades that are essential tools for traversing dense jungle."
+#descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #rpcost 18 -- +3
 #stealthy 0
 #forestshape 8960
 #clearweapons
-#weapon 934 -- Golok
+#weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -435,12 +435,12 @@
 #spr1 "FourthAge_Shambhala/lightsword_a.tga"
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
-#descr "tmp. They wield golok, cutting blades that are essential tools for traversing dense jungle."
+#descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #rpcost 18 -- +3
 #stealthy 10
 #plainshape 8959
-#clearweapons
-#weapon 934 -- Golok
+#clearweaponsnn
+#weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
 #armor 2 -- Shield
@@ -491,7 +491,7 @@
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor"
+#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #gcost 16 -- +2
 #rpcost 18 -- +3
 #hp 13
@@ -511,7 +511,7 @@
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor"
+#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #gcost 16 -- +2
 #rpcost 18 -- +3
 #hp 13
@@ -822,7 +822,7 @@
 #female
 #clearweapons
 #weapon 921 -- Machete
-#weapon 34 -- Blow Pipe
+#weapon 264 -- Composite Bow
 #armor 20 -- Iron Cap
 #armor 203 -- Reinforced Cloth
 #armor 2 -- Shield
@@ -846,7 +846,7 @@
 #female
 #clearweapons
 #weapon 921 -- Machete
-#weapon 34 -- Blow Pipe
+#weapon 264 -- Composite Bow
 #armor 20 -- Iron Cap
 #armor 203 -- Reinforced Cloth
 #armor 2 -- Shield
@@ -1174,7 +1174,8 @@
 #addupkeep 25 -- To match awakened upkeep
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
-#researchbonus 2
+#custommagic 10368 100 -- FSN random
+#custommagic 10880 10 -- FWSN random
 #hp 15
 #att 12
 #def 12
@@ -1208,7 +1209,9 @@
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
 #magicskill 8 2 -- Holy
-#researchbonus 4
+#custommagic 8320 100 -- FN random
+#custommagic 10880 100 -- FWSN random
+#custommagic 10880 10 -- FWSN random
 #hp 16
 #att 14
 #def 14
@@ -1813,12 +1816,12 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #req_site 1 -- Requires the site in square brackets in the description
 #msg "The temple city is returned to its rightful stewards. The gates have been repaired. [Ruins of the Gates]"
 #nation -2 -- Event is owned by the province owner
-#addsite 1679 -- Closed Gates
+#addsite 1678 -- Closed Gates
 #removesite 1680 -- Gates Ruins
 #req_pop0ok
 #end
 
--- Replace a sitting monk with an awakened one
+-- Transform a sitting monk into an awakened one
 #newevent
 #rarity 5
 #req_owncapital 1
@@ -1827,13 +1830,12 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
 #req_monster 8990 -- Sitting Monk
-#killcom 8990
-#com 8988 -- Solar Monk
+#transform 8988 -- Solar Monk
 #notext
 #nolog
 #end
 
--- Replace a sitting monk with an awakened one number 2
+-- Transform a sitting monk into an awakened one 2
 #newevent
 #rarity 5
 #req_owncapital 1
@@ -1842,13 +1844,12 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
 #req_monster 8990 -- Sitting Monk
-#killcom 8990
-#com 8988 -- Solar Monk
+#transform 8988 -- Solar Monk
 #notext
 #nolog
 #end
 
--- Replace a sitting Bodhisattva with an awakened one
+-- Transform a sitting Bodhisattva to an awakened one
 #newevent
 #rarity 5
 #req_owncapital 1
@@ -1857,8 +1858,7 @@ Sensing the changing times, some reclusive monks have ended their contemplation 
 #nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
 #req_monster 8991 -- Sitting Bodhisattva
-#killcom 8991
-#com 8989 -- Bodhisattva
+#transform 8989 -- Bodhisattva
 #notext
 #nolog
 #end
