@@ -641,8 +641,8 @@
 #gcost 85
 #rcost 20
 #rpcost 35
-#hp 44
-#str 18
+#hp 48
+#str 17
 #att 10
 #def 9
 #prec 10
@@ -658,7 +658,7 @@
 #weapon 923 -- Double Crossbow
 #armor 144 -- Elephant Barding
 #quadruped
-#itemslots 28672
+#itemslots 290816 -- crown and 3 misc
 #maxage 50
 #forestsurvival
 #okleader
@@ -678,8 +678,8 @@
 #gcost 90
 #rcost 20
 #rpcost 35
-#hp 45
-#str 18
+#hp 49
+#str 17
 #att 10
 #def 9
 #prec 10
@@ -697,7 +697,7 @@
 #weapon 925 -- Longspear
 #armor 144 -- Elephant Barding
 #quadruped
-#itemslots 28672
+#itemslots 290816 -- crown and 3 misc
 #maxage 50
 #forestsurvival
 #okleader
