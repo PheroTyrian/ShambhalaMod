@@ -390,6 +390,7 @@
 #name "Chhma Ambusher"
 #descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #forestshape 8958
+#rpcost 12 -- -3
 #stealthy 0
 #skirmisher 2
 #clearweapons
@@ -405,6 +406,7 @@
 #name "Chhma Ambusher"
 #descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #plainshape 8957
+#rpcost 12 -- -3
 #stealthy 10
 #skirmisher 2
 #clearweapons
@@ -420,14 +422,13 @@
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
-#rpcost 18 -- +3
 #stealthy 0
 #forestshape 8960
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
-#armor 2 -- Shield
+#armor 1 -- Buckler
 #end
 
 #newmonster 8960 -- fs
@@ -436,14 +437,13 @@
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
 #name "Chhma Light Swordsman"
 #descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
-#rpcost 18 -- +3
 #stealthy 10
 #plainshape 8959
 #clearweaponsnn
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth Armour
-#armor 2 -- Shield
+#armor 1 -- Buckler
 #end
 
 -- Chhma Heavy Spearman
@@ -1493,8 +1493,8 @@
 #researchlevel 0
 #restricted 230
 #onlyatsite "Closed Gates of Shambhala"
-#descr "Open the gates of Shambhala, to bring enlightenment to the darkened corners of the world." 
-#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d3 white ones will join the cause."
+#descr "Open the gates of Shambhala, to bring enlightenment to the darkened corners of the world. Gradually sitting monks will end their isolation and join the war directly, and even those in the more distant enclaves shall be roused enough to fight." 
+#details "Spending additional gems does nothing. Shifts national luck boost to misfortune. 4d3 white ones with magical weapons will join the cause."
 #path 0 4 -- Astral 
 #pathlevel 0 3
 #effect 10082
@@ -1511,7 +1511,7 @@
 #researchlevel 0
 #restricted 230
 #onlyatsite "Open Gates of Shambhala"
-#descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment." 
+#descr "Close the gates of Shambhala, to correct the karmic balance and better pursue enlightenment. Newly recruited monks shall focus on study and contemplation." 
 #details "Spending additional gems does nothing. Shifts national misfortune boost to luck."
 #path 0 4 -- Astral 
 #pathlevel 0 3
@@ -1754,7 +1754,7 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #req_freesites 1
 #req_site 1 -- Requires the site in square brackets in the description
 #msg "The gates of Shambhala open in conquest!
-Sensing the changing times, some reclusive monks have ended their contemplation to join you. [Closed Gates of Shambhala]"
+Sensing the changing times, some reclusive and powerful monks have ended their contemplation to join you. [Closed Gates of Shambhala]"
 #nation -2 -- Event is owned by the province owner
 #addsite 1679 -- Open Gates 
 #removesite 1678 -- Closed Gates
