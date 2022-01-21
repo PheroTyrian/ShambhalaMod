@@ -40,7 +40,7 @@
 -- Firearm cats
 -- Consider giving ambushers a promotion shape
 
--- Weapons
+--## Weapons
 
 #newweapon 921
 #name "Machete"
@@ -162,14 +162,15 @@
 #end
 
 #newweapon 931
-#name "Perfect Kick"
-#len 0
-#att 0
-#def 1
-#dmg 1
-#blunt
-#sound 10
-#bonus
+#name "Golok"
+#len 1
+#att 1
+#def 0
+#dmg 5
+#slash
+#rcost 3
+#sound 8
+#ironweapon
 #end
 
 #newweapon 932
@@ -182,20 +183,8 @@
 #bonus
 #end
 
-#newweapon 934
-#name "Golok"
-#len 1
-#att 1
-#def 0
-#dmg 5
-#slash
-#rcost 3
-#sound 8
-#ironweapon
-#end
-
-
--- Units
+--~~
+--## Units
 
 #newmonster 8951 -- Base chhma shape
 #name "Chhma"
@@ -338,8 +327,6 @@
 #nametype 129
 #holy
 #end
-
---
 
 -- Chhma militia archers
 #newmonster 8955
@@ -716,7 +703,7 @@
 #gcost 18
 #airshield 60
 #weapon 928 -- Open Palm
-#weapon 928 -- Open Palm
+#weapon 397 -- Kick
 #weapon 360 -- Sticks and stones
 #armor 158 -- Robes
 #end
@@ -729,7 +716,7 @@
 #copyspr 1142
 #gcost 18
 #weapon 7 -- Quarterstaff
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 158 -- Robes
 #end
 
@@ -745,14 +732,38 @@
 #att 13
 #def 13
 #weapon 929 -- Staff of enc
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 203 -- Reinforced Cloth
 #end -- Should maybe give skull amulet as well?
 
+-- Spearfisher UW shape
+#newmonster 8996
+#copystats 8951
+#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
+#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
+#name "Chhma Spearfisher"
+#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armour of the spearfishers allows them to move and fight effectively underwater."
+#gcost 16
+#rpcost 20
+#hp 13
+#str 12
+#att 13 -- +2
+#def 16 -- +2
+#prec 13
+#mor 11
+#ap 24 -- +10
+#swimming
+#swampsurvival
+#stealthy 0
+#landshape 8967
+#clearweapons
+#weapon 3 -- Trident
+#armor 152 -- Sharkskin Cap
+#armor 188 -- Sharkskin Cuirass
+#end
 
-
-
--- Commanders
+--~~
+--## Commanders
 
 -- Scout
 #newmonster 8974
@@ -942,7 +953,7 @@
 #mor 14
 #mr 14
 #weapon 7 -- Quarterstaff
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 158 -- Robes
 #magicskill 8 1 -- Holy
 #end
@@ -1101,8 +1112,8 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1143 -- Guru
 #name "Solar Monk"
-#descr "A monk that has begun the process of attaining physical perfection, has 4 arms and emits and aura of splendor."
-#gcost 220
+#descr "A monk that has begun the process of attaining physical perfection, emits and aura of splendor."
+#gcost 200
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
@@ -1113,18 +1124,15 @@
 #prec 11
 #enc 2
 #float
-#sunawe 1
+#sunawe 2
 #ambidextrous 4
 #airshield 60
 #maxage 200
-#itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 15
 #mr 16
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 928 -- Open Palm
-#weapon 928 -- Open Palm
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 158 -- Robes
 #end
 
@@ -1133,7 +1141,7 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Bodhisattva"
-#descr "Ascended monkey, travels by the Laws of Simultaneity, has 6 arms and vast magical power."
+#descr "Ascended monkey, travels by the Laws of Simultaneity, has 4 arms and vast magical power."
 #gcost 375
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
@@ -1149,7 +1157,7 @@
 #enc 2
 #float
 #teleport
-#sunawe 3
+#sunawe 4
 #ambidextrous 4
 #airshield 60
 #maxage 400
@@ -1160,7 +1168,7 @@
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 158 -- Robes
 #end
 
@@ -1170,7 +1178,7 @@
 #copyspr 1143 -- Guru
 #name "Sitting Monk"
 #descr "Still in isolation. This monk continues to sit in contemplation, awaiting the right time to act."
-#gcost 195
+#gcost 180
 #addupkeep 25 -- To match awakened upkeep
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
@@ -1184,16 +1192,15 @@
 #immobile
 #unteleportable
 #mapmove 0
-#sunawe 1
+#sunawe 2
 #ambidextrous 4
 #airshield 60
 #maxage 200
-#itemslots 1 -- Nothing
 #mor 15
 #mr 16
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 158 -- Robes
 #end
 
@@ -1220,18 +1227,18 @@
 #immobile
 #unteleportable
 #mapmove 0
-#sunawe 3
+#sunawe 4
 #ambidextrous 4
 #airshield 60
 #maxage 400
-#itemslots 1 -- Nothing
+#itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 16
 #mr 18
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
-#weapon 931 -- Perfect Kick
+#weapon 397 -- Kick
 #armor 158 -- Robes
 #end
 
@@ -1314,35 +1321,8 @@
 #weapon 30 -- Venomous bite
 #end
 
--- Spearfisher UW shape
-#newmonster 8996
-#copystats 8951
-#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
-#name "Chhma Spearfisher"
-#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armour of the spearfishers allows them to move and fight effectively underwater."
-#gcost 16
-#rpcost 20
-#hp 13
-#str 12
-#att 13 -- +2
-#def 16 -- +2
-#prec 13
-#mor 11
-#ap 24 -- +10
-#swimming
-#swampsurvival
-#stealthy 0
-#landshape 8967
-#clearweapons
-#weapon 3 -- Trident
-#armor 152 -- Sharkskin Cap
-#armor 188 -- Sharkskin Cuirass
-#end
-
-
-
--- Combat Spells
+--~~
+--## Combat Spells
 
 -- Power of the Self
 #selectspell 2450
@@ -1481,8 +1461,8 @@
 #notfornation 230
 #end
 
-
--- Ritual Spells
+--~~
+--## Ritual Spells
 
 -- Open the gates
 #selectspell 2459
@@ -1600,9 +1580,8 @@
 #damage 8995
 #end
 
-
-
--- Sites
+--~~
+--## Sites
 
 #newsite 1676
 #name "City of Temples"
@@ -1660,9 +1639,8 @@
 #homecom 8983 -- Chhma noble fs
 #end
 
--- TODO add special pd and wall units to cap
-
--- Nation
+--~~
+--## Nation
 
 #selectnation 230
 #era 3
@@ -1742,7 +1720,8 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #futuresite "Shambhala forest mages"
 #end
 
--- Events
+--~~
+--## Events
 
 -- Opening the gates, todo: create a better description
 #newevent
