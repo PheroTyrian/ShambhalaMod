@@ -179,8 +179,8 @@
 #end
 
 #newweapon 933
-#copyweapon 928 -- Open palm
-#bonus
+#copyweapon 709 -- Water Breath from Anzu
+#range 6
 #end
 
 --~~
@@ -472,7 +472,7 @@
 #armor 4 -- Tower shield
 #end
 
--- Chhma Heavy Swordsman, consider giving bad formation fighter?
+-- Chhma Bodyguards
 #newmonster 8963
 #copystats 8951
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
@@ -734,7 +734,7 @@
 #weapon 929 -- Staff of enc
 #weapon 397 -- Kick
 #armor 203 -- Reinforced Cloth
-#end -- Should maybe give skull amulet as well?
+#end
 
 -- Spearfisher UW shape
 #newmonster 8996
@@ -760,6 +760,36 @@
 #weapon 3 -- Trident
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
+#end
+
+-- River Drake
+#newmonster 4580
+#copyspr 2316
+#drawsize -50
+#name "River Drake"
+#descr "Lesser kin of the great dragons of the Eastern Sea. They are clever, benevolent creatures that dwell in the many rivers of the dense jungle, and are deeply attuned with water. When threatened they can breathe great torrents that can fell trees. In legend brave Chhma maidens have gained the trust of these noble beasts, and in times of fortune they do so with far greater frequency."
+#hp 35
+#size 4
+#prot 12
+#mr 13
+#mor 14
+#str 17
+#att 11
+#def 13
+#prec 12
+#ap 16
+#mapmove 20
+#enc 3
+#poisonres 15
+#fireres 5
+#shockres 5
+#animal
+#drake
+#spiritsight
+#amphibian
+#weapon 933 -- Water Breath
+#weapon 20 -- Bite
+#weapon 29 -- Claw
 #end
 
 --~~
@@ -1578,6 +1608,16 @@
 #farsumcom 8995 -- Western Emissary
 #nreff 0
 #damage 8995
+#end
+
+-- Drake summon
+#selectspell 2465
+#clear
+#copyspell 758 -- Summon Ice Drake
+#name "Summon River Drake"
+#descr "The caster summmons a River Drake and binds it to his service. The River Drake is a huge amphibious beast with scales like a fish, capable of breathing gouts of water."
+#damage 4580
+#fatiguecost 500
 #end
 
 --~~
