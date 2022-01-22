@@ -1618,6 +1618,7 @@
 #descr "The caster summmons a River Drake and binds it to his service. The River Drake is a huge amphibious beast with scales like a fish, capable of breathing gouts of water."
 #damage 4580
 #fatiguecost 500
+#restricted 230
 #end
 
 --~~
