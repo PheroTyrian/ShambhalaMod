@@ -21,10 +21,8 @@
 -- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
 -- Offensive curse luck spell
 -- Minor healing ritual for theming?
--- Asian noodle drakes summon
 -- Krasue summon
 -- Some other weird mythical stuff?
--- Remote attack or similar effect spell that encourages open gates (maybe allowing cap onlies to move??)
 
 -- Event todos:
 -- Noodle Drake + Maiden Guard => Dragon Guard in 2 luck at a chance (lim x per turn somehow)
@@ -34,10 +32,9 @@
 
 -- Monster todos:
 -- Twiceborn shape for death mage
--- Asian noodle drakes
 -- Krasue
 -- Directional beasts
--- Firearm cats
+-- Firearm cats?
 -- Consider giving ambushers a promotion shape
 
 --## Weapons
@@ -180,7 +177,25 @@
 
 #newweapon 933
 #copyweapon 709 -- Water Breath from Anzu
-#range 6
+#range 5
+#end
+
+-- Mounted versions
+#newweapon 934
+#copyweapon 709 -- Water Breath from Anzu
+#range 5
+#nostr
+#dmg 8
+#end
+
+#newweapon 935
+#copyweapon 236 -- Tiger Rider Bite
+#dmg 19
+#end
+
+#newweapon 936
+#copyweapon 237 -- Tiger Rider Claw
+#dmg 17
 #end
 
 --~~
@@ -765,9 +780,10 @@
 -- River Drake
 #newmonster 4580
 #copyspr 2316
-#drawsize -50
+#drawsize -35
 #name "River Drake"
-#descr "Lesser kin of the great dragons of the Eastern Sea. They are clever, benevolent creatures that dwell in the many rivers of the dense jungle, and are deeply attuned with water. When threatened they can breathe great torrents that can fell trees. In legend brave Chhma maidens have gained the trust of these noble beasts, and in times of fortune they do so with far greater frequency."
+#descr "River Drakes are lesser kin of the great dragons of the Eastern Sea. They are clever, benevolent creatures that dwell in the many rivers of the dense jungle, and are deeply attuned with water. When threatened they can breathe great torrents that can fell trees. In legend brave Chhma maidens have gained the trust of these noble beasts, and in times of fortune they do so with far greater frequency."
+#gcost 0
 #hp 35
 #size 4
 #prot 12
@@ -783,13 +799,48 @@
 #poisonres 15
 #fireres 5
 #shockres 5
+#magicskill 2 2 -- W
+#maxage 200
+#lizard
+#itemslots 290816 -- crown and 3 misc
 #animal
 #drake
 #spiritsight
 #amphibian
+#forestsurvival
+#cleanshape
 #weapon 933 -- Water Breath
 #weapon 20 -- Bite
 #weapon 29 -- Claw
+#end
+
+-- Maiden Guard
+#newmonster 4581
+#copystats 8963 -- Bodyguard
+#copyspr 1450
+#name "Maiden Guard"
+#descr "The ranks of the Maiden Guard are made up of those former honor guard who've had the good fortune to earn the trust of a mighty River Drake. It is an insular order that commands great respect amongst the Chhma population. Riding a drake is said to protect against malign spells. For many centuries the order has dwindled in number and its resurgence is seen by many as a sign of the divinity of the awakening god. More seditious individuals, however, claim this as an omen of changing times; a call for the Chhma to return to the old ways and throw off the yoke of the solar cult."
+#mounted
+#swimming
+#size 4
+#hp 15
+#att 11
+#def 14
+#mr 13
+#mor 14
+#ap 16
+#mapmove 20
+#secondshape 4580 -- River Drake
+#mountedhumanoid
+#itemslots 13446 -- No feet
+#clearweapons
+#weapon 922 -- Ph'kak
+#weapon 934 -- Water Breath
+#weapon 935 -- Bite
+#weapon 936 -- Claw
+#cleararmor
+#armor 20 -- Iron cap
+#armor 9 -- Plate Cuirass
 #end
 
 --~~
