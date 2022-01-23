@@ -236,41 +236,12 @@
 #nametype 144
 #end
 
-#newmonster 8952 -- Chhma forestshape have +2 mm, +1 mor
-#name "Chhma"
-#descr "This is the base shape for all Chhma, you should not be seeing this in game"
-#copyspr 728
-#drawsize 20
-#gcost 14
-#rcost 1
-#rpcost 13
-#hp 12
-#str 11
-#att 10
-#def 13
-#unsurr 1
-#prec 12
-#prot 2
-#size 2
-#mr 11
-#mor 11
-#enc 3
-#mapmove 18
-#ap 14
-#eyes 2
-#humanoid
-#itemslots 15494
-#maxage 40
-#darkvision 50
-#falsearmy -1
-#weapon 29
-#forestsurvival
-#okleader
-#nomagicleader
-#noundeadleader
-#animal
-#nametype 144
-#end
+-- Chhma forestshape have +2 mm, +1 mor
+-- #mor +1
+-- #mapmove 18
+-- #falsearmy -1
+
+-- 8952 empty
 
 #newmonster 8953 -- White One unit base shape
 #copystats 1142 -- White One
@@ -365,23 +336,13 @@
 #end
 
 #newmonster 8956 -- fs
-#copystats 8952
+#copystats 8955
 #spr1 "FourthAge_Shambhala/militia_a.tga"
 #spr2 "FourthAge_Shambhala/militia_b.tga"
-#name "Chhma Militia"
-#descr "tmp"
-#gcost 10
-#rpcost 8
-#hp 11
-#att 9
-#def 12
-#mor 10
-#stealthy 10
+#mor 10 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8955
-#clearweapons
-#weapon 29 -- Claw
-#weapon 29 -- Claw
-#weapon 264 -- Compbow
 #end
 
 -- Chhma Ambusher
@@ -402,19 +363,13 @@
 #end
 
 #newmonster 8958 -- fs
-#copystats 8952
+#copystats 8957
 #spr1 "FourthAge_Shambhala/ambusher_a.tga"
 #spr2 "FourthAge_Shambhala/ambusher_b.tga"
-#name "Chhma Ambusher"
-#descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
-#plainshape 8957
-#rpcost 12 -- -3
-#stealthy 10
-#skirmisher 2
-#clearweapons
-#weapon 922 -- Ph'kak
-#armor 249 -- Cloth headpiece
-#armor 202 -- Cloth armor
+#mor 11 -- +1
+#mapmove 18
+#falsearmy -1
+#plainshape 8955
 #end
 
 -- Chhma Light Swordsman
@@ -434,18 +389,13 @@
 #end
 
 #newmonster 8960 -- fs
-#copystats 8952
+#copystats 8959
 #spr1 "FourthAge_Shambhala/lightsword_a.tga"
 #spr2 "FourthAge_Shambhala/lightsword_b.tga"
-#name "Chhma Light Swordsman"
-#descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
-#stealthy 10
+#mor 11 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8959
-#clearweapons
-#weapon 921 -- Machete
-#armor 249 -- Cloth headpiece
-#armor 202 -- Cloth armor
-#armor 1 -- Buckler
 #end
 
 -- Chhma Heavy Spearman
@@ -469,22 +419,13 @@
 #end
 
 #newmonster 8962 -- fs
-#copystats 8952
+#copystats 8961
 #spr1 "FourthAge_Shambhala/heavyspear_a.tga"
 #spr2 "FourthAge_Shambhala/heavyspear_b.tga"
-#name "Shield bearer"
-#descr "tmp"
-#gcost 16 -- +2
-#rpcost 18 -- +3
-#hp 13
-#mor 13
-#att 11
+#mor 13 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8961
-#clearweapons
-#weapon 1 -- Spear
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
-#armor 4 -- Tower shield
 #end
 
 -- Chhma Bodyguards
@@ -509,23 +450,13 @@
 #end
 
 #newmonster 8964 -- fs
-#copystats 8952
+#copystats 8963
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
-#name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility, both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
-#gcost 16 -- +2
-#rpcost 18 -- +3
-#hp 13
-#bodyguard 1
-#mor 13
+#mor 13 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8963
-#clearweapons
-#weapon 921 -- Machete
-#armor 20 -- Iron Cap
-#armor 9 -- Plate Cuirass
-#armor 2 -- Shield
-#female
 #end
 
 -- Chhma Hunter
@@ -555,29 +486,13 @@
 #end
 
 #newmonster 8966 -- fs
-#copystats 8952
-#copyspr 8951
+#copystats 8965
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
-#name "Chhma Hunter"
-#descr "tmp. They wield karambit, curved concealable daggers that resemble tiger claws."
-#gcost 16 -- +2
-#rpcost 20 -- +5
-#hp 13
-#str 12
-#att 11
-#def 14
-#prec 13
-#mor 12
+#mor 12 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8965
-#stealthy 30
-#skirmisher 2
-#clearweapons
-#weapon 924 -- Karambit
-#weapon 924 -- Karambit
-#weapon 932 -- Blow Pipe
-#armor 20 -- Iron Cap
-#armor 183 -- Reinforced Cloth
 #end
 
 -- Chhma Coastal
@@ -608,29 +523,13 @@
 #end
 
 #newmonster 8968 -- fs
-#copystats 8952
+#copystats 8967
 #spr1 "FourthAge_Shambhala/spearfisher_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisher_b.tga"
-#name "Chhma Spearfisher"
-#descr "tmp"
-#gcost 16 -- +2
-#rpcost 20 -- +5
-#hp 13
-#str 12
-#att 11
-#def 14
-#prec 13
-#mor 12
-#swimming
-#swampsurvival
-#stealthy 10
+#mor 12 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8967
-#watershape 8996
-#clearweapons
-#weapon 3 -- Trident
-#weapon 452 -- Harpoon
-#armor 152 -- Sharkskin Cap
-#armor 188 -- Sharkskin Cuirass
 #end
 
 -- Crossbow Elephant
@@ -873,27 +772,13 @@
 #end
 
 #newmonster 8975 -- fs
-#copystats 8966
+#copystats 8974
 #spr1 "FourthAge_Shambhala/scout_a.tga"
 #spr2 "FourthAge_Shambhala/scout_b.tga"
-#name "Chhma Scout"
-#descr "Elite hunters chosen for their stealth and initiative"
-#gcost 25
-#hp 14
-#att 11
-#def 14
-#prec 13
+#mor 11 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8974
-#stealthy 30
-#clearweapons
-#weapon 924 -- Karambit
-#weapon 924 -- Karambit
-#weapon 34 -- Blow Pipe
-#cleararmor
-#armor 20 -- Iron Cap
-#armor 202 -- Cloth armor
-#female
-#noleader
 #end
 
 -- Stealthy Commander
@@ -922,26 +807,12 @@
 #end
 
 #newmonster 8977 -- fs
-#copystats 8952
+#copystats 8976
 #spr1 "FourthAge_Shambhala/hunterCom_a.tga"
 #spr2 "FourthAge_Shambhala/hunterCom_b.tga"
-#name "Pack Leader"
-#descr "Elite hunters with charisma and combat prowess"
-#gcost 55
-#rpcost 22
-#hp 14
-#att 12
-#def 15
-#prec 14
-#mor 13
-#stealthy 20
-#female
-#clearweapons
-#weapon 921 -- Machete
-#weapon 264 -- Composite Bow
-#armor 20 -- Iron Cap
-#armor 203 -- Reinforced Cloth
-#armor 2 -- Shield
+#mor 13 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8976
 #end
 
@@ -973,29 +844,13 @@
 #end
 
 #newmonster 8979 -- fs
-#copystats 8952
+#copystats 8978
 #spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
-#name "Fishing Chief"
-#descr "tmp"
-#gcost 45
-#hp 14
-#att 12
-#def 15
-#prec 14
-#mor 13
-#swimming
-#swampsurvival
-#stealthy 10
+#mor 13 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8978
-#watershape 8980
-#clearweapons
-#weapon 679 -- Short Trident
-#weapon 452 -- Harpoon
-#armor 152 -- Sharkskin Cap
-#armor 188 -- Sharkskin Cuirass
-#armor 207 -- Wicker Shield
-#okleader
 #end
 
 #newmonster 8980 -- UW shape to reduce the effects of poor amph (+1 enc, -3 att and def, cs / 2)
@@ -1066,28 +921,16 @@
 #end
 
 #newmonster 8983 -- fs
-#copystats 8952
+#copystats 8982
 #spr1 "FourthAge_Shambhala/noble_a.tga"
 #spr2 "FourthAge_Shambhala/noble_b.tga"
-#name "Chhma Noble"
-#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often adopt more traditional practices."
+#clearmagic
 #magicskill 0 1 -- Fire
 #custommagic 1536 100 -- WE random
-#gcost 90
-#hp 14
-#att 12
-#def 15
-#prec 13
-#mor 15
-#mr 14 -- +3
-#older -5 -- Younger by 5 years
+#mor 15 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8982
-#clearweapons
-#weapon 922 -- Ph'kak
-#armor 118 -- Half Helmet
-#armor 9 -- Plate Cuirass
-#goodleader
-#command -20
 #end
 
 -- Anyfort FWE mage
@@ -1116,27 +959,13 @@
 #end
 
 #newmonster 8985 -- fs
-#copystats 8952
+#copystats 8984
 #spr1 "FourthAge_Shambhala/sorcerer_a.tga"
 #spr2 "FourthAge_Shambhala/sorcerer_b.tga"
-#name "Sorcerer"
-#descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility, healing powers extend their lifespan"
-#magicskill 2 1 		-- W
-#custommagic 1152 100	-- FE random
-#custommagic 1152 100	-- FE random
-#custommagic 512 50		-- 50% W
-#gcost 10035
-#mor 13
-#mr 16 -- +5
-#maxage 60
-#stealthy 10
-#older -5 -- Younger by 5 years
+#mor 13 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8984
-#poorleader
-#clearweapons
-#weapon 7 -- Quarterstaff
-#armor 158 -- Robes
-#female
 #end
 
 -- Death and stuff sneaky mage
@@ -1165,27 +994,13 @@
 #end
 
 #newmonster 8987 -- fs
-#copystats 8952
+#copystats 8986
 #spr1 "FourthAge_Shambhala/medium_a.tga"
 #spr2 "FourthAge_Shambhala/medium_b.tga"
-#name "Medium"
-#descr "tmp. Shaman and Spirit medium, magical power is granted through spirit possession rather than innate magical power. Their practice challenges the teachings of the Monks and their services are only barely tolerated."
-#magicskill 5 1 		-- D
-#custommagic 8832 80	-- FWN random
-#gcost 10010
-#rpcost 3
-#mor 12
-#mr 15 -- +4
-#stealthy 20
-#heretic 1
-#older -5 -- Younger by 5 years
+#mor 12 -- +1
+#mapmove 18
+#falsearmy -1
 #plainshape 8986
-#poorleader
-#clearweapons
-#weapon 29 -- Claw
-#weapon 924 -- Karambit
-#armor 158 -- Robes
-#female
 #end
 
 -- Cap only ascended mage
