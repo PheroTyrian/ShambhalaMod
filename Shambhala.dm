@@ -884,7 +884,7 @@
 #copyspr 1145 -- Yogi
 #name "Itinerant Monk"
 #descr "tmp"
-#gcost 50
+#gcost 60
 #hp 12
 #mor 14
 #mr 14
@@ -991,6 +991,8 @@
 #weapon 924 -- Karambit
 #armor 158 -- Robes
 #female
+#okleader
+#command -10
 #end
 
 #newmonster 8987 -- fs
