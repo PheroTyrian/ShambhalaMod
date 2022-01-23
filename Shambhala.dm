@@ -398,7 +398,7 @@
 #clearweapons
 #weapon 922 -- Ph'kak
 #armor 249 -- Cloth headpiece
-#armor 202 -- Cloth Armour
+#armor 202 -- Cloth armor
 #end
 
 #newmonster 8958 -- fs
@@ -414,7 +414,7 @@
 #clearweapons
 #weapon 922 -- Ph'kak
 #armor 249 -- Cloth headpiece
-#armor 202 -- Cloth Armour
+#armor 202 -- Cloth armor
 #end
 
 -- Chhma Light Swordsman
@@ -429,7 +429,7 @@
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
-#armor 202 -- Cloth Armour
+#armor 202 -- Cloth armor
 #armor 1 -- Buckler
 #end
 
@@ -441,10 +441,10 @@
 #descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #stealthy 10
 #plainshape 8959
-#clearweaponsnn
+#clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
-#armor 202 -- Cloth Armour
+#armor 202 -- Cloth armor
 #armor 1 -- Buckler
 #end
 
@@ -493,7 +493,7 @@
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
+#descr "Sword Maidens are the personal bodyguards of nobility, both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #gcost 16 -- +2
 #rpcost 18 -- +3
 #hp 13
@@ -513,7 +513,7 @@
 #spr1 "FourthAge_Shambhala/heavysword_a.tga"
 #spr2 "FourthAge_Shambhala/heavysword_b.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
+#descr "Sword Maidens are the personal bodyguards of nobility, both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #gcost 16 -- +2
 #rpcost 18 -- +3
 #hp 13
@@ -545,7 +545,7 @@
 #mor 11
 #forestshape 8966
 #stealthy 20
-#skirmisher 1
+#skirmisher 2
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -571,7 +571,7 @@
 #mor 12
 #plainshape 8965
 #stealthy 30
-#skirmisher 1
+#skirmisher 2
 #clearweapons
 #weapon 924 -- Karambit
 #weapon 924 -- Karambit
@@ -675,7 +675,7 @@
 #spr1 "FourthAge_Shambhala/trampleelephant_a.tga"
 #spr2 "FourthAge_Shambhala/trampleelephant_b.tga"
 #name "Chhma War Elephant"
-#descr "tmp"
+#descr "The largest and strongest beasts in the Jungles of Shambhala are used extensively in warfare. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
 #drawsize -5
 #gcost 90
 #rcost 20
@@ -757,7 +757,7 @@
 #spr1 "FourthAge_Shambhala/spearfisher_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisher_b.tga"
 #name "Chhma Spearfisher"
-#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armour of the spearfishers allows them to move and fight effectively underwater."
+#descr "tmp. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively underwater."
 #gcost 16
 #rpcost 20
 #hp 13
@@ -867,7 +867,7 @@
 #weapon 34 -- Blow Pipe
 #cleararmor
 #armor 20 -- Iron Cap
-#armor 202 -- Cloth Armour
+#armor 202 -- Cloth armor
 #female
 #noleader
 #end
@@ -891,7 +891,7 @@
 #weapon 34 -- Blow Pipe
 #cleararmor
 #armor 20 -- Iron Cap
-#armor 202 -- Cloth Armour
+#armor 202 -- Cloth armor
 #female
 #noleader
 #end
@@ -1003,7 +1003,7 @@
 #spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
 #name "Fishing Chief"
-#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armour of the spearfishers allows them to move and fight effectively underwater."
+#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armor of the spearfishers allows them to move and fight effectively underwater."
 #gcost 45
 #hp 14
 #att 14 -- +2
@@ -1742,7 +1742,7 @@
 
 Now, however, the world has declined into war and greed as was prophesied. The white ones of Shambhala end their isolation and rally the Chhma behind them. A powerful force stirs in the temple city. Soon the gates will swing open and from them will come an army to vanquish the dark forces and usher in a golden age of peace and enlightenment."
 #summary "Race: Agile halfmen, sacred Vanara monks. 
-Military: Light stealthy infantry, some armoured infantry, elephants. Sacred monks. Chhma hide themselves or others in forests.
+Military: Light stealthy infantry, some armored infantry, elephants. Sacred monks. Chhma hide themselves or others in forests.
 Magic: High Astral. Fire, Water, Earth and Nature. Limited Death.
 Priests: Medium, Synecretic.
 Special: National luck scales are increased or decreased by 3 depending on Gate status, the Gate being open allows for powerful offensive rituals." -- Notice the string ends here and only here
