@@ -40,7 +40,7 @@
 --## Weapons
 
 #newweapon 921
-#name "Machete"
+#name "War Machete"
 #len 1
 #att 1
 #def 0
