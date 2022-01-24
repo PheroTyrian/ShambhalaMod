@@ -31,6 +31,7 @@
 -- Misfortune events involving assassinations and province conquering attempts
 
 -- Monster todos:
+-- Crossbowman
 -- Twiceborn shape for death mage
 -- Krasue
 -- Directional beasts
@@ -159,20 +160,16 @@
 #end
 
 #newweapon 931
-#name "Golok"
-#len 1
-#att 1
-#def 0
-#dmg 5
-#slash
-#rcost 3
-#sound 8
-#ironweapon
+#copyweapon 50 -- Weak Poison
+#name "Moderate Poison"
+#dmg 10
 #end
 
 #newweapon 932
 #copyweapon 34 -- Blowpipe
-#ammo 4
+#ammo 15
+#range 12
+#secondaryeffect 931 -- Moderate Poison
 #end
 
 #newweapon 933
@@ -196,6 +193,12 @@
 #newweapon 936
 #copyweapon 237 -- Tiger Rider Claw
 #dmg 17
+#end
+
+#newweapon 937
+#copyweapon 7 -- Quarterstaff
+#name "Blow Pipe"
+#dmg 2
 #end
 
 --~~
@@ -332,7 +335,7 @@
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
-#weapon 264 -- Compbow
+#weapon 25 -- Crossbow
 #end
 
 #newmonster 8956 -- fs
@@ -358,8 +361,8 @@
 #skirmisher 2
 #clearweapons
 #weapon 922 -- Ph'kak
-#armor 249 -- Cloth headpiece
-#armor 202 -- Cloth armor
+#armor 118 -- Half Helmet
+#armor 6 -- Ring Mail
 #end
 
 #newmonster 8958 -- fs
@@ -383,6 +386,7 @@
 #forestshape 8960
 #clearweapons
 #weapon 921 -- Machete
+#armor 118 -- Half Helmet
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth armor
 #armor 1 -- Buckler
@@ -413,7 +417,7 @@
 #forestshape 8962
 #clearweapons
 #weapon 1 -- Spear
-#armor 20 -- Iron Cap
+#armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
 #armor 4 -- Tower shield
 #end
@@ -443,7 +447,7 @@
 #forestshape 8964
 #clearweapons
 #weapon 921 -- Machete
-#armor 20 -- Iron Cap
+#armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
 #armor 2 -- Shield
 #female
@@ -464,8 +468,8 @@
 #copystats 8951
 #spr1 "FourthAge_Shambhala/hunter_a.tga"
 #spr2 "FourthAge_Shambhala/hunter_b.tga"
-#name "Chhma Hunter"
-#descr "tmp. They wield karambit, concealable daggers that resemble tiger claws."
+#name "Elite Hunter"
+#descr "tmp. They wield machete and karambit, concealable daggers that resemble tiger claws."
 #gcost 16 -- +2
 #rpcost 20 -- +5
 #hp 13
@@ -478,11 +482,11 @@
 #stealthy 20
 #skirmisher 2
 #clearweapons
-#weapon 924 -- Karambit
+#weapon 921 -- War Machete
 #weapon 924 -- Karambit
 #weapon 932 -- Blow Pipe
-#armor 20 -- Iron Cap
-#armor 203 -- Reinforced Cloth
+#armor 249 -- Cloth headpiece
+#armor 202 -- Cloth armor
 #end
 
 #newmonster 8966 -- fs
@@ -738,8 +742,37 @@
 #weapon 935 -- Bite
 #weapon 936 -- Claw
 #cleararmor
-#armor 20 -- Iron cap
+#armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
+#end
+
+#newmonster 4582
+#copystats 8951
+#spr1 "FourthAge_Shambhala/militia_a.tga"
+#spr2 "FourthAge_Shambhala/militia_b.tga"
+#name "Chhma Militia Blowgun"
+#descr "tmp"
+#gcost 10
+#rpcost 10
+#hp 11
+#att 9
+#def 12
+#mor 9
+#stealthy 0
+#forestshape 4583
+#clearweapons
+#weapon 937 -- Blowgun Melee
+#weapon 932 -- Blowgun
+#end
+
+#newmonster 4583 -- fs
+#copystats 8955
+#spr1 "FourthAge_Shambhala/militia_a.tga"
+#spr2 "FourthAge_Shambhala/militia_b.tga"
+#mor 10 -- +1
+#mapmove 18
+#falsearmy -1
+#plainshape 4582
 #end
 
 --~~
@@ -765,7 +798,7 @@
 #weapon 924 -- Karambit
 #weapon 34 -- Blow Pipe
 #cleararmor
-#armor 20 -- Iron Cap
+#armor 249 -- Cloth Headpiece
 #armor 202 -- Cloth armor
 #female
 #noleader
@@ -799,8 +832,8 @@
 #female
 #clearweapons
 #weapon 921 -- Machete
-#weapon 264 -- Composite Bow
-#armor 20 -- Iron Cap
+#weapon 25 -- Crossbow
+#armor 118 -- Half Helmet
 #armor 203 -- Reinforced Cloth
 #armor 2 -- Shield
 #forestshape 8977
@@ -836,7 +869,6 @@
 #watershape 8980
 #clearweapons
 #weapon 679 -- Short Trident
-#weapon 452 -- Harpoon
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
 #armor 207 -- Wicker Shield
@@ -1594,6 +1626,7 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #coastunit1 8967	-- Spearfisher
 #addrecunit 8969	-- Elephant crossbow
 #addrecunit 8970	-- Elephant trample
+#addrecunit 4582 	-- TEMP
 
 #addreccom 8974 	-- Scout
 #forestcom 8974
@@ -1627,6 +1660,11 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #startsite "Closed Gates of Shambhala" -- Special mechanic site
 #futuresite "Open Gates of Shambhala" -- Other version of special mechanic site
 #futuresite "Shambhala forest mages"
+#end
+
+#selectnation 83 -- LA Man
+#addrecunit 4582
+#addrecunit 8955
 #end
 
 --~~
