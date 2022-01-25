@@ -1789,10 +1789,32 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #nolog
 #end
 
--- 4 events to really kill off the Emissaries of the four directions
+-- 8 events to really kill off the Emissaries of the four directions
 #newevent
 #rarity 5
 #req_monster 8992 -- Northern Emissary
+#killcom 8992
+#killcom 8993
+#killcom 8994
+#killcom 8995
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_monster 8992 -- Northern Emissary
+#killcom 8992
+#killcom 8993
+#killcom 8994
+#killcom 8995
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_monster 8993 -- Southern Emissary
 #killcom 8992
 #killcom 8993
 #killcom 8994
@@ -1825,6 +1847,17 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 
 #newevent
 #rarity 5
+#req_monster 8994 -- Eastern Emissary
+#killcom 8992
+#killcom 8993
+#killcom 8994
+#killcom 8995
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5
 #req_monster 8995 -- Western Emissary
 #killcom 8992
 #killcom 8993
@@ -1833,3 +1866,16 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #notext
 #nolog
 #end
+
+#newevent
+#rarity 5
+#req_monster 8995 -- Western Emissary
+#killcom 8992
+#killcom 8993
+#killcom 8994
+#killcom 8995
+#notext
+#nolog
+#end
+
+--~~
