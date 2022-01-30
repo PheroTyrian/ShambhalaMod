@@ -17,6 +17,12 @@
 -- Magic items 700-709
 -- Enchantment 650-654
 
+-- Sprite todos:
+-- River Drake
+-- Commanders
+-- Monkeys
+-- Maiden Guard
+
 -- National spell ideas and todos: (lim 16)
 -- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
 -- Offensive curse luck spell
@@ -31,6 +37,8 @@
 -- Misfortune events involving assassinations and province conquering attempts
 
 -- Monster todos:
+-- Move Chhma light troops to lower IDs
+-- Light Spear
 -- Crossbowman
 -- Twiceborn shape for death mage
 -- Krasue
