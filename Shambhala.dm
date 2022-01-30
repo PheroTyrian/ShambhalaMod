@@ -208,7 +208,6 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
-#drawsize 20
 #gcost 14
 #rcost 1
 #rpcost 13
@@ -335,7 +334,7 @@
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
-#weapon 25 -- Crossbow
+#weapon 24 -- Longbow
 #end
 
 #newmonster 8956 -- fs
@@ -386,10 +385,9 @@
 #forestshape 8960
 #clearweapons
 #weapon 921 -- Machete
-#armor 118 -- Half Helmet
 #armor 249 -- Cloth headpiece
 #armor 202 -- Cloth armor
-#armor 1 -- Buckler
+#armor 2 -- Shield
 #end
 
 #newmonster 8960 -- fs
@@ -449,7 +447,7 @@
 #weapon 921 -- Machete
 #armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
-#armor 2 -- Shield
+#armor 208 -- Iron Shield
 #female
 #end
 
@@ -482,7 +480,7 @@
 #stealthy 20
 #skirmisher 2
 #clearweapons
-#weapon 921 -- War Machete
+#weapon 924 -- Karambit
 #weapon 924 -- Karambit
 #weapon 932 -- Blow Pipe
 #armor 249 -- Cloth headpiece
@@ -798,8 +796,8 @@
 #weapon 924 -- Karambit
 #weapon 34 -- Blow Pipe
 #cleararmor
-#armor 249 -- Cloth Headpiece
-#armor 202 -- Cloth armor
+#armor 118 -- Half Helmet
+#armor 6 -- Ring Mail
 #female
 #noleader
 #end
@@ -817,8 +815,8 @@
 -- Stealthy Commander
 #newmonster 8976
 #copystats 8951
-#spr1 "FourthAge_Shambhala/hunterCom_a.tga"
-#spr2 "FourthAge_Shambhala/hunterCom_b.tga"
+#spr1 "FourthAge_Shambhala/Chieftan1.png"
+#spr2 "FourthAge_Shambhala/Chieftan2.png"
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -834,15 +832,15 @@
 #weapon 921 -- Machete
 #weapon 25 -- Crossbow
 #armor 118 -- Half Helmet
-#armor 203 -- Reinforced Cloth
+#armor 6 -- Ring Mail
 #armor 2 -- Shield
 #forestshape 8977
 #end
 
 #newmonster 8977 -- fs
 #copystats 8976
-#spr1 "FourthAge_Shambhala/hunterCom_a.tga"
-#spr2 "FourthAge_Shambhala/hunterCom_b.tga"
+#spr1 "FourthAge_Shambhala/Chieftan1.png"
+#spr2 "FourthAge_Shambhala/Chieftan2.png"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
