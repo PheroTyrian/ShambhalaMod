@@ -320,8 +320,8 @@
 -- Chhma militia archers
 #newmonster 8955
 #copystats 8951
-#spr1 "FourthAge_Shambhala/militia_a.tga"
-#spr2 "FourthAge_Shambhala/militia_b.tga"
+#spr1 "FourthAge_Shambhala/Archer1.png"
+#spr2 "FourthAge_Shambhala/Archer2.png"
 #name "Chhma Militia"
 #descr "tmp"
 #gcost 10
@@ -340,8 +340,8 @@
 
 #newmonster 8956 -- fs
 #copystats 8955
-#spr1 "FourthAge_Shambhala/militia_a.tga"
-#spr2 "FourthAge_Shambhala/militia_b.tga"
+#spr1 "FourthAge_Shambhala/Archer1.png"
+#spr2 "FourthAge_Shambhala/Archer2.png"
 #mor 10 -- +1
 #mapmove 18
 #falsearmy -1
@@ -351,8 +351,8 @@
 -- Chhma Ambusher
 #newmonster 8957
 #copystats 8951
-#spr1 "FourthAge_Shambhala/ambusher_a.tga"
-#spr2 "FourthAge_Shambhala/ambusher_b.tga"
+#spr1 "FourthAge_Shambhala/Ambusher1.png"
+#spr2 "FourthAge_Shambhala/Ambusher2.png"
 #name "Chhma Ambusher"
 #descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
 #forestshape 8958
@@ -367,8 +367,8 @@
 
 #newmonster 8958 -- fs
 #copystats 8957
-#spr1 "FourthAge_Shambhala/ambusher_a.tga"
-#spr2 "FourthAge_Shambhala/ambusher_b.tga"
+#spr1 "FourthAge_Shambhala/Ambusher1.png"
+#spr2 "FourthAge_Shambhala/Ambusher2.png"
 #mor 11 -- +1
 #mapmove 18
 #falsearmy -1
@@ -378,8 +378,8 @@
 -- Chhma Light Swordsman
 #newmonster 8959
 #copystats 8951
-#spr1 "FourthAge_Shambhala/lightsword_a.tga"
-#spr2 "FourthAge_Shambhala/lightsword_b.tga"
+#spr1 "FourthAge_Shambhala/LightSword1.png"
+#spr2 "FourthAge_Shambhala/LightSword2.png"
 #name "Chhma Light Swordsman"
 #descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #stealthy 0
@@ -394,8 +394,8 @@
 
 #newmonster 8960 -- fs
 #copystats 8959
-#spr1 "FourthAge_Shambhala/lightsword_a.tga"
-#spr2 "FourthAge_Shambhala/lightsword_b.tga"
+#spr1 "FourthAge_Shambhala/LightSword1.png"
+#spr2 "FourthAge_Shambhala/LightSword2.png"
 #mor 11 -- +1
 #mapmove 18
 #falsearmy -1
@@ -405,8 +405,8 @@
 -- Chhma Heavy Spearman
 #newmonster 8961
 #copystats 8951
-#spr1 "FourthAge_Shambhala/heavyspear_a.tga"
-#spr2 "FourthAge_Shambhala/heavyspear_b.tga"
+#spr1 "FourthAge_Shambhala/HeavySpear1.png"
+#spr2 "FourthAge_Shambhala/HeavySpear2.png"
 #name "Shield bearer"
 #descr "tmp"
 #gcost 16 -- +2
@@ -424,8 +424,8 @@
 
 #newmonster 8962 -- fs
 #copystats 8961
-#spr1 "FourthAge_Shambhala/heavyspear_a.tga"
-#spr2 "FourthAge_Shambhala/heavyspear_b.tga"
+#spr1 "FourthAge_Shambhala/HeavySpear1.png"
+#spr2 "FourthAge_Shambhala/HeavySpear2.png"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
@@ -435,8 +435,8 @@
 -- Chhma Bodyguards
 #newmonster 8963
 #copystats 8951
-#spr1 "FourthAge_Shambhala/heavysword_a.tga"
-#spr2 "FourthAge_Shambhala/heavysword_b.tga"
+#spr1 "FourthAge_Shambhala/HeavySword1.png"
+#spr2 "FourthAge_Shambhala/HeavySword2.png"
 #name "Sword Maiden"
 #descr "Sword Maidens are the personal bodyguards of nobility, both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #gcost 16 -- +2
@@ -455,8 +455,8 @@
 
 #newmonster 8964 -- fs
 #copystats 8963
-#spr1 "FourthAge_Shambhala/heavysword_a.tga"
-#spr2 "FourthAge_Shambhala/heavysword_b.tga"
+#spr1 "FourthAge_Shambhala/HeavySword1.png"
+#spr2 "FourthAge_Shambhala/HeavySword2.png"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
@@ -466,8 +466,8 @@
 -- Chhma Hunter
 #newmonster 8965
 #copystats 8951
-#spr1 "FourthAge_Shambhala/hunter_a.tga"
-#spr2 "FourthAge_Shambhala/hunter_b.tga"
+#spr1 "FourthAge_Shambhala/Hunter1.png"
+#spr2 "FourthAge_Shambhala/Hunter2.png"
 #name "Elite Hunter"
 #descr "tmp. They wield machete and karambit, concealable daggers that resemble tiger claws."
 #gcost 16 -- +2
@@ -491,8 +491,8 @@
 
 #newmonster 8966 -- fs
 #copystats 8965
-#spr1 "FourthAge_Shambhala/hunter_a.tga"
-#spr2 "FourthAge_Shambhala/hunter_b.tga"
+#spr1 "FourthAge_Shambhala/Hunter1.png"
+#spr2 "FourthAge_Shambhala/Hunter2.png"
 #mor 12 -- +1
 #mapmove 18
 #falsearmy -1
@@ -502,8 +502,8 @@
 -- Chhma Coastal
 #newmonster 8967
 #copystats 8951
-#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
+#spr1 "FourthAge_Shambhala/Shark1.png"
+#spr2 "FourthAge_Shambhala/Shark2.png"
 #name "Chhma Spearfisher"
 #descr "tmp"
 #gcost 16 -- +2
@@ -528,8 +528,8 @@
 
 #newmonster 8968 -- fs
 #copystats 8967
-#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
+#spr1 "FourthAge_Shambhala/Shark1.png"
+#spr2 "FourthAge_Shambhala/Shark2.png"
 #mor 12 -- +1
 #mapmove 18
 #falsearmy -1
@@ -657,8 +657,8 @@
 -- Spearfisher UW shape
 #newmonster 8996
 #copystats 8951
-#spr1 "FourthAge_Shambhala/spearfisher_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisher_b.tga"
+#spr1 "FourthAge_Shambhala/Shark1.png"
+#spr2 "FourthAge_Shambhala/Shark2.png"
 #name "Chhma Spearfisher"
 #descr "tmp. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively underwater."
 #gcost 16
@@ -781,8 +781,8 @@
 -- Scout
 #newmonster 8974
 #copystats 8965
-#spr1 "FourthAge_Shambhala/scout_a.tga"
-#spr2 "FourthAge_Shambhala/scout_b.tga"
+#spr1 "FourthAge_Shambhala/Scout1.png"
+#spr2 "FourthAge_Shambhala/Scout2.png"
 #name "Chhma Scout"
 #descr "Elite hunters chosen for their stealth and initiative"
 #gcost 25
@@ -806,8 +806,8 @@
 
 #newmonster 8975 -- fs
 #copystats 8974
-#spr1 "FourthAge_Shambhala/scout_a.tga"
-#spr2 "FourthAge_Shambhala/scout_b.tga"
+#spr1 "FourthAge_Shambhala/Scout1.png"
+#spr2 "FourthAge_Shambhala/Scout2.png"
 #mor 11 -- +1
 #mapmove 18
 #falsearmy -1
@@ -929,8 +929,8 @@
 -- Mage-Commander. Note: The random is different between the two shapes
 #newmonster 8982
 #copystats 8951
-#spr1 "FourthAge_Shambhala/noble_a.tga"
-#spr2 "FourthAge_Shambhala/noble_b.tga"
+#spr1 "FourthAge_Shambhala/Noble1.png"
+#spr2 "FourthAge_Shambhala/Noble2.png"
 #name "Chhma Noble"
 #descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often adopt more traditional practices."
 #magicskill 0 1 -- Fire
@@ -954,8 +954,8 @@
 
 #newmonster 8983 -- fs
 #copystats 8982
-#spr1 "FourthAge_Shambhala/noble_a.tga"
-#spr2 "FourthAge_Shambhala/noble_b.tga"
+#spr1 "FourthAge_Shambhala/Noble1.png"
+#spr2 "FourthAge_Shambhala/Noble2.png"
 #clearmagic
 #magicskill 0 1 -- Fire
 #custommagic 1536 100 -- WE random
@@ -968,8 +968,8 @@
 -- Anyfort FWE mage
 #newmonster 8984
 #copystats 8951
-#spr1 "FourthAge_Shambhala/sorcerer_a.tga"
-#spr2 "FourthAge_Shambhala/sorcerer_b.tga"
+#spr1 "FourthAge_Shambhala/Sorcerer1.png"
+#spr2 "FourthAge_Shambhala/Sorcerer2.png"
 #name "Sorcerer"
 #descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility, healing powers extend their lifespan"
 #magicskill 2 1 		-- W
@@ -992,8 +992,8 @@
 
 #newmonster 8985 -- fs
 #copystats 8984
-#spr1 "FourthAge_Shambhala/sorcerer_a.tga"
-#spr2 "FourthAge_Shambhala/sorcerer_b.tga"
+#spr1 "FourthAge_Shambhala/Sorcerer1.png"
+#spr2 "FourthAge_Shambhala/Sorcerer2.png"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
@@ -1003,8 +1003,8 @@
 -- Death and stuff sneaky mage
 #newmonster 8986
 #copystats 8951
-#spr1 "FourthAge_Shambhala/medium_a.tga"
-#spr2 "FourthAge_Shambhala/medium_b.tga"
+#spr1 "FourthAge_Shambhala/Medium1.png"
+#spr2 "FourthAge_Shambhala/Medium2.png"
 #name "Medium"
 #descr "tmp. Shaman and Spirit medium, magical power is granted through spirit possession rather than innate magical power. Their practice challenges the teachings of the Monks and their services are only barely tolerated."
 #magicskill 5 1 		-- D
@@ -1029,8 +1029,8 @@
 
 #newmonster 8987 -- fs
 #copystats 8986
-#spr1 "FourthAge_Shambhala/medium_a.tga"
-#spr2 "FourthAge_Shambhala/medium_b.tga"
+#spr1 "FourthAge_Shambhala/Medium1.png"
+#spr2 "FourthAge_Shambhala/Medium2.png"
 #mor 12 -- +1
 #mapmove 18
 #falsearmy -1
