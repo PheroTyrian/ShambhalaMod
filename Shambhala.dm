@@ -823,8 +823,8 @@
 -- Stealthy Commander
 #newmonster 8976
 #copystats 8951
-#spr1 "FourthAge_Shambhala/Chieftan1.png"
-#spr2 "FourthAge_Shambhala/Chieftan2.png"
+#spr1 "FourthAge_Shambhala/Chieftain1.png"
+#spr2 "FourthAge_Shambhala/Chieftain2.png"
 #name "Pack leader"
 #descr "Elite hunters with charisma and combat prowess"
 #gcost 55
@@ -847,8 +847,8 @@
 
 #newmonster 8977 -- fs
 #copystats 8976
-#spr1 "FourthAge_Shambhala/Chieftan1.png"
-#spr2 "FourthAge_Shambhala/Chieftan2.png"
+#spr1 "FourthAge_Shambhala/Chieftain1.png"
+#spr2 "FourthAge_Shambhala/Chieftain2.png"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
