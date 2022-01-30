@@ -18,6 +18,8 @@
 -- Enchantment 650-654
 
 -- Sprite todos:
+-- Update Ambusher sprite with new equipment
+-- Fix jewelry on the Noble attack sprite
 -- River Drake
 -- Commanders
 -- Monkeys
