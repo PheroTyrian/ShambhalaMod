@@ -20,6 +20,7 @@
 -- Sprite todos:
 -- Update Ambusher sprite with new equipment
 -- Fix jewelry on the Noble attack sprite
+-- Up armour the heavy spear sprite (or consider just lowering the armour on it?)
 -- River Drake
 -- Commanders
 -- Monkeys
