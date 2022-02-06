@@ -39,6 +39,7 @@
 -- Same but 3% chances for rare dragon rider commander couplings
 -- Luck only spells that push the narrative of the nation
 -- Misfortune events involving assassinations and province conquering attempts
+-- White elephant gift events
 
 -- Monster todos:
 -- Move Chhma light troops to lower IDs
@@ -497,11 +498,13 @@
 #hp 13
 #mor 12
 #att 11
+#def 14
+#stealthy 0
 #forestshape 8962
 #clearweapons
 #weapon 1 -- Spear
 #armor 118 -- Half Helmet
-#armor 9 -- Plate Cuirass
+#armor 6 -- Ring Mail
 #armor 4 -- Tower shield
 #end
 
@@ -522,11 +525,13 @@
 #spr2 "FourthAge_Shambhala/HeavySword2.tga"
 #name "Sword Maiden"
 #descr "Sword Maidens are the personal bodyguards of nobility, both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
-#gcost 16 -- +2
-#rpcost 18 -- +3
-#hp 13
-#bodyguard 1
-#mor 12
+#gcost 18 -- +4
+#rpcost 22 -- +7
+#hp 14
+#bodyguard 2
+#mor 13
+#att 11
+#def 14
 #forestshape 8964
 #clearweapons
 #weapon 921 -- Machete
@@ -626,7 +631,7 @@
 #name "Domrey"
 #descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
 #drawsize -5
-#gcost 85
+#gcost 80
 #rcost 20
 #rpcost 35
 #hp 48
@@ -663,7 +668,7 @@
 #name "Chhma War Elephant"
 #descr "The largest and strongest beasts in the Jungles of Shambhala are used extensively in warfare. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
 #drawsize -5
-#gcost 90
+#gcost 80
 #rcost 20
 #rpcost 35
 #hp 49
@@ -811,8 +816,8 @@
 #swimming
 #size 4
 #hp 15
-#att 11
-#def 14
+#att 12
+#def 15
 #mr 13
 #mor 14
 #ap 16
