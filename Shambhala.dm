@@ -10,6 +10,7 @@
 
 -- IDs reserved:
 -- Nation 230
+-- Names 258
 -- Units 4580-4599, 8951-8999
 -- Weapons 921-950
 -- Spells 2450-2469
@@ -48,6 +49,79 @@
 -- Directional beasts
 -- Firearm cats?
 -- Consider giving ambushers a promotion shape
+
+--## Names
+
+#selectnametype 258 -- Chhma names
+#clear
+#addname "Bôtŭm"
+#addname "Chăntha"
+#addname "Chéa"
+#addname "Chéata"
+#addname "Chhéng"
+#addname "Chhiĕng"
+#addname "Da"
+#addname "Dara"
+#addname "Léng"
+#addname "Narŏng"
+#addname "Nĭmól"
+#addname "Phuŏng"
+#addname "Sarœăn"
+#addname "Srei"
+#addname "Sân"
+#addname "Bŏpha"
+#addname "Bŏrei"
+#addname "Chĕnda"
+#addname "Chhuŏn"
+#addname "Khăn"
+#addname "Kŏsál"
+#addname "Kŭnthéa"
+#addname "Lay"
+#addname "Lum-âng"
+#addname "Mali"
+#addname "Mei"
+#addname "Măp"
+#addname "Nari"
+#addname "Pănha"
+#addname "Pĭsĕt"
+#addname "Phálla"
+#addname "Phéareăk"
+#addname "Phĭrŭn"
+#addname "Pŏu"
+#addname "Reăksmei"
+#addname "Rĭt"
+#addname "Ri"
+#addname "Sámbăt"
+#addname "Sámphoăs"
+#addname "Sâmnang"
+#addname "Sarĭt"
+#addname "Sŏkha"
+#addname "Sŏthéa"
+#addname "Sŏphál"
+#addname "Sŏphát"
+#addname "Sŏphéa"
+#addname "Sŏphéap"
+#addname "Suŏn"
+#addname "Ti"
+#addname "Vănna"
+#addname "Véasna"
+#addname "Vĭbŏl"
+#addname "Vutthi"
+#addname "Sŏvănna"
+#addname "Sŏmali"
+#addname "Sŏphálla"
+#addname "Chĕndarĭt"
+#addname "Sŏkŏsál"
+#addname "Chĕndavănna"
+#addname "Chĕndamei"
+#addname "Rivănna"
+#addname "Rikŏsál"
+#addname "Risŏkha"
+#addname "Tikŏsál"
+#addname "Tivănna"
+#end
+
+--~~
 
 --## Weapons
 
@@ -246,7 +320,7 @@
 #nomagicleader
 #noundeadleader
 #animal
-#nametype 144
+#nametype 258
 #end
 
 -- Chhma forestshape have +2 mm, +1 mor
@@ -390,7 +464,7 @@
 #copystats 8951
 #spr1 "FourthAge_Shambhala/LightSword1.tga"
 #spr2 "FourthAge_Shambhala/LightSword2.tga"
-#name "Chhma Light Swordsman"
+#name "Chhma Swordsman"
 #descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
 #stealthy 0
 #forestshape 8960
@@ -721,6 +795,7 @@
 #amphibian
 #forestsurvival
 #cleanshape
+#nametype 144
 #weapon 933 -- Water Breath
 #weapon 20 -- Bite
 #weapon 29 -- Claw
