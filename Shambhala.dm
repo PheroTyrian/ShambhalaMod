@@ -439,7 +439,7 @@
 #spr1 "FourthAge_Shambhala/Ambusher1.tga"
 #spr2 "FourthAge_Shambhala/Ambusher2.tga"
 #name "Chhma Ambusher"
-#descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch"
+#descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch."
 #forestshape 8958
 #rpcost 12 -- -3
 #stealthy 0
@@ -557,7 +557,7 @@
 #spr1 "FourthAge_Shambhala/Hunter1.tga"
 #spr2 "FourthAge_Shambhala/Hunter2.tga"
 #name "Elite Hunter"
-#descr "tmp. They wield machete and karambit, concealable daggers that resemble tiger claws."
+#descr "tmp. They wield karambit, concealable daggers that resemble tiger claws."
 #gcost 16 -- +2
 #rpcost 20 -- +5
 #hp 13
@@ -880,8 +880,8 @@
 #spr1 "FourthAge_Shambhala/Chieftain1.tga"
 #spr2 "FourthAge_Shambhala/Chieftain2.tga"
 #name "Pack leader"
-#descr "Elite hunters with charisma and combat prowess"
-#gcost 55
+#descr "tmp"
+#gcost 50
 #rpcost 22
 #hp 14
 #att 12
@@ -897,6 +897,7 @@
 #armor 6 -- Ring Mail
 #armor 2 -- Shield
 #forestshape 8977
+#okleader
 #end
 
 #newmonster 8977 -- fs
@@ -931,7 +932,7 @@
 #weapon 679 -- Short Trident
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
-#armor 207 -- Wicker Shield
+#armor 2 -- Shield
 #okleader
 #end
 
@@ -966,7 +967,7 @@
 #weapon 679 -- Short Trident
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
-#armor 207 -- Wicker Shield
+#armor 2 -- Shield
 #okleader
 #end
 
@@ -1712,6 +1713,7 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #wallunit 8963		-- Chhma H spear
 #wallmult 2
 
+-- TODO Add Pretender options
 -- TODO Add Heros
 
 -- add magic sites that grant gem income and units as capital only benefits
