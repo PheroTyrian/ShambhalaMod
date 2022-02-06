@@ -1099,7 +1099,7 @@
 #magicskill 5 1 		-- D
 #custommagic 8832 80	-- FWN random
 #gcost 10010
-#rpcost 3
+#rpcost 2
 #mor 11
 #mr 15 -- +4
 #stealthy 10
