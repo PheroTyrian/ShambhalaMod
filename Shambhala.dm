@@ -835,35 +835,6 @@
 #armor 9 -- Plate Cuirass
 #end
 
-#newmonster 4582
-#copystats 8951
-#spr1 "FourthAge_Shambhala/militia_a.tga"
-#spr2 "FourthAge_Shambhala/militia_b.tga"
-#name "Chhma Militia Blowgun"
-#descr "tmp"
-#gcost 10
-#rpcost 10
-#hp 11
-#att 9
-#def 12
-#mor 9
-#stealthy 0
-#forestshape 4583
-#clearweapons
-#weapon 937 -- Blowgun Melee
-#weapon 932 -- Blowgun
-#end
-
-#newmonster 4583 -- fs
-#copystats 8955
-#spr1 "FourthAge_Shambhala/militia_a.tga"
-#spr2 "FourthAge_Shambhala/militia_b.tga"
-#mor 10 -- +1
-#mapmove 18
-#falsearmy -1
-#plainshape 4582
-#end
-
 --~~
 --## Commanders
 
@@ -1709,13 +1680,12 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #addrecunit 8955 	-- Chhma militia
 #addrecunit 8957 	-- Chhma ambusher
 #addrecunit 8959	-- Chhma light sword
-#addrecunit 8961	-- Chhma heavy sword
-#addrecunit 8963	-- Chhma heavy spear
+#addrecunit 8961	-- Chhma heavy spear
+#addrecunit 8963	-- Chhma sword maiden
 #forestrec 8965		-- Hunter
 #coastunit1 8967	-- Spearfisher
 #addrecunit 8969	-- Elephant crossbow
 #addrecunit 8970	-- Elephant trample
-#addrecunit 4582 	-- TEMP
 
 #addreccom 8974 	-- Scout
 #forestcom 8974
