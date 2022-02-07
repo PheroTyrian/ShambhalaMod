@@ -42,6 +42,7 @@
 -- White elephant gift events
 
 -- Monster todos:
+-- Try using Bandar Log hero as base for bodhissatva
 -- Move Chhma light troops to lower IDs
 -- Light Spear
 -- Crossbowman
@@ -881,7 +882,7 @@
 #spr2 "FourthAge_Shambhala/Chieftain2.tga"
 #name "Pack leader"
 #descr "tmp"
-#gcost 50
+#gcost 45
 #rpcost 22
 #hp 14
 #att 12
@@ -889,7 +890,6 @@
 #prec 14
 #mor 12
 #stealthy 10
-#female
 #clearweapons
 #weapon 921 -- Machete
 #weapon 25 -- Crossbow
