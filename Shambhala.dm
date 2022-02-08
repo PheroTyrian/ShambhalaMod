@@ -1158,6 +1158,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #ambidextrous 4
 #airshield 60
 #maxage 200
+#itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 15
 #mr 16
 #weapon 928 -- Open Palm
@@ -1223,6 +1224,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #def 12
 #prec 11
 #enc 2
+#float
 #immobile
 #unteleportable
 #mapmove 0
@@ -1230,6 +1232,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #ambidextrous 4
 #airshield 60
 #maxage 200
+#itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 15
 #mr 16
 #weapon 928 -- Open Palm
@@ -1260,6 +1263,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #def 14
 #prec 13
 #enc 2
+#float
 #immobile
 #unteleportable
 #mapmove 0
