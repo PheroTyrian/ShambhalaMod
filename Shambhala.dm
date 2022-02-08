@@ -408,7 +408,9 @@
 #spr1 "FourthAge_Shambhala/Archer1.tga"
 #spr2 "FourthAge_Shambhala/Archer2.tga"
 #name "Chhma Militia"
-#descr "tmp"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
+
+Militia are farmers and day-labourers pressed into service as local law enforcement or to support military campaigns. They are lightly armed by their masters to support combatants from afar and will likely break if encountering stiff resistance."
 #gcost 10
 #rpcost 10
 #hp 11
@@ -439,7 +441,9 @@
 #spr1 "FourthAge_Shambhala/Ambusher1.tga"
 #spr2 "FourthAge_Shambhala/Ambusher2.tga"
 #name "Chhma Ambusher"
-#descr "tmp. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch."
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
+
+Ambushers are warriors trained for skirmishing and flanking attacks on enemy formations. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch. Chhma dislike armor that inhibits their mobility and Ambushers rely on the speed and ferocity of their assault to avoid lasting harm."
 #forestshape 8958
 #rpcost 12 -- -3
 #stealthy 0
@@ -466,7 +470,9 @@
 #spr1 "FourthAge_Shambhala/LightSword1.tga"
 #spr2 "FourthAge_Shambhala/LightSword2.tga"
 #name "Chhma Swordsman"
-#descr "tmp. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility. 
+
+Swordsmen often form the frontline of defence forces and raiding parties. They wield machete, slashing blades as efficient at cutting through jungle as they are cleaving armor. Chhma dislike armor that inhibits their mobility and Swordsmen wear padded cloth, relying on their shields to deflect serious blows."
 #stealthy 0
 #forestshape 8960
 #clearweapons
@@ -492,7 +498,9 @@
 #spr1 "FourthAge_Shambhala/HeavySpear1.tga"
 #spr2 "FourthAge_Shambhala/HeavySpear2.tga"
 #name "Shield bearer"
-#descr "tmp"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility. 
+
+Shield Bearers are elite spear armed troops expected to hold the line against fierce opposition. Many have extensive military experience and as such they enjoy greater status and freedom than most serfs. Chhma dislike armor that inhibits their mobility and Shield Bearers wear flexible ringmail, relying on their great shields and superior reach to deflect serious blows."
 #gcost 16 -- +2
 #rpcost 18 -- +3
 #hp 13
@@ -524,7 +532,9 @@
 #spr1 "FourthAge_Shambhala/HeavySword1.tga"
 #spr2 "FourthAge_Shambhala/HeavySword2.tga"
 #name "Sword Maiden"
-#descr "Sword Maidens are the personal bodyguards of nobility, both on campaign and at home. So as not to confuse matters of succession, all are female. They wield machete, slashing blades as efficient at cutting through jungle as they are cutting through armor."
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
+
+Sword Maidens are the personal bodyguards of nobles, both on campaign and at home. So as not to confuse matters of succession, all are female. Squabbles between nobles are common, and it is not unexpected for such things to erupt into conflict. As such the role of these elite bodyguards is considered greatly important. They are outfitted with iron breastplates and shields heavier than what’s used by most Chhma; to better protect their charges."
 #gcost 18 -- +4
 #rpcost 22 -- +7
 #hp 14
@@ -557,7 +567,9 @@
 #spr1 "FourthAge_Shambhala/Hunter1.tga"
 #spr2 "FourthAge_Shambhala/Hunter2.tga"
 #name "Chhma Hunter"
-#descr "tmp. They wield karambit, concealable daggers that resemble tiger claws."
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
+
+In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Hunters are traditional warriors of the land moiety and isolated communities still rely on them to provide food and protection. In times of war the most able are called upon for formal military service and outfitted with proper armor. They use blowpipes and deadly poison for hunting, and in melee wield karambit, concealable daggers that resemble tiger claws."
 #gcost 16 -- +2
 #rpcost 20 -- +5
 #hp 13
@@ -593,7 +605,9 @@
 #spr1 "FourthAge_Shambhala/Shark1.tga"
 #spr2 "FourthAge_Shambhala/Shark2.tga"
 #name "Chhma Spearfisher"
-#descr "tmp"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
+
+In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Spearfishers are traditional warriors of the sea moiety and coastal communities still rely on them to provide food and protection. They hunt large fish and sharks in shallow waters. In times of war the most able are called upon for formal military service. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively in marshy terrain and underwater."
 #gcost 16 -- +2
 #rpcost 20 -- +5
 #hp 13
@@ -629,7 +643,7 @@
 #spr1 "FourthAge_Shambhala/crossbowelephant_a.tga"
 #spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
 #name "Domrey"
-#descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
+#descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers. Beyond conflict elephants are used for spectacular parades and in elaborate punishments for crimes against the nobility."
 #drawsize -5
 #gcost 80
 #rcost 20
@@ -666,7 +680,7 @@
 #spr1 "FourthAge_Shambhala/trampleelephant_a.tga"
 #spr2 "FourthAge_Shambhala/trampleelephant_b.tga"
 #name "Chhma War Elephant"
-#descr "The largest and strongest beasts in the Jungles of Shambhala are used extensively in warfare. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers."
+#descr "The largest and strongest beasts in the Jungles of Shambhala are used extensively in warfare. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers. Beyond conflict elephants are used for spectacular parades and in elaborate punishments for crimes against the nobility."
 #drawsize -5
 #gcost 80
 #rcost 20
@@ -704,7 +718,9 @@
 #newmonster 8971
 #copystats 8953
 #name "Arrow Catcher"
-#descr "tmp"
+#descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
+
+As the prophesied opening of the gates has approached an increasing number of the White Ones have begun to study war rather than philosophy, and now fight as sacred warriors. Arrow Catchers study a peculiar form of martial arts that, when mastered, allows them to dodge or catch flying projectiles and harm an opponent even through thick armor. They are known for throwing projectiles before joining the melee, and it is not uncommon for them to throw the arrows of adversaries back at them."
 #copyspr 1124
 #gcost 18
 #airshield 60
@@ -718,7 +734,9 @@
 #newmonster 8972
 #copystats 8953
 #name "Samanera"
-#descr "tmp"
+#descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice. 
+
+As the prophesied opening of the gates has approached an increasing number of the White Ones have begun to study war rather than philosophy, and now fight as sacred warriors. Samanera train to fight with staves as they prefer to not spill blood in combat."
 #copyspr 1142
 #gcost 18
 #weapon 7 -- Quarterstaff
@@ -730,7 +748,9 @@
 #newmonster 8973
 #copystats 8953
 #name "Bhikkhu"
-#descr "tmp"
+#descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
+
+Not all the exiled Monks joined in the founding of the great city, more isolationist still these few founded remote temples and shrines beyond the reach of the world. They have deviated from the capital and have strange practises. Bhikku are sacred warrior monks of these distant temples. Over the centuries they’ve had to fend off all manner of interlopers and many possess blessed weapons."
 #copyspr 1128
 #gcost 20
 #rpcost 34
@@ -748,7 +768,11 @@
 #spr1 "FourthAge_Shambhala/Shark1.tga"
 #spr2 "FourthAge_Shambhala/Shark2.tga"
 #name "Chhma Spearfisher"
-#descr "tmp. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively underwater."
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
+
+In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Spearfishers are traditional warriors of the sea moiety and coastal communities still rely on them to provide food and protection. They hunt large fish and sharks in shallow waters. In times of war the most able are called upon for formal military service. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively in marshy terrain and underwater.
+
+These Spearfishers have found themselves deeper beneath the waves than any Chhma would dream of diving, and they’re handling themselves remarkably well considering."
 #gcost 16
 #rpcost 20
 #hp 13
@@ -844,7 +868,9 @@
 #spr1 "FourthAge_Shambhala/Scout1.tga"
 #spr2 "FourthAge_Shambhala/Scout2.tga"
 #name "Chhma Scout"
-#descr "Elite hunters chosen for their stealth and initiative"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
+
+In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Hunters are traditional warriors of the land moiety and isolated communities still rely on them to provide food and protection. They know how to hide and read the land better than any other Chhma. Due to the frequency of surprise attacks and outflanking in the dense jungle, scouts are well respected and frequently veteran hunters are selected for this purpose."
 #gcost 25
 #rpcost 22
 #hp 14
@@ -880,7 +906,9 @@
 #spr1 "FourthAge_Shambhala/Chieftain1.tga"
 #spr2 "FourthAge_Shambhala/Chieftain2.tga"
 #name "Captain"
-#descr "tmp"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
+
+Captains are serfs elevated from the soldiery due to showing charisma and skill. They lead ambushes, raids, and command garrisons in situations deemed too lowly for the attention of the nobility."
 #gcost 45
 #rpcost 22
 #hp 14
@@ -915,7 +943,9 @@
 #spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
 #name "Fishing Chief"
-#descr "tmp"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
+
+Chiefs are the leaders of remote coastal communities. While their local authority might be great, they are rarely of noble birth and thus must answer the call if their experience is needed for the war effort."
 #gcost 45
 #hp 14
 #att 12
@@ -950,7 +980,9 @@
 #spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
 #spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
 #name "Fishing Chief"
-#descr "tmp. Chhma are surprisingly good swimmers, and the peculair armor of the spearfishers allows them to move and fight effectively underwater."
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
+
+Chiefs are the leaders of remote coastal communities. While their local authority might be great, they are rarely of noble birth and thus must answer the call if their experience is needed for the war effort."
 #gcost 45
 #hp 14
 #att 14 -- +2
@@ -975,7 +1007,9 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1145 -- Yogi
 #name "Itinerant Monk"
-#descr "tmp"
+#descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
+
+If Shambhala is to bring enlightenment to the world, it must have preachers ready to spread the teachings and worship of the rightful god. Like much of proper worship, this task is not trusted to the Chhma. The solar canon is versatile and newly conquered lands often have rites and altars that can be adjusted and integrated to best serve the true god."
 #gcost 60
 #hp 12
 #mor 14
@@ -992,7 +1026,9 @@
 #spr1 "FourthAge_Shambhala/Noble1.tga"
 #spr2 "FourthAge_Shambhala/Noble2.tga"
 #name "Chhma Noble"
-#descr "Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With their Vanara masters mostly concerned with matters of the spirit they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self after their masters, though those in the jungles of their homeland often adopt more traditional practices."
+#descr "Political authority in Chhma society stems from the king, who increasingly defers to the Bodhisattva's guidance on important matters. The king, like most nobles, has several wives and many more concubines, resulting in a great multitude of children. These offspring are given influential positions or married off to other families and most noble families can trace lineage to several kings or influential figures. When a great noble or king dies there is often conflict as many interested parties scheme and fight to place their preferred candidates from the many blood relations.
+
+Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With authority over all but spiritual matters they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self like the Solar Monks, though those in the jungles of their homeland often adopt more traditional practises."
 #magicskill 0 1 -- Fire
 #custommagic 10240 100 -- SN random
 #gcost 90
@@ -1031,7 +1067,7 @@
 #spr1 "FourthAge_Shambhala/Sorcerer1.tga"
 #spr2 "FourthAge_Shambhala/Sorcerer2.tga"
 #name "Sorcerer"
-#descr "tmp. Sorcerer, command the elements, rainmaking, shapeshifting, invisibility, healing powers extend their lifespan"
+#descr "Sorcerers have been an essential part of the lives of the Chhma since before the coming of the White Ones. They are tasked with bringing the rain and reinforcing the soft soil of the jungle to support great stone structures in times of peace. During times of strife they’re often called to use their powerful elemental gift to harm. Their magic is innate, but they often augment it further with potions and talismans to increase their command of the elements and extend their lifespans. Many scholars speculate the Sorcerers learned their potioncraft from the Alchemists of imperial T’ien Ch’i in antiquity, but they refuse to reveal the origins of their art."
 #magicskill 2 1 		-- W
 #custommagic 1152 100	-- FE random
 #custommagic 1152 100	-- FE random
@@ -1066,7 +1102,9 @@
 #spr1 "FourthAge_Shambhala/Medium1.tga"
 #spr2 "FourthAge_Shambhala/Medium2.tga"
 #name "Medium"
-#descr "tmp. Shaman and Spirit medium, magical power is granted through spirit possession rather than innate magical power. Their practice challenges the teachings of the Monks and their services are only barely tolerated."
+#descr "Mediums communicate with and channel the spirits of the land and the dead. They claim to possess no magic of their own and only act through the power of cohabiting spirits. It is an ancient art that has existed since the time of the Moieties. Ancestor worship is still common amongst rural Chhma and Mediums are often used to exorcise or placate spirits. They can also curse criminals and trouble makers and it is widely believed curses only work on the guilty.
+
+Their practice of calling the deceased challenges the teachings of the Monks on the cycle of death and rebirth and their services are only barely tolerated by the higher castes. Their difficult political position often leads to them lending their support to seditious groups."
 #magicskill 5 1 		-- D
 #custommagic 8832 80	-- FWN random
 #gcost 10010
@@ -1102,7 +1140,9 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1143 -- Guru
 #name "Solar Monk"
-#descr "A monk that has begun the process of attaining physical perfection, emits and aura of splendor."
+#descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
+
+The great gates of Shambhala have opened as prophesied, a sure sign of the right path. This Monk has ended his isolation to fight for the awakening god."
 #gcost 200
 #magicskill 4 2 -- Astral
 #magicskill 8 2 -- Holy
@@ -1131,7 +1171,9 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Bodhisattva"
-#descr "Ascended monkey, travels by the Laws of Simultaneity, has 4 arms and vast magical power."
+#descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
+
+The great gates of Shambhala have opened as prophesied, a sure sign of the right path. This being has ended its isolation to bring potent magical might in service to the awakening god."
 #gcost 375
 #rpcost 6 -- Very slow to recruit
 #magicskill 4 3 -- Astral
@@ -1167,7 +1209,9 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1143 -- Guru
 #name "Sitting Monk"
-#descr "Still in isolation. This monk continues to sit in contemplation, awaiting the right time to act."
+#descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
+
+The act of causing harm is anathema to the core teachings and waylays the path to enlightenment. But best serving the awakening god involves giving up every worldly desire, and that may include the desire for perfection. This dichotomy has been the subject of much thought and debate within the Temple City, and has caused indecisiveness on the part of the Monks. This monk continues to sit in contemplation, awaiting the right time to act."
 #gcost 180
 #addupkeep 25 -- To match awakened upkeep
 #magicskill 4 2 -- Astral
@@ -1199,7 +1243,9 @@
 #copystats 8954 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Sitting Bodhisattva"
-#descr "Still in isolation. This being continues to sit in contemplation, awaiting the right time to act."
+#descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
+
+The act of causing harm is anathema to the core teachings and waylays the path to enlightenment. But best serving the awakening god involves giving up every worldly desire, and that may include the desire for perfection. This dichotomy has been the subject of much thought and debate within the Temple City, and has caused indecisiveness on the part of the Monks.This being continues to sit in contemplation, awaiting the right time to act."
 #gcost 325
 #addupkeep 50 -- To match awakened upkeep
 #rpcost 6 -- Very slow to recruit
