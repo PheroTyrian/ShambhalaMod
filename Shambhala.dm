@@ -1873,7 +1873,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #req_notfornation 230
 #req_freesites 1
 #req_site 1 -- Requires the site in square brackets in the description
-#msg "As your forces stormed the temple city they sundered the once mighty gates that stood there. [Closed Gates of Shambhala]"
+#msg "As forces stormed the temple city they sundered the once mighty gates that stood there. [Closed Gates of Shambhala]"
 #nation -2 -- Event is owned by the province owner
 #addsite 1680 -- Gates Ruins
 #removesite 1678 -- Closed Gates
