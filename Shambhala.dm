@@ -1169,7 +1169,12 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 
 -- Cap only even more ascended mage
 #newmonster 8989
-#copystats 8954 -- White One Com Base
+#copystats 2270 -- Tathagata
+-- Remove Tathagata traits
+#inspirational 0
+#spreaddom 0
+#incunrest 0
+#fixedname ""
 #copyspr 1144 -- Rishi
 #name "Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
@@ -1177,17 +1182,22 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 The great gates of Shambhala have opened as prophesied, a sure sign of the right path. This being has ended its isolation to bring potent magical might in service to the awakening god."
 #gcost 375
 #rpcost 6 -- Very slow to recruit
+#clearmagic
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
 #magicskill 8 2 -- Holy
 #custommagic 8320 100 -- FN random
 #custommagic 10880 100 -- FWSN random
 #custommagic 10880 10 -- FWSN random
-#hp 19
+#hp 22
+#size 2
+#str 13
 #att 14
 #def 14
 #prec 13
+#prot 1
 #enc 2
+#ap 15
 #float
 #teleport
 #sunawe 4
@@ -1197,11 +1207,15 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 16
 #mr 18
+#mapmove 100
+#nametype 129
+#clearweapons
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
+#cleararmor
 #armor 158 -- Robes
 #end
 
@@ -1243,7 +1257,12 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 
 -- Cap only even more ascended mage immobile form
 #newmonster 8991
-#copystats 8954 -- White One Com Base
+#copystats 2270 -- Tathagata
+-- Remove Tathagata traits
+#inspirational 0
+#spreaddom 0
+#incunrest 0
+#fixedname ""
 #copyspr 1144 -- Rishi
 #name "Sitting Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
@@ -1252,17 +1271,22 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #gcost 325
 #addupkeep 50 -- To match awakened upkeep
 #rpcost 6 -- Very slow to recruit
+#clearmagic
 #magicskill 4 3 -- Astral
 #magicskill 0 1 -- Fire
 #magicskill 8 2 -- Holy
 #custommagic 8320 100 -- FN random
 #custommagic 10880 100 -- FWSN random
 #custommagic 10880 10 -- FWSN random
-#hp 19
+#hp 22
+#size 2
+#str 13
 #att 14
 #def 14
 #prec 13
+#prot 1
 #enc 2
+#ap 15
 #float
 #immobile
 #unteleportable
@@ -1274,12 +1298,26 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 16
 #mr 18
+#nametype 129
+#clearweapons
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
+#cleararmor
 #armor 158 -- Robes
+#end
+
+-- Remove disciples of Tathagata from existence
+#selectmonster 2271
+#clear
+#aquatic
+#watershape 8996
+#end
+
+#selectmonster 8996
+#clear
 #end
 
 -- Northern directional summon
