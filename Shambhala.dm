@@ -1789,15 +1789,15 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #defunit1 8955 		-- Chhma militia
 #defunit1b 8959 	-- Chhma light infantry
 #defcom2 8982		-- Chhma noble
-#defunit2 8963		-- Chhma heavy spearmen
+#defunit2 8961		-- Chhma heavy spearmen
 #defmult1 12
 #defmult1b 12
-#defmult2 16
+#defmult2 12
 
 #wallcom 8976		-- Chhma pack leader
 #wallunit 8955		-- Chhma militia
 #wallmult 10
-#wallunit 8963		-- Chhma H spear
+#wallunit 8961		-- Chhma H spear
 #wallmult 2
 
 -- TODO Add Pretender options
@@ -1808,11 +1808,6 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #startsite "Closed Gates of Shambhala" -- Special mechanic site
 #futuresite "Open Gates of Shambhala" -- Other version of special mechanic site
 #futuresite "Shambhala forest mages"
-#end
-
-#selectnation 83 -- LA Man
-#addrecunit 4582
-#addrecunit 8955
 #end
 
 --~~
