@@ -1148,7 +1148,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
 #custommagic 10880 10 -- FWSN random
-#hp 15
+#hp 17
 #att 12
 #def 12
 #prec 11
@@ -1183,7 +1183,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #custommagic 8320 100 -- FN random
 #custommagic 10880 100 -- FWSN random
 #custommagic 10880 10 -- FWSN random
-#hp 16
+#hp 19
 #att 14
 #def 14
 #prec 13
@@ -1219,7 +1219,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #magicskill 8 2 -- Holy
 #custommagic 10368 100 -- FSN random
 #custommagic 10880 10 -- FWSN random
-#hp 15
+#hp 17
 #att 12
 #def 12
 #prec 11
@@ -1258,7 +1258,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #custommagic 8320 100 -- FN random
 #custommagic 10880 100 -- FWSN random
 #custommagic 10880 10 -- FWSN random
-#hp 16
+#hp 19
 #att 14
 #def 14
 #prec 13
