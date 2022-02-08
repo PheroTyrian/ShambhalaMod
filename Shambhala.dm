@@ -124,7 +124,6 @@
 #end
 
 --~~
-
 --## Weapons
 
 #newweapon 921
@@ -557,7 +556,7 @@
 #copystats 8951
 #spr1 "FourthAge_Shambhala/Hunter1.tga"
 #spr2 "FourthAge_Shambhala/Hunter2.tga"
-#name "Elite Hunter"
+#name "Chhma Hunter"
 #descr "tmp. They wield karambit, concealable daggers that resemble tiger claws."
 #gcost 16 -- +2
 #rpcost 20 -- +5
@@ -880,7 +879,7 @@
 #copystats 8951
 #spr1 "FourthAge_Shambhala/Chieftain1.tga"
 #spr2 "FourthAge_Shambhala/Chieftain2.tga"
-#name "Pack leader"
+#name "Captain"
 #descr "tmp"
 #gcost 45
 #rpcost 22
