@@ -940,8 +940,8 @@ Captains are serfs elevated from the soldiery due to showing charisma and skill.
 -- Coastal Commander
 #newmonster 8978
 #copystats 8951
-#spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
+#spr1 "FourthAge_Shambhala/ChiefSpearfisher1.tga"
+#spr2 "FourthAge_Shambhala/ChiefSpearfisher2.tga"
 #name "Fishing Chief"
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
 
@@ -967,8 +967,8 @@ Chiefs are the leaders of remote coastal communities. While their local authorit
 
 #newmonster 8979 -- fs
 #copystats 8978
-#spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
+#spr1 "FourthAge_Shambhala/ChiefSpearfisher1.tga"
+#spr2 "FourthAge_Shambhala/ChiefSpearfisher2.tga"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
@@ -977,8 +977,8 @@ Chiefs are the leaders of remote coastal communities. While their local authorit
 
 #newmonster 8980 -- UW shape to reduce the effects of poor amph (+1 enc, -3 att and def, cs / 2)
 #copystats 8951
-#spr1 "FourthAge_Shambhala/spearfisherCom_a.tga"
-#spr2 "FourthAge_Shambhala/spearfisherCom_b.tga"
+#spr1 "FourthAge_Shambhala/ChiefSpearfisher1.tga"
+#spr2 "FourthAge_Shambhala/ChiefSpearfisher2.tga"
 #name "Fishing Chief"
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
 
