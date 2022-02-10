@@ -717,11 +717,12 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 -- White One arrow catcher
 #newmonster 8971
 #copystats 8953
+#spr1 "FourthAge_Shambhala/Arrowcatcher1.tga"
+#spr2 "FourthAge_Shambhala/Arrowcatcher2.tga"
 #name "Arrow Catcher"
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
 
 As the prophesied opening of the gates has approached an increasing number of the White Ones have begun to study war rather than philosophy, and now fight as sacred warriors. Arrow Catchers study a peculiar form of martial arts that, when mastered, allows them to dodge or catch flying projectiles and harm an opponent even through thick armor. They are known for throwing projectiles before joining the melee, and it is not uncommon for them to throw the arrows of adversaries back at them."
-#copyspr 1124
 #gcost 18
 #airshield 60
 #weapon 928 -- Open Palm
@@ -733,11 +734,12 @@ As the prophesied opening of the gates has approached an increasing number of th
 -- White One schmuck
 #newmonster 8972
 #copystats 8953
+#spr1 "FourthAge_Shambhala/Samanera1.tga"
+#spr2 "FourthAge_Shambhala/Samanera2.tga"
 #name "Samanera"
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice. 
 
 As the prophesied opening of the gates has approached an increasing number of the White Ones have begun to study war rather than philosophy, and now fight as sacred warriors. Samanera train to fight with staves as they prefer to not spill blood in combat."
-#copyspr 1142
 #gcost 18
 #weapon 7 -- Quarterstaff
 #weapon 397 -- Kick
@@ -794,7 +796,7 @@ These Spearfishers have found themselves deeper beneath the waves than any Chhma
 
 -- River Drake
 #newmonster 4580
-#copyspr 2316
+#copyspr 2316 -- Oriental dragon
 #drawsize -35
 #name "River Drake"
 #descr "River Drakes are lesser kin of the great dragons of the Eastern Sea. They are clever, benevolent creatures that dwell in the many rivers of the dense jungle, and are deeply attuned with water. When threatened they can breathe great torrents that can fell trees. In legend brave Chhma maidens have gained the trust of these noble beasts, and in times of fortune they do so with far greater frequency."
@@ -1005,7 +1007,8 @@ Chiefs are the leaders of remote coastal communities. While their local authorit
 --Priest
 #newmonster 8981
 #copystats 8954 -- White One Com Base
-#copyspr 1145 -- Yogi
+#spr1 "FourthAge_Shambhala/Monk1.tga"
+#spr2 "FourthAge_Shambhala/Monk2.tga"
 #name "Itinerant Monk"
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
 
@@ -1138,7 +1141,7 @@ Their practice of calling the deceased challenges the teachings of the Monks on 
 -- Cap only ascended mage
 #newmonster 8988
 #copystats 8954 -- White One Com Base
-#copyspr 1143 -- Guru
+#copyspr 1144 -- Rishi
 #name "Solar Monk"
 #descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
 
@@ -1175,7 +1178,8 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #spreaddom 0
 #incunrest 0
 #fixedname ""
-#copyspr 1144 -- Rishi
+#spr1 "FourthAge_Shambhala/SittingBodhisattva1.tga"
+#spr2 "FourthAge_Shambhala/SittingBodhisattva1.tga"
 #name "Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
 
@@ -1222,7 +1226,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 -- Cap only ascended mage immobile form
 #newmonster 8990
 #copystats 8954 -- White One Com Base
-#copyspr 1143 -- Guru
+#copyspr 1144 -- Rishi
 #name "Sitting Monk"
 #descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
 
@@ -1263,7 +1267,8 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #spreaddom 0
 #incunrest 0
 #fixedname ""
-#copyspr 1144 -- Rishi
+#spr1 "FourthAge_Shambhala/SittingBodhisattva1.tga"
+#spr2 "FourthAge_Shambhala/SittingBodhisattva1.tga"
 #name "Sitting Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
 
