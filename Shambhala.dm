@@ -19,9 +19,7 @@
 -- Enchantment 650-654
 
 -- Sprite todos:
--- Update Ambusher sprite with new equipment
--- Fix jewelry on the Noble attack sprite
--- Up armour the heavy spear sprite (or consider just lowering the armour on it?)
+-- Elephant Riders
 -- River Drake
 -- Commanders
 -- Monkeys
@@ -29,9 +27,8 @@
 
 -- National spell ideas and todos: (lim 16)
 -- Holy astral twiceborn that heals afflictions and transforms into one of the four directional beasts
--- Offensive curse luck spell
--- Minor healing ritual for theming?
 -- Krasue summon
+-- Add a couple of Bandar log summons
 -- Some other weird mythical stuff?
 
 -- Event todos:
@@ -42,7 +39,6 @@
 -- White elephant gift events
 
 -- Monster todos:
--- Try using Bandar Log hero as base for bodhissatva
 -- Move Chhma light troops to lower IDs
 -- Light Spear
 -- Crossbowman
@@ -329,9 +325,7 @@
 -- #mapmove 18
 -- #falsearmy -1
 
--- 8952 empty
-
-#newmonster 8953 -- White One unit base shape
+#newmonster 8952 -- White One unit base shape
 #copystats 1142 -- White One
 #clearweapons
 #cleararmor
@@ -366,7 +360,7 @@
 #holy
 #end
 
-#newmonster 8954 -- White One commander base shape
+#newmonster 8953 -- White One commander base shape
 #copystats 1145 -- Yogi
 #clearmagic
 #clearweapons
@@ -402,8 +396,10 @@
 #holy
 #end
 
+-- 8954 - 8964 free
+
 -- Chhma militia archers
-#newmonster 8955
+#newmonster 4582
 #copystats 8951
 #spr1 "FourthAge_Shambhala/Archer1.tga"
 #spr2 "FourthAge_Shambhala/Archer2.tga"
@@ -418,25 +414,25 @@ Militia are farmers and day-labourers pressed into service as local law enforcem
 #def 12
 #mor 9
 #stealthy 0
-#forestshape 8956
+#forestshape 4583
 #clearweapons
 #weapon 29 -- Claw
 #weapon 29 -- Claw
 #weapon 24 -- Longbow
 #end
 
-#newmonster 8956 -- fs
-#copystats 8955
+#newmonster 4583 -- fs
+#copystats 4582
 #spr1 "FourthAge_Shambhala/Archer1.tga"
 #spr2 "FourthAge_Shambhala/Archer2.tga"
 #mor 10 -- +1
 #mapmove 18
 #falsearmy -1
-#plainshape 8955
+#plainshape 4582
 #end
 
 -- Chhma Ambusher
-#newmonster 8957
+#newmonster 4584
 #copystats 8951
 #spr1 "FourthAge_Shambhala/Ambusher1.tga"
 #spr2 "FourthAge_Shambhala/Ambusher2.tga"
@@ -444,7 +440,7 @@ Militia are farmers and day-labourers pressed into service as local law enforcem
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
 
 Ambushers are warriors trained for skirmishing and flanking attacks on enemy formations. They wield phkak, axe-like farming implements that have been adapted for use in warfare. When crafted for this sinister harvest they cut through a person as easily as a branch. Chhma dislike armor that inhibits their mobility and Ambushers rely on the speed and ferocity of their assault to avoid lasting harm."
-#forestshape 8958
+#forestshape 4585
 #rpcost 12 -- -3
 #stealthy 0
 #skirmisher 2
@@ -454,18 +450,18 @@ Ambushers are warriors trained for skirmishing and flanking attacks on enemy for
 #armor 6 -- Ring Mail
 #end
 
-#newmonster 8958 -- fs
-#copystats 8957
+#newmonster 4585 -- fs
+#copystats 4584
 #spr1 "FourthAge_Shambhala/Ambusher1.tga"
 #spr2 "FourthAge_Shambhala/Ambusher2.tga"
 #mor 11 -- +1
 #mapmove 18
 #falsearmy -1
-#plainshape 8955
+#plainshape 4584
 #end
 
 -- Chhma Light Swordsman
-#newmonster 8959
+#newmonster 4586
 #copystats 8951
 #spr1 "FourthAge_Shambhala/LightSword1.tga"
 #spr2 "FourthAge_Shambhala/LightSword2.tga"
@@ -474,7 +470,7 @@ Ambushers are warriors trained for skirmishing and flanking attacks on enemy for
 
 Swordsmen often form the frontline of defence forces and raiding parties. They wield machete, slashing blades as efficient at cutting through jungle as they are cleaving armor. Chhma dislike armor that inhibits their mobility and Swordsmen wear padded cloth, relying on their shields to deflect serious blows."
 #stealthy 0
-#forestshape 8960
+#forestshape 4587
 #clearweapons
 #weapon 921 -- Machete
 #armor 249 -- Cloth headpiece
@@ -482,18 +478,75 @@ Swordsmen often form the frontline of defence forces and raiding parties. They w
 #armor 2 -- Shield
 #end
 
-#newmonster 8960 -- fs
-#copystats 8959
+#newmonster 4587 -- fs
+#copystats 4586
 #spr1 "FourthAge_Shambhala/LightSword1.tga"
 #spr2 "FourthAge_Shambhala/LightSword2.tga"
 #mor 11 -- +1
 #mapmove 18
 #falsearmy -1
-#plainshape 8959
+#plainshape 4586
+#end
+
+-- Chhma Light Spearman
+#newmonster 4588
+#copystats 8951
+#spr1 "FourthAge_Shambhala/LightSpear1.tga"
+#spr2 "FourthAge_Shambhala/LightSpear2.tga"
+#name "Chhma Spearman"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility. 
+
+Spearmen were rarely seen in traditional conflicts, with ubiquitous ambushes minimising the effectiveness of formations. The rapid increase in the scale of warfare, and the popularity of the crossbow, has seen larger shields and a shift in tactics. Chhma dislike armor that inhibits their mobility and Spearmen wear padded cloth, relying on their great shields and superior reach to deflect serious blows."
+#ap 15 -- +1 so they can keep up
+#stealthy 0
+#forestshape 4589
+#clearweapons
+#weapon 1 -- Spear
+#armor 249 -- Cloth headpiece
+#armor 202 -- Cloth armor
+#armor 4 -- Tower shield
+#end
+
+#newmonster 4589 -- fs
+#copystats 4588
+#spr1 "FourthAge_Shambhala/LightSpear1.tga"
+#spr2 "FourthAge_Shambhala/LightSpear2.tga"
+#mor 11 -- +1
+#mapmove 18
+#falsearmy -1
+#plainshape 4588
+#end
+
+-- Chhma Crossbowman
+#newmonster 4590
+#copystats 8951
+#spr1 "FourthAge_Shambhala/Crossbow1.tga"
+#spr2 "FourthAge_Shambhala/Crossbow2.tga"
+#name "Chhma Crossbowman"
+#descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
+
+Crossbows of advanced T’ien Ch’i design have been adopted by the Chhma. They can be held ready to fire for hours and this suits them well for hunting in the jungle. Crossbowmen are trained in close combat too, as keeping enemies at a distance is never a sure thing."
+#stealthy 0
+#forestshape 4591
+#clearweapons
+#weapon 921 -- Machete
+#weapon 25 -- Crossbow
+#armor 118 -- Half Helmet
+#armor 6 -- Ring Mail
+#end
+
+#newmonster 4591 -- fs
+#copystats 4590
+#spr1 "FourthAge_Shambhala/Crossbow1.tga"
+#spr2 "FourthAge_Shambhala/Crossbow2.tga"
+#mor 11 -- +1
+#mapmove 18
+#falsearmy -1
+#plainshape 4590
 #end
 
 -- Chhma Heavy Spearman
-#newmonster 8961
+#newmonster 4592
 #copystats 8951
 #spr1 "FourthAge_Shambhala/HeavySpear1.tga"
 #spr2 "FourthAge_Shambhala/HeavySpear2.tga"
@@ -503,12 +556,13 @@ Swordsmen often form the frontline of defence forces and raiding parties. They w
 Shield Bearers are elite spear armed troops expected to hold the line against fierce opposition. Many have extensive military experience and as such they enjoy greater status and freedom than most serfs. Chhma dislike armor that inhibits their mobility and Shield Bearers wear flexible ringmail, relying on their great shields and superior reach to deflect serious blows."
 #gcost 16 -- +2
 #rpcost 18 -- +3
+#ap 15 -- +1 so they can keep up
 #hp 13
 #mor 12
 #att 11
 #def 14
 #stealthy 0
-#forestshape 8962
+#forestshape 4593
 #clearweapons
 #weapon 1 -- Spear
 #armor 118 -- Half Helmet
@@ -516,18 +570,18 @@ Shield Bearers are elite spear armed troops expected to hold the line against fi
 #armor 4 -- Tower shield
 #end
 
-#newmonster 8962 -- fs
-#copystats 8961
+#newmonster 4593 -- fs
+#copystats 4592
 #spr1 "FourthAge_Shambhala/HeavySpear1.tga"
 #spr2 "FourthAge_Shambhala/HeavySpear2.tga"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
-#plainshape 8961
+#plainshape 4592
 #end
 
 -- Chhma Bodyguards
-#newmonster 8963
+#newmonster 4594
 #copystats 8951
 #spr1 "FourthAge_Shambhala/HeavySword1.tga"
 #spr2 "FourthAge_Shambhala/HeavySword2.tga"
@@ -542,7 +596,7 @@ Sword Maidens are the personal bodyguards of nobles, both on campaign and at hom
 #mor 13
 #att 11
 #def 14
-#forestshape 8964
+#forestshape 4595
 #clearweapons
 #weapon 921 -- Machete
 #armor 118 -- Half Helmet
@@ -551,14 +605,14 @@ Sword Maidens are the personal bodyguards of nobles, both on campaign and at hom
 #female
 #end
 
-#newmonster 8964 -- fs
-#copystats 8963
+#newmonster 4595 -- fs
+#copystats 4594
 #spr1 "FourthAge_Shambhala/HeavySword1.tga"
 #spr2 "FourthAge_Shambhala/HeavySword2.tga"
 #mor 13 -- +1
 #mapmove 18
 #falsearmy -1
-#plainshape 8963
+#plainshape 4594
 #end
 
 -- Chhma Hunter
@@ -716,7 +770,7 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 
 -- White One arrow catcher
 #newmonster 8971
-#copystats 8953
+#copystats 8952
 #spr1 "FourthAge_Shambhala/Arrowcatcher1.tga"
 #spr2 "FourthAge_Shambhala/Arrowcatcher2.tga"
 #name "Arrow Catcher"
@@ -733,7 +787,7 @@ As the prophesied opening of the gates has approached an increasing number of th
 
 -- White One schmuck
 #newmonster 8972
-#copystats 8953
+#copystats 8952
 #spr1 "FourthAge_Shambhala/Samanera1.tga"
 #spr2 "FourthAge_Shambhala/Samanera2.tga"
 #name "Samanera"
@@ -748,7 +802,7 @@ As the prophesied opening of the gates has approached an increasing number of th
 
 -- White One magic dude
 #newmonster 8973
-#copystats 8953
+#copystats 8952
 #name "Bhikkhu"
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
 
@@ -834,7 +888,7 @@ These Spearfishers have found themselves deeper beneath the waves than any Chhma
 
 -- Maiden Guard
 #newmonster 4581
-#copystats 8963 -- Bodyguard
+#copystats 4594 -- Bodyguard
 #copyspr 1450
 #name "Maiden Guard"
 #descr "The ranks of the Maiden Guard are made up of those former honor guard who've had the good fortune to earn the trust of a mighty River Drake. It is an insular order that commands great respect amongst the Chhma population. Riding a drake is said to protect against malign spells. For many centuries the order has dwindled in number and its resurgence is seen by many as a sign of the divinity of the awakening god. More seditious individuals, however, claim this as an omen of changing times; a call for the Chhma to return to the old ways and throw off the yoke of the solar cult."
@@ -963,7 +1017,7 @@ Chiefs are the leaders of remote coastal communities. While their local authorit
 #weapon 679 -- Short Trident
 #armor 152 -- Sharkskin Cap
 #armor 188 -- Sharkskin Cuirass
-#armor 2 -- Shield
+#armor 208 -- Iron Shield
 #okleader
 #end
 
@@ -1006,7 +1060,7 @@ Chiefs are the leaders of remote coastal communities. While their local authorit
 
 --Priest
 #newmonster 8981
-#copystats 8954 -- White One Com Base
+#copystats 8953 -- White One Com Base
 #spr1 "FourthAge_Shambhala/Monk1.tga"
 #spr2 "FourthAge_Shambhala/Monk2.tga"
 #name "Itinerant Monk"
@@ -1140,7 +1194,7 @@ Their practice of calling the deceased challenges the teachings of the Monks on 
 
 -- Cap only ascended mage
 #newmonster 8988
-#copystats 8954 -- White One Com Base
+#copystats 8953 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Solar Monk"
 #descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
@@ -1225,7 +1279,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 
 -- Cap only ascended mage immobile form
 #newmonster 8990
-#copystats 8954 -- White One Com Base
+#copystats 8953 -- White One Com Base
 #copyspr 1144 -- Rishi
 #name "Sitting Monk"
 #descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
@@ -1763,18 +1817,20 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 -- #likespop 103 -- Cats and Dogs lol
 
 #startcom 8976 		-- the Commander you get on turn 1
-#startunittype1 8959 	-- Chhma light swords
-#startunittype2 8955 	-- Chhma militia
+#startunittype1 4586 	-- Chhma light swords
+#startunittype2 4582 	-- Chhma militia
 #startunitnbrs1 12
 #startunitnbrs2 12
 
 #startscout 8974 	-- the Scout or some other unit to get on turn 1
 
-#addrecunit 8955 	-- Chhma militia
-#addrecunit 8957 	-- Chhma ambusher
-#addrecunit 8959	-- Chhma light sword
-#addrecunit 8961	-- Chhma heavy spear
-#addrecunit 8963	-- Chhma sword maiden
+#addrecunit 4582 	-- Chhma militia
+#addrecunit 4584 	-- Chhma ambusher
+#addrecunit 4586	-- Chhma light sword
+#addrecunit 4588	-- Chhma light spear
+#addrecunit 4590	-- Chhma crossbow
+#addrecunit 4592	-- Chhma heavy spear
+#addrecunit 4594	-- Chhma sword maiden
 #forestrec 8965		-- Hunter
 #coastunit1 8967	-- Spearfisher
 #addrecunit 8969	-- Elephant crossbow
@@ -1791,19 +1847,19 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #addreccom 8986		-- Mage2
 
 #defcom1 8976 		-- Chhma pack leader
-#defunit1 8955 		-- Chhma militia
-#defunit1b 8959 	-- Chhma light infantry
+#defunit1 4586 		-- Chhma light infantry
+#defunit1b 4582 	-- Chhma militia
 #defcom2 8982		-- Chhma noble
-#defunit2 8961		-- Chhma heavy spearmen
+#defunit2 4588		-- Chhma light spearmen
+#defunit2b 4590		-- Chhma crossbow
 #defmult1 12
 #defmult1b 12
 #defmult2 12
+#defmult2b 12
 
 #wallcom 8976		-- Chhma pack leader
-#wallunit 8955		-- Chhma militia
+#wallunit 4590		-- Chhma crossbow
 #wallmult 10
-#wallunit 8961		-- Chhma H spear
-#wallmult 2
 
 -- TODO Add Pretender options
 -- TODO Add Heros
