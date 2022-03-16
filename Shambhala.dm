@@ -1304,7 +1304,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #ambidextrous 4
 #airshield 60
 #maxage 200
-#itemslots 7326 -- 4 armed humanoid with 1 misc slot
+#itemslots 1 -- Nothing
 #mor 15
 #mr 16
 #weapon 928 -- Open Palm
@@ -1354,7 +1354,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #ambidextrous 4
 #airshield 60
 #maxage 400
-#itemslots 7326 -- 4 armed humanoid with 1 misc slot
+#itemslots 1 -- Nothing
 #mor 16
 #mr 18
 #nametype 129
