@@ -694,8 +694,8 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 
 -- Crossbow Elephant
 #newmonster 8969
-#spr1 "FourthAge_Shambhala/crossbowelephant_a.tga"
-#spr2 "FourthAge_Shambhala/crossbowelephant_b.tga"
+#spr1 "FourthAge_Shambhala/CrossbowElephant1.tga"
+#spr2 "FourthAge_Shambhala/CrossbowElephant2.tga"
 #name "Domrey"
 #descr "Powerful artillery inspired by the siege weapons of T'ien Ch'i. Double crossbows are mounted on the largest and strongest beasts in the Jungles of Shambhala. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers. Beyond conflict elephants are used for spectacular parades and in elaborate punishments for crimes against the nobility."
 #drawsize -5
@@ -731,8 +731,8 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 
 -- Stompy Elephant
 #newmonster 8970
-#spr1 "FourthAge_Shambhala/trampleelephant_a.tga"
-#spr2 "FourthAge_Shambhala/trampleelephant_b.tga"
+#spr1 "FourthAge_Shambhala/TrampleElephant1.tga"
+#spr2 "FourthAge_Shambhala/TrampleElephant2.tga"
 #name "Chhma War Elephant"
 #descr "The largest and strongest beasts in the Jungles of Shambhala are used extensively in warfare. The elephants of the subcontinent are smaller in size than those of other lands, but no less intelligent or trainable in the hands of Chhma handlers. Beyond conflict elephants are used for spectacular parades and in elaborate punishments for crimes against the nobility."
 #drawsize -5
