@@ -19,7 +19,6 @@
 -- Enchantment 650-654
 
 -- Sprite todos:
--- Elephant Riders
 -- River Drake
 -- Commanders
 -- Monkeys
@@ -35,13 +34,10 @@
 -- Noodle Drake + Maiden Guard => Dragon Guard in 2 luck at a chance (lim x per turn somehow)
 -- Same but 3% chances for rare dragon rider commander couplings
 -- Luck only spells that push the narrative of the nation
--- Misfortune events involving assassinations and province conquering attempts
+-- More Misfortune events involving assassinations and province conquering attempts
 -- White elephant gift events
 
 -- Monster todos:
--- Move Chhma light troops to lower IDs
--- Light Spear
--- Crossbowman
 -- Twiceborn shape for death mage
 -- Krasue
 -- Directional beasts
@@ -2117,7 +2113,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #rarity 5 -- Always
 #req_rare 10
 #req_domowner 1
-#req_fornation 223
+#req_fornation 230
 #req_unluck 1
 #req_capital 0
 #unrest 20
@@ -2129,7 +2125,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #rarity 5 -- Always
 #req_rare 10
 #req_domowner 1
-#req_fornation 223
+#req_fornation 230
 #req_unluck 2
 #req_capital 0
 #unrest 30
@@ -2141,7 +2137,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #rarity 5 -- Always
 #req_rare 10
 #req_domowner 1
-#req_fornation 223
+#req_fornation 230
 #req_unluck 3
 #req_capital 0
 #unrest 40
@@ -2153,7 +2149,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 
 #newevent
 #rarity 1 -- Common bad
-#req_fornation 223
+#req_fornation 230
 #req_domowner 1
 #req_unluck 1
 #req_capital 0
@@ -2164,7 +2160,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 
 #newevent
 #rarity 1 -- Common bad
-#req_fullowner 223
+#req_fullowner 230
 #req_unluck 2
 #req_capital 0
 #req_targmnr 8988 -- Solar Monk
@@ -2176,7 +2172,7 @@ This betrayal has stirred the rebellious sentiment of the populace."
 
 #newevent
 #rarity 1 -- Common bad
-#req_fullowner 223
+#req_fullowner 230
 #req_unluck 2
 #req_minunrest 50
 #req_capital 0
@@ -2191,7 +2187,7 @@ Faith will decrease and unrest will rise until you root them out."
 
 #newevent
 #rarity 2 -- Uncommon bad
-#req_fullowner 223
+#req_fullowner 230
 #req_unluck 2
 #req_minunrest 50
 #req_capital 0
@@ -2205,7 +2201,7 @@ Faith will decrease and unrest will rise until you root them out."
 
 #newevent
 #rarity 2 -- Uncommon bad
-#req_fullowner 223
+#req_fullowner 230
 #req_unluck 2
 #req_minunrest 50
 #req_capital 0
