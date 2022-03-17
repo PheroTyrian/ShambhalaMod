@@ -1458,6 +1458,36 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #weapon 30 -- Venomous bite
 #end
 
+#selectmonster 8997
+#copystats 8951
+#spr1 "FourthAge_Shambhala/Medium1.tga"
+#spr2 "FourthAge_Shambhala/Medium2.tga"
+#name "Secessionist Medium"
+#descr "Mediums communicate with and channel the spirits of the land and the dead. They claim to possess no magic of their own and only act through the power of cohabiting spirits. It is an ancient art that has existed since the time of the Moieties. Ancestor worship is still common amongst rural Chhma and Mediums are often used to exorcise or placate spirits. They can also curse criminals and trouble makers and it is widely believed curses only work on the guilty.
+
+Their practice of calling the deceased challenges the teachings of the Monks on the cycle of death and rebirth and their services are only barely tolerated by the higher castes. Their difficult political position often leads to them lending their support to seditious groups.
+
+This former medium has fully joined the growing rebellion and has taken up arms against the white ones."
+#magicskill 5 1 		-- D
+#custommagic 8832 80	-- FWN random
+#gcost 10010
+#rpcost 2
+#mor 11
+#mr 15 -- +4
+#stealthy 10
+#heretic 4
+#incunrest 60
+#older -5 -- Younger by 5 years
+#poorleader
+#clearweapons
+#weapon 29 -- Claw
+#weapon 924 -- Karambit
+#armor 158 -- Robes
+#female
+#okleader
+#command -10
+#end
+
 --~~
 --## Combat Spells
 
@@ -1959,7 +1989,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #req_fornation 230
 #nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
-#req_monster 8990 -- Sitting Monk
+#req_targmnr 8990 -- Sitting Monk
 #transform 8988 -- Solar Monk
 #notext
 #nolog
@@ -1973,7 +2003,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #req_fornation 230
 #nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
-#req_monster 8990 -- Sitting Monk
+#req_targmnr 8990 -- Sitting Monk
 #transform 8988 -- Solar Monk
 #notext
 #nolog
@@ -1987,7 +2017,7 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #req_fornation 230
 #nation 230
 #req_nositenbr 1678 -- Gates are not closed (so they're open)
-#req_monster 8991 -- Sitting Bodhisattva
+#req_targmnr 8991 -- Sitting Bodhisattva
 #transform 8989 -- Bodhisattva
 #notext
 #nolog
@@ -2080,6 +2110,111 @@ Sensing the changing times, some reclusive and powerful monks have ended their c
 #killcom 8995
 #notext
 #nolog
+#end
+
+-- Unrest events
+#newevent
+#rarity 5 -- Always
+#req_rare 10
+#req_domowner 1
+#req_fornation 223
+#req_unluck 1
+#req_capital 0
+#unrest 20
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5 -- Always
+#req_rare 10
+#req_domowner 1
+#req_fornation 223
+#req_unluck 2
+#req_capital 0
+#unrest 30
+#notext
+#nolog
+#end
+
+#newevent
+#rarity 5 -- Always
+#req_rare 10
+#req_domowner 1
+#req_fornation 223
+#req_unluck 3
+#req_capital 0
+#unrest 40
+#notext
+#nolog
+#end
+
+-- Non fixed events
+
+#newevent
+#rarity 1 -- Common bad
+#req_fornation 223
+#req_domowner 1
+#req_unluck 1
+#req_capital 0
+#unrest 20
+#incdom -1
+#msg "The Chhma populace sees the poor luck of recent times as a sign of the failed mandate of the white ones. Rebellious elements practice openly."
+#end
+
+#newevent
+#rarity 1 -- Common bad
+#req_fullowner 223
+#req_unluck 2
+#req_capital 0
+#req_targmnr 8988 -- Solar Monk
+#assassin 8997 -- Secessionist assassin
+#unrest 30
+#msg "A foul secessionist has dared attack one of the enlightened!
+This betrayal has stirred the rebellious sentiment of the populace."
+#end
+
+#newevent
+#rarity 1 -- Common bad
+#req_fullowner 223
+#req_unluck 2
+#req_minunrest 50
+#req_capital 0
+#unrest 10
+#stealthcom 8997
+#3d6units 4584 -- ambusher
+#3d6units 4586 -- sword
+#3d6units 4582 -- archers
+#msg "A secessionist organiser has used the growing unrest to establish themselves. Now the land is a bastion of perfidy! 
+Faith will decrease and unrest will rise until you root them out."
+#end
+
+#newevent
+#rarity 2 -- Uncommon bad
+#req_fullowner 223
+#req_unluck 2
+#req_minunrest 50
+#req_capital 0
+#unrest 10
+#stealthcom 8997
+#6d6units 4584 -- ambusher
+#3d6units 8965 -- hunter
+#msg "A secessionist organiser has used the growing unrest to establish themselves. Now the land is a bastion of perfidy! 
+Faith will decrease and unrest will rise until you root them out."
+#end
+
+#newevent
+#rarity 2 -- Uncommon bad
+#req_fullowner 223
+#req_unluck 2
+#req_minunrest 50
+#req_capital 0
+#unrest 10
+#stealthcom 8997
+#6d6units 8967 -- spearfisher
+#3d6units 4582 -- archers
+#msg "A secessionist organiser has used the growing unrest to establish themselves. Now the land is a bastion of perfidy! 
+Faith will decrease and unrest will rise until you root them out."
 #end
 
 --~~
