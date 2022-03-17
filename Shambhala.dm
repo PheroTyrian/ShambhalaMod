@@ -1842,6 +1842,22 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #syncretism 1
 -- #likespop 103 -- Cats and Dogs lol
 
+#addgod 657 -- Monolith
+#addgod 2447 -- Idol of Men
+#addgod 2448 -- Idol of Beasts
+#addgod 2449 -- Idol of Sorcery
+#addgod 2462 -- Golden Idol
+#addgod 2550 -- Raksharani
+#addgod 2959 -- Hungry Boi
+#addgod 3060 -- Master
+#addgod 978 -- Great White Bull
+#addgod 979 -- Great Black Bull
+#addgod 2786 -- Celestial Gryphon
+#addgod 2787 -- Celestial Lion
+#addgod 2788 -- Man-eater
+#addgod 269 -- Wyrm
+#addgod 3328 -- God block
+
 #startcom 8976 		-- the Commander you get on turn 1
 #startunittype1 4586 	-- Chhma light swords
 #startunittype2 4582 	-- Chhma militia
