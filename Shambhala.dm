@@ -1894,10 +1894,10 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #defcom2 8982		-- Chhma noble
 #defunit2 4588		-- Chhma light spearmen
 #defunit2b 4590		-- Chhma crossbow
-#defmult1 12
-#defmult1b 12
-#defmult2 12
-#defmult2b 12
+#defmult1 7
+#defmult1b 10
+#defmult2 7
+#defmult2b 7
 
 #wallcom 8976		-- Chhma pack leader
 #wallunit 4590		-- Chhma crossbow
