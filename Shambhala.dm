@@ -1371,7 +1371,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #watershape 8996
 #end
 
-#selectmonster 8996
+#newmonster 8996
 #clear
 #end
 
@@ -1454,7 +1454,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #weapon 30 -- Venomous bite
 #end
 
-#selectmonster 8997
+#newmonster 8997
 #copystats 8951
 #spr1 "FourthAge_Shambhala/Medium1.tga"
 #spr2 "FourthAge_Shambhala/Medium2.tga"
