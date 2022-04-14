@@ -1607,6 +1607,7 @@ This former medium has fully joined the growing rebellion and has taken up arms 
 #clear
 #copyspell 518 -- Mist
 #name "Mists of the North"
+#school -1
 #nextspell 510 -- Rain
 #end
 
