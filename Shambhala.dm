@@ -1325,7 +1325,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #name "Sitting Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
 
-The act of causing harm is anathema to the core teachings and waylays the path to enlightenment. But best serving the awakening god involves giving up every worldly desire, and that may include the desire for perfection. This dichotomy has been the subject of much thought and debate within the Temple City, and has caused indecisiveness on the part of the Monks.This being continues to sit in contemplation, awaiting the right time to act."
+The act of causing harm is anathema to the core teachings and waylays the path to enlightenment. But best serving the awakening god involves giving up every worldly desire, and that may include the desire for perfection. This dichotomy has been the subject of much thought and debate within the Temple City, and has caused indecisiveness on the part of the Monks. This being continues to sit in contemplation, awaiting the right time to act."
 #gcost 325
 #addupkeep 50 -- To match awakened upkeep
 #rpcost 6 -- Very slow to recruit
