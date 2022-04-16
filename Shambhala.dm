@@ -20,8 +20,6 @@
 
 -- Sprite todos:
 -- River Drake
--- Commanders
--- Monkeys
 -- Maiden Guard
 
 -- National spell ideas and todos: (lim 16)
@@ -42,7 +40,6 @@
 -- Krasue
 -- Directional beasts
 -- Firearm cats?
--- Consider giving ambushers a promotion shape
 
 --## Names
 
@@ -1194,7 +1191,8 @@ Their practice of calling the deceased challenges the teachings of the Monks on 
 -- Cap only ascended mage
 #newmonster 8988
 #copystats 8953 -- White One Com Base
-#copyspr 1144 -- Rishi
+#spr1 "FourthAge_Shambhala/SolarMonk1.tga"
+#spr2 "FourthAge_Shambhala/SolarMonk2.tga"
 #name "Solar Monk"
 #descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
 
@@ -1220,7 +1218,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
-#armor 158 -- Robes
+#armor 20 -- Iron cap
 #end
 
 -- Cap only even more ascended mage
@@ -1231,8 +1229,8 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #spreaddom 0
 #incunrest 0
 #fixedname ""
-#spr1 "FourthAge_Shambhala/SittingBodhisattva1.tga"
-#spr2 "FourthAge_Shambhala/SittingBodhisattva1.tga"
+#spr1 "FourthAge_Shambhala/Bodhisattva1.tga"
+#spr2 "FourthAge_Shambhala/Bodhisattva2.tga"
 #name "Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
 
@@ -1274,13 +1272,14 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
 #cleararmor
-#armor 158 -- Robes
+#armor 249 -- Cloth Headpiece
 #end
 
 -- Cap only ascended mage immobile form
 #newmonster 8990
 #copystats 8953 -- White One Com Base
-#copyspr 1144 -- Rishi
+#spr1 "FourthAge_Shambhala/SittingSolarMonk.tga"
+#spr2 "FourthAge_Shambhala/SittingSolarMonk.tga"
 #name "Sitting Monk"
 #descr "Solar Monks are Shambhalan White Ones who’ve spent centuries in isolation pursuing enlightenment. They study philosophy and magic to better approach the ideal self. With great age and wisdom comes physical changes and they have begun to approach physical perfection, four arms emerge from their shoulders and they need not touch the earth as they sit. They worship the Sun as an aspect of the awakening god and radiate an aura of celestial splendour when touched by its rays.
 
@@ -1310,7 +1309,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #weapon 928 -- Open Palm
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
-#armor 158 -- Robes
+#armor 20 -- Iron cap
 #end
 
 -- Cap only even more ascended mage immobile form
@@ -1321,8 +1320,8 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #spreaddom 0
 #incunrest 0
 #fixedname ""
-#spr1 "FourthAge_Shambhala/SittingBodhisattva1.tga"
-#spr2 "FourthAge_Shambhala/SittingBodhisattva1.tga"
+#spr1 "FourthAge_Shambhala/SittingBodhisattva.tga"
+#spr2 "FourthAge_Shambhala/SittingBodhisattva.tga"
 #name "Sitting Bodhisattva"
 #descr "The Bodhisattva is a Solar Monk that has attained enlightenment, but chosen to stay in the world to help guide others towards perfection. They are the wisest beings in Shambhala and they advise the Chhma in important matters of state. They have attained physical and mental perfection: four arms sprout from their shoulders and they no longer need to touch the earth, when the Sun shines upon them they radiate its splendour. Bodhisattva are able to appear instantly wherever they want. They travel by Will and the Laws of Simultaneity.
 
@@ -1365,7 +1364,7 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
 #cleararmor
-#armor 158 -- Robes
+#armor 249 -- Cloth Headpiece
 #end
 
 -- Remove disciples of Tathagata from existence
