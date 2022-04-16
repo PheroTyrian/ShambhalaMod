@@ -1260,6 +1260,7 @@ The great gates of Shambhala have opened as prophesied, a sure sign of the right
 #sunawe 4
 #ambidextrous 4
 #airshield 60
+#magicbeing
 #maxage 400
 #itemslots 7326 -- 4 armed humanoid with 1 misc slot
 #mor 16
