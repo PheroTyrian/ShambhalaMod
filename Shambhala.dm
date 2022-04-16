@@ -799,11 +799,12 @@ As the prophesied opening of the gates has approached an increasing number of th
 -- White One magic dude
 #newmonster 8973
 #copystats 8952
+#spr1 "FourthAge_Shambhala/Bhikkhu1.tga"
+#spr2 "FourthAge_Shambhala/Bhikkhu2.tga"
 #name "Bhikkhu"
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
 
 Not all the exiled Monks joined in the founding of the great city, more isolationist still these few founded remote temples and shrines beyond the reach of the world. They have deviated from the capital and have strange practises. Bhikku are sacred warrior monks of these distant temples. Over the centuries they’ve had to fend off all manner of interlopers and many possess blessed weapons."
-#copyspr 1128
 #gcost 20
 #rpcost 34
 #hp 12
@@ -811,7 +812,9 @@ Not all the exiled Monks joined in the founding of the great city, more isolatio
 #def 13
 #weapon 929 -- Staff of enc
 #weapon 397 -- Kick
-#armor 203 -- Reinforced Cloth
+#armor 20 -- Iron Cap
+#armor 12 -- Scale Mail Hauberk
+
 #end
 
 -- Spearfisher UW shape
