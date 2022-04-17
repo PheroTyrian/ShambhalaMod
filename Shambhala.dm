@@ -283,7 +283,7 @@
 #name "Chhma"
 #descr "This is the base shape for all Chhma, you should not be seeing this in game"
 #copyspr 728
-#gcost 14
+#gcost 15
 #rcost 1
 #rpcost 13
 #hp 12
@@ -341,6 +341,7 @@
 #mapmove 14
 #ap 10
 #eyes 2
+#sunawe 1
 #humanoid
 #itemslots 15494
 #maxage 60
@@ -547,7 +548,7 @@ Crossbows of advanced T’ien Ch’i design have been adopted by the Chhma. They
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility. 
 
 Shield Bearers are elite spear armed troops expected to hold the line against fierce opposition. Many have extensive military experience and as such they enjoy greater status and freedom than most serfs. Chhma dislike armor that inhibits their mobility and Shield Bearers wear flexible ringmail, relying on their great shields and superior reach to deflect serious blows."
-#gcost 16 -- +2
+#gcost 17 -- +2
 #rpcost 18 -- +3
 #ap 15 -- +1 so they can keep up
 #hp 13
@@ -582,7 +583,7 @@ Shield Bearers are elite spear armed troops expected to hold the line against fi
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility.
 
 Sword Maidens are the personal bodyguards of nobles, both on campaign and at home. So as not to confuse matters of succession, all are female. Squabbles between nobles are common, and it is not unexpected for such things to erupt into conflict. As such the role of these elite bodyguards is considered greatly important. They are outfitted with iron breastplates and shields heavier than what’s used by most Chhma; to better protect their charges."
-#gcost 18 -- +4
+#gcost 20 -- +5
 #rpcost 22 -- +7
 #hp 14
 #bodyguard 2
@@ -617,7 +618,7 @@ Sword Maidens are the personal bodyguards of nobles, both on campaign and at hom
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
 
 In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Hunters are traditional warriors of the land moiety and isolated communities still rely on them to provide food and protection. In times of war the most able are called upon for formal military service and outfitted with proper armor. They use blowpipes and deadly poison for hunting, and in melee wield karambit, concealable daggers that resemble tiger claws."
-#gcost 16 -- +2
+#gcost 17 -- +2
 #rpcost 20 -- +5
 #hp 13
 #str 12
@@ -633,7 +634,7 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 #weapon 924 -- Karambit
 #weapon 932 -- Blow Pipe
 #armor 249 -- Cloth headpiece
-#armor 202 -- Cloth armor
+#armor 6 -- Ring Mail
 #end
 
 #newmonster 8966 -- fs
@@ -655,7 +656,7 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. 
 
 In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Spearfishers are traditional warriors of the sea moiety and coastal communities still rely on them to provide food and protection. They hunt large fish and sharks in shallow waters. In times of war the most able are called upon for formal military service. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively in marshy terrain and underwater."
-#gcost 16 -- +2
+#gcost 17 -- +2
 #rpcost 20 -- +5
 #hp 13
 #str 12
@@ -770,7 +771,7 @@ In traditional Chhma society, before the coming of kings and the Solar cult, the
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice.
 
 As the prophesied opening of the gates has approached an increasing number of the White Ones have begun to study war rather than philosophy, and now fight as sacred warriors. Arrow Catchers study a peculiar form of martial arts that, when mastered, allows them to dodge or catch flying projectiles and harm an opponent even through thick armor. They are known for throwing projectiles before joining the melee, and it is not uncommon for them to throw the arrows of adversaries back at them."
-#gcost 18
+#gcost 20
 #airshield 60
 #weapon 928 -- Open Palm
 #weapon 397 -- Kick
@@ -787,7 +788,7 @@ As the prophesied opening of the gates has approached an increasing number of th
 #descr "The White Ones were the highest of the castes in ancient Bandar Log. They are white furred Vanara who are gifted with superior mental capabilities. When the solar monks were exiled from their homeland, they took their disciples with them and settled in a great city of worship in the deep and distant jungle. They are aloof and rarely concern themselves with matters of politics outside of the Temple City, but when they do, all loyal Chhma listen to their advice. 
 
 As the prophesied opening of the gates has approached an increasing number of the White Ones have begun to study war rather than philosophy, and now fight as sacred warriors. Samanera train to fight with staves as they prefer to not spill blood in combat."
-#gcost 18
+#gcost 20
 #weapon 7 -- Quarterstaff
 #weapon 397 -- Kick
 #armor 158 -- Robes
@@ -825,7 +826,7 @@ Not all the exiled Monks joined in the founding of the great city, more isolatio
 In traditional Chhma society, before the coming of kings and the Solar cult, there were two moieties; one of the sea and one of the land. Spearfishers are traditional warriors of the sea moiety and coastal communities still rely on them to provide food and protection. They hunt large fish and sharks in shallow waters. In times of war the most able are called upon for formal military service. Chhma are surprisingly good swimmers, and the peculiar armor of the spearfishers allows them to move and fight effectively in marshy terrain and underwater.
 
 These Spearfishers have found themselves deeper beneath the waves than any Chhma would dream of diving, and they’re handling themselves remarkably well considering."
-#gcost 16
+#gcost 17
 #rpcost 20
 #hp 13
 #str 12
