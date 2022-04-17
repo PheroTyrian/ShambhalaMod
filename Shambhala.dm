@@ -544,7 +544,7 @@ Crossbows of advanced T’ien Ch’i design have been adopted by the Chhma. They
 #copystats 8951
 #spr1 "FourthAge_Shambhala/HeavySpear1.tga"
 #spr2 "FourthAge_Shambhala/HeavySpear2.tga"
-#name "Shield bearer"
+#name "Shield Bearer"
 #descr "Chhma are catlike beast-men from the deep jungles of Shambhala. They have feline dexterity and almost preternatural instincts. Their innate affinity for forests lets them hide their numbers from enemy scouts in such terrain, and they are fond of ambushes both in hunting and warfare. Chhma society is highly stratified and most Chhma are serfs in the service of petty nobility. 
 
 Shield Bearers are elite spear armed troops expected to hold the line against fierce opposition. Many have extensive military experience and as such they enjoy greater status and freedom than most serfs. Chhma dislike armor that inhibits their mobility and Shield Bearers wear flexible ringmail, relying on their great shields and superior reach to deflect serious blows."
