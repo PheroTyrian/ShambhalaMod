@@ -1725,6 +1725,30 @@ This former medium has fully joined the growing rebellion and has taken up arms 
 #end
 
 --~~
+--## Items
+
+-- Vajra
+#selectitem 76
+#restricted 230
+#nationrebate 230
+#end
+
+-- Headdress of the bull
+#selectitem 184
+#restricted 230
+#end
+
+-- Cat charm
+#selectitem 293
+#nationrebate 230
+#end
+
+-- Cat's eye amulet
+#selectitem 287
+#nationrebate 230
+#end
+
+--~~
 --## Sites
 
 #newsite 1676
