@@ -1,7 +1,7 @@
-#modname "The Fourth Age: Shambhala, Karmic Justice v0.20"
+#modname "The Fourth Age: Shambhala, Karmic Justice v0.21"
 #description "A nation of sacred monks and feline halfmen"
 #icon "FourthAge_Shambhala/shambhala_logo.tga"
-#version 0.20
+#version 0.21
 
 -- Current research material:
 -- https://en.wikipedia.org/wiki/Asian_witchcraft
