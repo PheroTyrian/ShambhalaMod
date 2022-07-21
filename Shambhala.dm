@@ -1082,7 +1082,7 @@ If Shambhala is to bring enlightenment to the world, it must have preachers read
 #name "Chhma Noble"
 #descr "Political authority in Chhma society stems from the king, who increasingly defers to the Bodhisattva's guidance on important matters. The king, like most nobles, has several wives and many more concubines, resulting in a great multitude of children. These offspring are given influential positions or married off to other families and most noble families can trace lineage to several kings or influential figures. When a great noble or king dies there is often conflict as many interested parties scheme and fight to place their preferred candidates from the many blood relations.
 
-Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With authority over all but spiritual matters they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self like the Solar Monks, though those in the jungles of their homeland often adopt more traditional practises."
+Nobles are expected to have experience in matters of warfare and magic as well as statecraft. With authority over all but spiritual matters they manage much of the administration of the empire and its armies. As the gates of Shambhala open in conquest many of the Chhma nobility have taken to studying the sun and higher self like the Solar Monks."
 #magicskill 0 1 -- Fire
 #custommagic 10240 100 -- SN random
 #gcost 90
@@ -1106,9 +1106,6 @@ Nobles are expected to have experience in matters of warfare and magic as well a
 #copystats 8982
 #spr1 "FourthAge_Shambhala/Noble1.tga"
 #spr2 "FourthAge_Shambhala/Noble2.tga"
-#clearmagic
-#magicskill 0 1 -- Fire
-#custommagic 1536 100 -- WE random
 #mor 15 -- +1
 #mapmove 18
 #falsearmy -1
@@ -1368,15 +1365,13 @@ The act of causing harm is anathema to the core teachings and waylays the path t
 #armor 249 -- Cloth Headpiece
 #end
 
--- Remove disciples of Tathagata from existence
+-- Turn disciples of Tathagata into markata
 #selectmonster 2271
 #clear
-#aquatic
-#watershape 8996
-#end
-
-#newmonster 8996
-#clear
+#copyspr 1116
+#copystats 1116
+#gcost 0
+#descr "Markatas are the smallest of the monkey people and their intellect is barely above that of simple beasts. Markatas are small, noisy and annoying, especially when met in large numbers. If alone, they can be used as scouts, but when in greater numbers, they quickly become bored and start to make noise and play with each other. They are generally despised by the larger monkeys and apes. While normally unruly Markatas have been known to join Bodhisattva as they sit in contemplation."
 #end
 
 -- Northern directional summon
@@ -1491,22 +1486,6 @@ This former medium has fully joined the growing rebellion and has taken up arms 
 --~~
 --## Combat Spells
 
--- Power of the Self
-#selectspell 2450
-#clear
-#copyspell "Power of the Spheres" -- PoS
-#name "Power of the Self"
-#descr "By channelling inner strength, this spell makes the caster more powerful in all paths of magic."
-#details "Grants a +1 bonus to all magic paths"
-#school 0 -- conjuration
-#researchlevel 3
-#path 0 4 -- astral
-#pathlevel 0 2
-#fatiguecost 50
-#spec 8404992 -- can be cast UW
-#restricted 230
-#end
-
 -- Thirsting Earth
 #selectspell 2451
 #clear
@@ -1613,20 +1592,6 @@ This former medium has fully joined the growing rebellion and has taken up arms 
 #name "Mists of the North"
 #school -1
 #nextspell 510 -- Rain
-#end
-
--- Disallow Power of the Spheres
-#selectspell 739
-#notfornation 230
-#end
-
--- Disallow Communion
-#selectspell 976
-#notfornation 230
-#end
-
-#selectspell 977
-#notfornation 230
 #end
 
 --~~
@@ -1809,15 +1774,6 @@ This former medium has fully joined the growing rebellion and has taken up arms 
 #rarity 5
 #end
 
-#newsite 1681
-#name "Shambhala forest mages"
-#path 6
-#level 0
-#loc 735
-#rarity 5
-#homecom 8983 -- Chhma noble fs
-#end
-
 --~~
 --## Nation
 
@@ -1845,7 +1801,6 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #homefort 14
 #templepic 7 -- Southeast Indian
 #syncretism 1
--- #likespop 103 -- Cats and Dogs lol
 
 #addgod 657 -- Monolith
 #addgod 2447 -- Idol of Men
@@ -1915,7 +1870,6 @@ Special: National luck scales are increased or decreased by 3 depending on Gate 
 #startsite "City of Temples" -- 1 fire, 1 nature, 2 astral
 #startsite "Closed Gates of Shambhala" -- Special mechanic site
 #futuresite "Open Gates of Shambhala" -- Other version of special mechanic site
-#futuresite "Shambhala forest mages"
 #end
 
 --~~
